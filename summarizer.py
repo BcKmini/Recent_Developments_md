@@ -9,13 +9,14 @@ os.makedirs(SUMMARY_DIR, exist_ok=True)
 
 def generate_weekly_summary():
     today = datetime.now()
-    if today.weekday() != 0: # 0 = 월요일
-        print("오늘은 월요일이 아니므로 주간 요약을 건너뜁니다.")
+    if today.weekday() not in [0, 3]:
+        print("Today is not Monday or Thursday. Skipping summary generation.")
         return
 
-    print("월요일입니다! 주간 요약 파일을 생성합니다...")
+    print(f"It's {today.strftime('%A')}! Generating bi-weekly summary...")
+    
     one_week_ago = today - timedelta(days=7)
-    summary_content = f"# 주간 기술 동향 요약: {today.strftime('%Y-%m-%d')}\n\n"
+    summary_content = f"# Bi-Weekly Tech Summary: {today.strftime('%Y-%m-%d')}\n\n"
 
     for category_dir in CATEGORIES:
         category_path = os.path.join(BASE_DIR, category_dir)
@@ -44,12 +45,13 @@ def generate_weekly_summary():
         if is_empty_category:
             summary_content += "지난 주에 새로 수집된 글이 없습니다.\n\n"
 
-    summary_filename = f"{today.strftime('%Y-%m-%d')}_Weekly_Summary.md"
+    summary_filename = f"{today.strftime('%Y-%m-%d')}_Summary.md"
     summary_filepath = os.path.join(SUMMARY_DIR, summary_filename)
 
     with open(summary_filepath, "w", encoding="utf-8") as f:
         f.write(summary_content)
-    print(f"주간 요약 파일 저장 완료: {summary_filepath}")
+    
+    print(f"Summary file saved to: {summary_filepath}")
 
 if __name__ == "__main__":
     generate_weekly_summary()

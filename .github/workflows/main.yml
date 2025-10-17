@@ -30,7 +30,7 @@ jobs:
       - name: Run daily scraper
         run: python scraper.py
         
-      - name: Run weekly summarizer (runs daily, but only creates file on Mondays)
+      - name: Run bi-weekly summarizer
         run: python summarizer.py
 
       - name: Set current date
