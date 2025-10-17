@@ -3,13 +3,13 @@ name: Daily Tech News Scraper
 on:
   workflow_dispatch:
   schedule:
-    # 한국 시간 기준 매일 오전 10시 (UTC 1시)
     - cron: '0 1 * * *'
 
 jobs:
   scrape-and-summarize:
     permissions:
       contents: write
+      
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -33,9 +33,13 @@ jobs:
       - name: Run weekly summarizer (runs daily, but only creates file on Mondays)
         run: python summarizer.py
 
+      - name: Set current date
+        id: date
+        run: echo "CURRENT_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update Tech News"
+          commit_message: "Daily News Update (${{ env.CURRENT_DATE }})"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "actions@github.com"
