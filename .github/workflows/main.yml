@@ -8,12 +8,13 @@ on:
 
 jobs:
   scrape-and-summarize:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # 커밋을 위해 전체 히스토리 필요
           fetch-depth: 0
 
       - name: Set up Python
