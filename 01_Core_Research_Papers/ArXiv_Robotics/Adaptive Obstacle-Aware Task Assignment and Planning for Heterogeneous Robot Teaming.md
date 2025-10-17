@@ -1,0 +1,7 @@
+# Adaptive Obstacle-Aware Task Assignment and Planning for Heterogeneous Robot Teaming
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2510.14063)
+
+## 요약
+arXiv:2510.14063v1 Announce Type: new
+Abstract: Multi-Agent Task Assignment and Planning (MATP) has attracted growing attention but remains challenging in terms of scalability, spatial reasoning, and adaptability in obstacle-rich environments. To address these challenges, we propose OATH: Adaptive Obstacle-Aware Task Assignment and Planning for Heterogeneous Robot Teaming, which advances MATP by introducing a novel obstacle-aware strategy for task assignment. First, we develop an adaptive Halton sequence map, the first known application of Halton sampling with obstacle-aware adaptation in MATP, which adjusts sampling density based on obstacle distribution. Second, we propose a cluster-auction-selection framework that integrates obstacle-aware clustering with weighted auctions and intra-cluster task selection. These mechanisms jointly enable effective coordination among heterogeneous robots while maintaining scalability and near-optimal allocation performance. In addition, our framework leverages an LLM to interpret human instructions and directly guide the planner in real time. We validate OATH in NVIDIA Isaac Sim, showing substantial improvements in task assignment quality, scalability, adaptability to dynamic changes, and overall execution performance compared to state-of-the-art MATP baselines. A project website is available at https://llm-oath.github.io/.

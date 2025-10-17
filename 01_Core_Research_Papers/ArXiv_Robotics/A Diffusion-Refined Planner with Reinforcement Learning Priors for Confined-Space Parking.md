@@ -1,0 +1,7 @@
+# A Diffusion-Refined Planner with Reinforcement Learning Priors for Confined-Space Parking
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2510.14000)
+
+## 요약
+arXiv:2510.14000v1 Announce Type: new
+Abstract: The growing demand for parking has increased the need for automated parking planning methods that can operate reliably in confined spaces. In restricted and complex environments, high-precision maneuvers are required to achieve a high success rate in planning, yet existing approaches often rely on explicit action modeling, which faces challenges when accurately modeling the optimal action distribution. In this paper, we propose DRIP, a diffusion-refined planner anchored in reinforcement learning (RL) prior action distribution, in which an RL-pretrained policy provides prior action distributions to regularize the diffusion training process. During the inference phase the denoising process refines these coarse priors into more precise action distributions. By steering the denoising trajectory through the reinforcement learning prior distribution during training, the diffusion model inherits a well-informed initialization, resulting in more accurate action modeling, a higher planning success rate, and reduced inference steps. We evaluate our approach across parking scenarios with varying degrees of spatial constraints. Experimental results demonstrate that our method significantly improves planning performance in confined-space parking environments while maintaining strong generalization in common scenarios.

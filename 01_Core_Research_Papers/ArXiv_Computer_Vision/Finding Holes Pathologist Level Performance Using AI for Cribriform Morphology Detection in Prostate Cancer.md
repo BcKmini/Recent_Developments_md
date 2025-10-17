@@ -1,0 +1,10 @@
+# Finding Holes: Pathologist Level Performance Using AI for Cribriform Morphology Detection in Prostate Cancer
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2510.13995)
+
+## 요약
+arXiv:2510.13995v1 Announce Type: new
+Abstract: Background: Cribriform morphology in prostate cancer is a histological feature that indicates poor prognosis and contraindicates active surveillance. However, it remains underreported and subject to significant interobserver variability amongst pathologists. We aimed to develop and validate an AI-based system to improve cribriform pattern detection.
+Methods: We created a deep learning model using an EfficientNetV2-S encoder with multiple instance learning for end-to-end whole-slide classification. The model was trained on 640 digitised prostate core needle biopsies from 430 patients, collected across three cohorts. It was validated internally (261 slides from 171 patients) and externally (266 slides, 104 patients from three independent cohorts). Internal validation cohorts included laboratories or scanners from the development set, while external cohorts used completely independent instruments and laboratories. Annotations were provided by three expert uropathologists with known high concordance. Additionally, we conducted an inter-rater analysis and compared the model's performance against nine expert uropathologists on 88 slides from the internal validation cohort.
+Results: The model showed strong internal validation performance (AUC: 0.97, 95% CI: 0.95-0.99; Cohen's kappa: 0.81, 95% CI: 0.72-0.89) and robust external validation (AUC: 0.90, 95% CI: 0.86-0.93; Cohen's kappa: 0.55, 95% CI: 0.45-0.64). In our inter-rater analysis, the model achieved the highest average agreement (Cohen's kappa: 0.66, 95% CI: 0.57-0.74), outperforming all nine pathologists whose Cohen's kappas ranged from 0.35 to 0.62.
+Conclusion: Our AI model demonstrates pathologist-level performance for cribriform morphology detection in prostate cancer. This approach could enhance diagnostic reliability, standardise reporting, and improve treatment decisions for prostate cancer patients.
