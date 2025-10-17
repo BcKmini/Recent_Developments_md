@@ -1,0 +1,40 @@
+name: Daily Tech News Scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 한국 시간 기준 매일 오전 10시 (UTC 1시)
+    - cron: '0 1 * * *'
+
+jobs:
+  scrape-and-summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # 커밋을 위해 전체 히스토리 필요
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run daily scraper
+        run: python scraper.py
+        
+      - name: Run weekly summarizer (runs daily, but only creates file on Mondays)
+        run: python summarizer.py
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📜 (Automated) Update Tech News"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
