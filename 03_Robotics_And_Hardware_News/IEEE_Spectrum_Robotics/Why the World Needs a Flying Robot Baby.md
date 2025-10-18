@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/ironcub-jet-powered-flying-robot)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/advanced-robot-torso-with-mechanical-arms-and-visible-cables.jpg?id=61668516&width=1245&height=700&coordinates=0%2C112%2C0%2C113)  
+![](https://spectrum.ieee.org/media-library/advanced-robot-torso-with-mechanical-arms-and-visible-cables.jpg?id=61668516&width=1200&height=800&coordinates=0%2C50%2C0%2C50)  
   
 
 One of the robotics projects that I’ve been most excited about for years now is [iRonCub](https://ami.iit.it/aerial-humanoid-robotics), from Daniele Pucci’s [Artificial and Mechanical Intelligence Lab](https://ami.iit.it/) at the Italian Institute of Technology (IIT) in Genoa, Italy. [Since 2017](https://spectrum.ieee.org/jet-powered-icub-could-be-the-first-flying-humanoid-robot), Pucci has been developing a jet-propulsion system that will enable an [iCub](https://robotsguide.com/robots/icub) robot (originally designed in 2004 to be the approximate shape and size of a 5-year-old child) to fly like Iron Man.
