@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/video-friday-robotic-hands-2674168909)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/boston-dynamics-humanoid-robot-giving-two-thumbs-up-in-a-well-lit-industrial-setting.png?id=61730113&width=1200&height=800&coordinates=150%2C0%2C150%2C0)  
+![](https://spectrum.ieee.org/media-library/boston-dynamics-humanoid-robot-giving-two-thumbs-up-in-a-well-lit-industrial-setting.png?id=61730113&width=1245&height=700&coordinates=0%2C0%2C0%2C0)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.

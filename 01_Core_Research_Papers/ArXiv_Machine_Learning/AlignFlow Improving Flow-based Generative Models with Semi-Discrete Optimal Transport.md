@@ -1,0 +1,7 @@
+# AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.15038)
+
+## 요약
+arXiv:2510.15038v1 Announce Type: new
+Abstract: Flow-based Generative Models (FGMs) effectively transform noise into complex data distributions. Incorporating Optimal Transport (OT) to couple noise and data during FGM training has been shown to improve the straightness of flow trajectories, enabling more effective inference. However, existing OT-based methods estimate the OT plan using (mini-)batches of sampled noise and data points, which limits their scalability to large and high-dimensional datasets in FGMs. This paper introduces AlignFlow, a novel approach that leverages Semi-Discrete Optimal Transport (SDOT) to enhance the training of FGMs by establishing an explicit, optimal alignment between noise distribution and data points with guaranteed convergence. SDOT computes a transport map by partitioning the noise space into Laguerre cells, each mapped to a corresponding data point. During FGM training, i.i.d. noise samples are paired with data points via the SDOT map. AlignFlow scales well to large datasets and model architectures with negligible computational overhead. Experimental results show that AlignFlow improves the performance of a wide range of state-of-the-art FGM algorithms and can be integrated as a plug-and-play component. Code is available at: https://github.com/konglk1203/AlignFlow.

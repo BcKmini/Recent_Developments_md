@@ -1,0 +1,7 @@
+# NANO3D: A Training-Free Approach for Efficient 3D Editing Without Masks
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2510.15019)
+
+## 요약
+arXiv:2510.15019v1 Announce Type: new
+Abstract: 3D object editing is essential for interactive content creation in gaming, animation, and robotics, yet current approaches remain inefficient, inconsistent, and often fail to preserve unedited regions. Most methods rely on editing multi-view renderings followed by reconstruction, which introduces artifacts and limits practicality. To address these challenges, we propose Nano3D, a training-free framework for precise and coherent 3D object editing without masks. Nano3D integrates FlowEdit into TRELLIS to perform localized edits guided by front-view renderings, and further introduces region-aware merging strategies, Voxel/Slat-Merge, which adaptively preserve structural fidelity by ensuring consistency between edited and unedited areas. Experiments demonstrate that Nano3D achieves superior 3D consistency and visual quality compared with existing methods. Based on this framework, we construct the first large-scale 3D editing datasets Nano3D-Edit-100k, which contains over 100,000 high-quality 3D editing pairs. This work addresses long-standing challenges in both algorithm design and data availability, significantly improving the generality and reliability of 3D editing, and laying the groundwork for the development of feed-forward 3D editing models. Project Page:https://jamesyjl.github.io/Nano3D
