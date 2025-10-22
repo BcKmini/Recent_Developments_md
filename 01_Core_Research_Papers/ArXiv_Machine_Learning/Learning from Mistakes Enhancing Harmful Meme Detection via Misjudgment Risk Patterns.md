@@ -1,0 +1,7 @@
+# Learning from Mistakes: Enhancing Harmful Meme Detection via Misjudgment Risk Patterns
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.15946)
+
+## 요약
+arXiv:2510.15946v1 Announce Type: new
+Abstract: Internet memes have emerged as a popular multimodal medium, yet they are increasingly weaponized to convey harmful opinions through subtle rhetorical devices like irony and metaphor. Existing detection approaches, including MLLM-based techniques, struggle with these implicit expressions, leading to frequent misjudgments. This paper introduces PatMD, a novel approach that improves harmful meme detection by learning from and proactively mitigating these potential misjudgment risks. Our core idea is to move beyond superficial content-level matching and instead identify the underlying misjudgment risk patterns, proactively guiding the MLLMs to avoid known misjudgment pitfalls. We first construct a knowledge base where each meme is deconstructed into a misjudgment risk pattern explaining why it might be misjudged, either overlooking harmful undertones (false negative) or overinterpreting benign content (false positive). For a given target meme, PatMD retrieves relevant patterns and utilizes them to dynamically guide the MLLM's reasoning. Experiments on a benchmark of 6,626 memes across 5 harmful detection tasks show that PatMD outperforms state-of-the-art baselines, achieving an average of 8.30\% improvement in F1-score and 7.71\% improvement in accuracy, demonstrating strong generalizability and improved detection capability of harmful memes.

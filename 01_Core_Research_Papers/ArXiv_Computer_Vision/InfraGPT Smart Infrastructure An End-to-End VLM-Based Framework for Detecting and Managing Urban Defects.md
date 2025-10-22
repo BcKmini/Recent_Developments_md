@@ -1,0 +1,7 @@
+# InfraGPT Smart Infrastructure: An End-to-End VLM-Based Framework for Detecting and Managing Urban Defects
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2510.16017)
+
+## 요약
+arXiv:2510.16017v1 Announce Type: new
+Abstract: Infrastructure in smart cities is increasingly monitored by networks of closed circuit television (CCTV) cameras. Roads, bridges and tunnels develop cracks, potholes, and fluid leaks that threaten public safety and require timely repair. Manual inspection is costly and hazardous, and existing automatic systems typically address individual defect types or provide unstructured outputs that cannot directly guide maintenance crews. This paper proposes a comprehensive pipeline that leverages street CCTV streams for multi defect detection and segmentation using the YOLO family of object detectors and passes the detections to a vision language model (VLM) for scene aware summarization. The VLM generates a structured action plan in JSON format that includes incident descriptions, recommended tools, dimensions, repair plans, and urgent alerts. We review literature on pothole, crack and leak detection, highlight recent advances in large vision language models such as QwenVL and LLaVA, and describe the design of our early prototype. Experimental evaluation on public datasets and captured CCTV clips demonstrates that the system accurately identifies diverse defects and produces coherent summaries. We conclude by discussing challenges and directions for scaling the system to city wide deployments.

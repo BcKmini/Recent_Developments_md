@@ -1,0 +1,7 @@
+# Lean Finder: Semantic Search for Mathlib That Understands User Intents
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.15940)
+
+## 요약
+arXiv:2510.15940v1 Announce Type: new
+Abstract: We present Lean Finder, a semantic search engine for Lean and mathlib that understands and aligns with the intents of mathematicians. Progress in formal theorem proving is often hindered by the difficulty of locating relevant theorems and the steep learning curve of the Lean 4 language, making advancement slow and labor-intensive. Existing Lean search engines, though helpful, rely primarily on informalizations (natural language translation of the formal statements), while largely overlooking the mismatch with real-world user queries. In contrast, we propose a user-centered semantic search tailored to the needs of mathematicians. Our approach begins by analyzing and clustering the semantics of public Lean discussions, then fine-tuning text embeddings on synthesized queries that emulate user intents. We further align Lean Finder with mathematicians' preferences using diverse feedback signals, encoding it with a rich awareness of their goals from multiple perspectives. Evaluations on real-world queries, informalized statements, and proof states demonstrate that our Lean Finder achieves over $30\%$ relative improvement compared to previous search engines and GPT-4o. In addition, Lean Finder is compatible with LLM-based theorem provers, bridging retrieval with formal reasoning. Lean Finder is available at: https://leanfinder.github.io

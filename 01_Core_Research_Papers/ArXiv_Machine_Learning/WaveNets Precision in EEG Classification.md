@@ -1,0 +1,7 @@
+# WaveNet's Precision in EEG Classification
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.15947)
+
+## 요약
+arXiv:2510.15947v1 Announce Type: new
+Abstract: This study introduces a WaveNet-based deep learning model designed to automate the classification of EEG signals into physiological, pathological, artifact, and noise categories. Traditional methods for EEG signal classification, which rely on expert visual review, are becoming increasingly impractical due to the growing complexity and volume of EEG recordings. Leveraging a publicly available annotated dataset from Mayo Clinic and St. Anne's University Hospital, the WaveNet model was trained, validated, and tested on 209,232 samples with a 70/20/10 percent split. The model achieved a classification accuracy exceeding previous CNN and LSTM-based approaches, and was benchmarked against a Temporal Convolutional Network (TCN) baseline. Notably, the model distinguishes noise and artifacts with high precision, although it reveals a modest but explainable degree of misclassification between physiological and pathological signals, reflecting inherent clinical overlap. WaveNet's architecture, originally developed for raw audio synthesis, is well suited for EEG data due to its use of dilated causal convolutions and residual connections, enabling it to capture both fine-grained and long-range temporal dependencies. The research also details the preprocessing pipeline, including dynamic dataset partitioning and normalization steps that support model generalization.
