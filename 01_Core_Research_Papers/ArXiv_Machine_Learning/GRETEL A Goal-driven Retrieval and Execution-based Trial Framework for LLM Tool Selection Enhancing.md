@@ -1,0 +1,7 @@
+# GRETEL: A Goal-driven Retrieval and Execution-based Trial Framework for LLM Tool Selection Enhancing
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.17843)
+
+## 요약
+arXiv:2510.17843v1 Announce Type: new
+Abstract: Despite remarkable advances in Large Language Model capabilities, tool retrieval for agent-based systems remains fundamentally limited by reliance on semantic similarity, which fails to capture functional viability. Current methods often retrieve textually relevant but functionally inoperative tools due to parameter mismatches, authentication failures, and execution constraints--a phenomenon we term the semantic-functional gap. We introduce GRETEL, to address this gap through systematic empirical validation. GRETEL implements an agentic workflow that processes semantically retrieved candidates through sandboxed plan-execute-evaluate cycles, generating execution-grounded evidence to distinguish truly functional tools from merely descriptive matches. Our comprehensive evaluation on the ToolBench benchmark demonstrates substantial improvements across all metrics: Pass Rate (at 10) increases from 0.690 to 0.826, Recall (at 10) improves from 0.841 to 0.867, and NDCG (at 10) rises from 0.807 to 0.857.. These results establish that execution-based validation provides a more reliable foundation for tool selection than semantic similarity alone, enabling more robust agent performance in real-world applications.

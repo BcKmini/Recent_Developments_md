@@ -1,0 +1,7 @@
+# CARLE: A Hybrid Deep-Shallow Learning Framework for Robust and Explainable RUL Estimation of Rolling Element Bearings
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.17846)
+
+## 요약
+arXiv:2510.17846v1 Announce Type: new
+Abstract: Prognostic Health Management (PHM) systems monitor and predict equipment health. A key task is Remaining Useful Life (RUL) estimation, which predicts how long a component, such as a rolling element bearing, will operate before failure. Many RUL methods exist but often lack generalizability and robustness under changing operating conditions. This paper introduces CARLE, a hybrid AI framework that combines deep and shallow learning to address these challenges. CARLE uses Res-CNN and Res-LSTM blocks with multi-head attention and residual connections to capture spatial and temporal degradation patterns, and a Random Forest Regressor (RFR) for stable, accurate RUL prediction. A compact preprocessing pipeline applies Gaussian filtering for noise reduction and Continuous Wavelet Transform (CWT) for time-frequency feature extraction. We evaluate CARLE on the XJTU-SY and PRONOSTIA bearing datasets. Ablation studies measure each component's contribution, while noise and cross-domain experiments test robustness and generalization. Comparative results show CARLE outperforms several state-of-the-art methods, especially under dynamic conditions. Finally, we analyze model interpretability with LIME and SHAP to assess transparency and trustworthiness.
