@@ -1,0 +1,7 @@
+# SHRUMS: Sensor Hallucination for Real-time Underwater Motion Planning with a Compact 3D Sonar
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2510.18996)
+
+## 요약
+arXiv:2510.18996v1 Announce Type: new
+Abstract: Autonomous navigation in 3D is a fundamental problem for autonomy. Despite major advancements in terrestrial and aerial settings due to improved range sensors including LiDAR, compact sensors with similar capabilities for underwater robots have only recently become available, in the form of 3D sonars. This paper introduces a novel underwater 3D navigation pipeline, called SHRUMS (Sensor Hallucination for Robust Underwater Motion planning with 3D Sonar). To the best of the authors' knowledge, SHRUMS is the first underwater autonomous navigation stack to integrate a 3D sonar. The proposed pipeline exhibits strong robustness while operating in complex 3D environments in spite of extremely poor visibility conditions. To accommodate the intricacies of the novel sensor data stream while achieving real-time locally optimal performance, SHRUMS introduces the concept of hallucinating sensor measurements from non-existent sensors with convenient arbitrary parameters, tailored to application specific requirements. The proposed concepts are validated with real 3D sonar sensor data, utilizing real inputs in challenging settings and local maps constructed in real-time. Field deployments validating the proposed approach in full are planned in the very near future.

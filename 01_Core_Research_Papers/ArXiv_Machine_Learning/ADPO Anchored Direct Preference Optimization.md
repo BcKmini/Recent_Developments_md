@@ -1,0 +1,7 @@
+# ADPO: Anchored Direct Preference Optimization
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.18913)
+
+## 요약
+arXiv:2510.18913v1 Announce Type: new
+Abstract: Anchored Direct Preference Optimization (ADPO) is a unified framework that generalizes Direct Preference Optimization (DPO) with soft preferences, reference-policy anchoring, and groupwise extensions. While standard DPO assumes hard binary labels and pairwise comparisons, ADPO introduces: (i) soft preference probabilities that encode uncertainty and mitigate gradient drift; (ii) arbitrary reference-policy anchors that stabilize training via groupwise shift invariance and implicit KL regularization; and (iii) listwise preference modeling through Plackett-Luce distributions. We prove that DPO, Bradley-Terry objectives, and Top-1-vs-Rest formulations emerge as special cases. ADPO yields three practical variants: pairwise anchored Soft-DPO, listwise anchored Soft-DPO with raw rewards, and KDE-based listwise smoothing for heavy-tailed noise. In contextual bandits, anchoring improves WinMass by 38-63% over standard DPO, while KDE smoothing achieves 0.68 vs 0.32 under heavy-tailed contamination (112% relative gain). In sequential reinforcement learning (CartPole, LunarLander), anchoring improves noisy-preference performance by 15-29%, confirming transfer from single-step to multi-step settings. Experiments with 10-256 parameter models provide clear guidance: use pairwise anchored Soft-DPO for clean or moderate noise, and KDE-based listwise ADPO for extreme contamination.

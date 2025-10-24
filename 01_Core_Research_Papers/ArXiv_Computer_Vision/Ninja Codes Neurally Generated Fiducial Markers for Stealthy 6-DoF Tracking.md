@@ -1,0 +1,7 @@
+# Ninja Codes: Neurally Generated Fiducial Markers for Stealthy 6-DoF Tracking
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2510.18976)
+
+## 요약
+arXiv:2510.18976v1 Announce Type: new
+Abstract: In this paper we describe Ninja Codes, neurally-generated fiducial markers that can be made to naturally blend into various real-world environments. An encoder network converts arbitrary images into Ninja Codes by applying visually modest alterations; the resulting codes, printed and pasted onto surfaces, can provide stealthy 6-DoF location tracking for a wide range of applications including augmented reality, robotics, motion-based user interfaces, etc. Ninja Codes can be printed using off-the-shelf color printers on regular printing paper, and can be detected using any device equipped with a modern RGB camera and capable of running inference. Using an end-to-end process inspired by prior work on deep steganography, we jointly train a series of network modules that perform the creation and detection of Ninja Codes. Through experiments, we demonstrate Ninja Codes' ability to provide reliable location tracking under common indoor lighting conditions, while successfully concealing themselves within diverse environmental textures. We expect Ninja Codes to offer particular value in scenarios where the conspicuous appearances of conventional fiducial markers make them undesirable for aesthetic and other reasons.

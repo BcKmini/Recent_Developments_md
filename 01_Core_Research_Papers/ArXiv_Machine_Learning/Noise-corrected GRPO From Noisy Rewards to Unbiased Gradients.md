@@ -1,0 +1,7 @@
+# Noise-corrected GRPO: From Noisy Rewards to Unbiased Gradients
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.18924)
+
+## 요약
+arXiv:2510.18924v1 Announce Type: new
+Abstract: Reinforcement learning from human feedback (RLHF) or verifiable rewards (RLVR), the standard paradigm for aligning LLMs or building recent SOTA reasoning models, is highly sensitive to noise from inconsistent or erroneous rewards. Yet, the interaction between such noise and widely used group-based policy optimization methods remains underexplored. We introduce a noise-robust Group Relative Policy Optimization (GRPO) and Done Right GRPO (Dr.GRPO) framework that explicitly models reward corruption as Bernoulli noise. Our method applies noise correction after estimating reward flip probabilities to debias the learning signal, yielding provably unbiased gradient estimates. Theoretical analysis shows that group-based methods inherently mitigate individual-level noise, and our correction strategy amplifies this robustness. Empirically, we observe consistent improvements across math and code tasks when applying our noise correction to standard reward model usage, with particular gains of up to 6.7 percentage points in accuracy on math tasks and 1.5 on code tasks under realistic reward model conditions. This work bridges label-noise correction from supervised learning with modern RLHF, offering both theoretical insights and a practical algorithm for noisy real-world deployment.
