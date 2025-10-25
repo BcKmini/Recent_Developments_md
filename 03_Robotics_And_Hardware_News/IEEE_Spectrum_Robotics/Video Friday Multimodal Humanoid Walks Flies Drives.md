@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/video-friday-multimodal-robot)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/caltech-humanoid-robot-bent-over-at-the-bipedal-attachment-point-with-wheeled-drone-on-its-back-exits-building.png?id=61767773&width=1245&height=700&coordinates=0%2C101%2C0%2C101)  
+![](https://spectrum.ieee.org/media-library/caltech-humanoid-robot-bent-over-at-the-bipedal-attachment-point-with-wheeled-drone-on-its-back-exits-building.png?id=61767773&width=1200&height=800&coordinates=0%2C43%2C0%2C44)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.

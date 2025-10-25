@@ -1,0 +1,7 @@
+# Improving Predictive Confidence in Medical Imaging via Online Label Smoothing
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2510.20011)
+
+## 요약
+arXiv:2510.20011v1 Announce Type: new
+Abstract: Deep learning models, especially convolutional neural networks, have achieved impressive results in medical image classification. However, these models often produce overconfident predictions, which can undermine their reliability in critical healthcare settings. While traditional label smoothing offers a simple way to reduce such overconfidence, it fails to consider relationships between classes by treating all non-target classes equally. In this study, we explore the use of Online Label Smoothing (OLS), a dynamic approach that adjusts soft labels throughout training based on the model's own prediction patterns. We evaluate OLS on the large-scale RadImageNet dataset using three widely used architectures: ResNet-50, MobileNetV2, and VGG-19. Our results show that OLS consistently improves both Top-1 and Top-5 classification accuracy compared to standard training methods, including hard labels, conventional label smoothing, and teacher-free knowledge distillation. In addition to accuracy gains, OLS leads to more compact and well-separated feature embeddings, indicating improved representation learning. These findings suggest that OLS not only strengthens predictive performance but also enhances calibration, making it a practical and effective solution for developing trustworthy AI systems in the medical imaging domain.
