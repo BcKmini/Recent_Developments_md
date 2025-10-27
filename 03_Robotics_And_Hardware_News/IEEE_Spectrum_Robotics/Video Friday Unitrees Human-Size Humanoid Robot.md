@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/video-friday-human-size-robot)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/stylish-humanoid-robot-walking-in-marble-hallway-dressed-in-brown-hooded-outfit-also-human-walking-next-to-humanoid-dressed-in.png?id=61899164&width=1200&height=800&coordinates=0%2C111%2C0%2C111)  
+![](https://spectrum.ieee.org/media-library/stylish-humanoid-robot-walking-in-marble-hallway-dressed-in-brown-hooded-outfit-also-human-walking-next-to-humanoid-dressed-in.png?id=61899164&width=1245&height=700&coordinates=0%2C178%2C0%2C179)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.
