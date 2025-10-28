@@ -1,0 +1,9 @@
+# Crisis-Resilient Portfolio Management via Graph-based Spatio-Temporal Learning
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.20868)
+
+## 요약
+arXiv:2510.20868v1 Announce Type: new
+Abstract: Financial time series forecasting faces a fundamental challenge: predicting optimal asset allocations requires understanding regime-dependent correlation structures that transform during crisis periods. Existing graph-based spatio-temporal learning approaches rely on predetermined graph topologies--correlation thresholds, sector classifications--that fail to adapt when market dynamics shift across different crisis mechanisms: credit contagion, pandemic shocks, or inflation-driven selloffs.
+We present CRISP (Crisis-Resilient Investment through Spatio-temporal Patterns), a graph-based spatio-temporal learning framework that encodes spatial relationships via Graph Convolutional Networks and temporal dynamics via BiLSTM with self-attention, then learns sparse structures through multi-head Graph Attention Networks. Unlike fixed-topology methods, CRISP discovers which asset relationships matter through attention mechanisms, filtering 92.5% of connections as noise while preserving crisis-relevant dependencies for accurate regime-specific predictions.
+Trained on 2005--2021 data encompassing credit and pandemic crises, CRISP demonstrates robust generalization to 2022--2024 inflation-driven markets--a fundamentally different regime--by accurately forecasting regime-appropriate correlation structures. This enables adaptive portfolio allocation that maintains profitability during downturns, achieving Sharpe ratio 3.76: 707% improvement over equal-weight baselines and 94% improvement over static graph methods. Learned attention weights provide interpretable regime detection, with defensive cluster attention strengthening 49% during crises versus 31% market-wide--emergent behavior from learning to forecast rather than imposing assumptions.
