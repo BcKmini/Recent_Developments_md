@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/irobot-roomba-history)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/roomba-vacuum-signed-by-irobot-team-showing-control-buttons-on-wooden-floor.jpg?id=61715049&width=1200&height=800&coordinates=0%2C121%2C0%2C122)  
+![](https://spectrum.ieee.org/media-library/roomba-vacuum-signed-by-irobot-team-showing-control-buttons-on-wooden-floor.jpg?id=61715049&width=1200&height=600&coordinates=0%2C365%2C0%2C365)  
   
 
 Adapted from [*Dancing With Roomba*](https://dancingwithroomba.com/), written by Joe Jones, who was iRobot’s first full-time employee and the original designer of the Roomba robot vacuum.

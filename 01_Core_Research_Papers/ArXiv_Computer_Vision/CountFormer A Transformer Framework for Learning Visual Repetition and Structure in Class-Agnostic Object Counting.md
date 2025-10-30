@@ -1,0 +1,7 @@
+# CountFormer: A Transformer Framework for Learning Visual Repetition and Structure in Class-Agnostic Object Counting
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2510.23785)
+
+## 요약
+arXiv:2510.23785v1 Announce Type: new
+Abstract: Humans can effortlessly count diverse objects by perceiving visual repetition and structural relationships rather than relying on class identity. However, most existing counting models fail to replicate this ability; they often miscount when objects exhibit complex shapes, internal symmetry, or overlapping components. In this work, we introduce CountFormer, a transformer-based framework that learns to recognize repetition and structural coherence for class-agnostic object counting. Built upon the CounTR architecture, our model replaces its visual encoder with the self-supervised foundation model DINOv2, which produces richer and spatially consistent feature representations. We further incorporate positional embedding fusion to preserve geometric relationships before decoding these features into density maps through a lightweight convolutional decoder. Evaluated on the FSC-147 dataset, our model achieves performance comparable to current state-of-the-art methods while demonstrating superior accuracy on structurally intricate or densely packed scenes. Our findings indicate that integrating foundation models such as DINOv2 enables counting systems to approach human-like structural perception, advancing toward a truly general and exemplar-free counting paradigm.

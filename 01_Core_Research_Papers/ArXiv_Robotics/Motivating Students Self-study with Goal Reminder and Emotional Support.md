@@ -1,0 +1,7 @@
+# Motivating Students' Self-study with Goal Reminder and Emotional Support
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2510.23860)
+
+## 요약
+arXiv:2510.23860v1 Announce Type: new
+Abstract: While the efficacy of social robots in supporting people in learning tasks has been extensively investigated, their potential impact in assisting students in self-studying contexts has not been investigated much. This study explores how a social robot can act as a peer study companion for college students during self-study tasks by delivering task-oriented goal reminder and positive emotional support. We conducted an exploratory Wizard-of-Oz study to explore how these robotic support behaviors impacted students' perceived focus, productivity, and engagement in comparison to a robot that only provided physical presence (control). Our study results suggest that participants in the goal reminder and the emotional support conditions reported greater ease of use, with the goal reminder condition additionally showing a higher willingness to use the robot in future study sessions. Participants' satisfaction with the robot was correlated with their perception of the robot as a social other, and this perception was found to be a predictor for their level of goal achievement in the self-study task. These findings highlight the potential of socially assistive robots to support self-study through both functional and emotional engagement.

@@ -1,0 +1,7 @@
+# An Enhanced Dual Transformer Contrastive Network for Multimodal Sentiment Analysis
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.23617)
+
+## 요약
+arXiv:2510.23617v1 Announce Type: new
+Abstract: Multimodal Sentiment Analysis (MSA) seeks to understand human emotions by jointly analyzing data from multiple modalities typically text and images offering a richer and more accurate interpretation than unimodal approaches. In this paper, we first propose BERT-ViT-EF, a novel model that combines powerful Transformer-based encoders BERT for textual input and ViT for visual input through an early fusion strategy. This approach facilitates deeper cross-modal interactions and more effective joint representation learning. To further enhance the model's capability, we propose an extension called the Dual Transformer Contrastive Network (DTCN), which builds upon BERT-ViT-EF. DTCN incorporates an additional Transformer encoder layer after BERT to refine textual context (before fusion) and employs contrastive learning to align text and image representations, fostering robust multimodal feature learning. Empirical results on two widely used MSA benchmarks MVSA-Single and TumEmo demonstrate the effectiveness of our approach. DTCN achieves best accuracy (78.4%) and F1-score (78.3%) on TumEmo, and delivers competitive performance on MVSA-Single, with 76.6% accuracy and 75.9% F1-score. These improvements highlight the benefits of early fusion and deeper contextual modeling in Transformer-based multimodal sentiment analysis.

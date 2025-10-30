@@ -1,0 +1,7 @@
+# A Comprehensive General Model of Tendon-Actuated Concentric Tube Robots with Multiple Tubes and Tendons
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2510.23954)
+
+## 요약
+arXiv:2510.23954v1 Announce Type: new
+Abstract: Tendon-actuated concentric tube mechanisms combine the advantages of tendon-driven continuum robots and concentric tube robots while addressing their respective limitations. They overcome the restricted degrees of freedom often seen in tendon-driven designs, and mitigate issues such as snapping instability associated with concentric tube robots. However, a complete and general mechanical model for these systems remains an open problem. In this work, we propose a Cosserat rod-based framework for modeling the general case of $n$ concentric tubes, each actuated by $m\_i$ tendons, where $i = \{1, \ldots, n\}$. The model allows each tube to twist and elongate while enforcing a shared centerline for bending. We validate the proposed framework through experiments with two-tube and three tube assemblies under various tendon routing configurations, achieving tip prediction errors $<4\%$ of the robot's total length. We further demonstrate the model's generality by applying it to existing robots in the field, where maximum tip deviations remain around $5\%$ of the total length. This model provides a foundation for accurate shape estimation and control of advanced tendon-actuated concentric tube robots.

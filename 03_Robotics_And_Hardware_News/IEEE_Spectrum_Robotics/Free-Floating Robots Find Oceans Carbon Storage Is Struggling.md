@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/ocean-robots-mbari-bgc-argo)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/submarine-periscope-partially-submerged-in-calm-water.jpg?id=61944636&width=1200&height=800&coordinates=0%2C142%2C0%2C143)  
+![](https://spectrum.ieee.org/media-library/submarine-periscope-partially-submerged-in-calm-water.jpg?id=61944636&width=1200&height=600&coordinates=0%2C428%2C0%2C429)  
   
 
 The surface ocean is a busy place, with ships crossing, storms churning, and satellites monitoring everything from above. But below the top 1,000 meters, a hidden fleet of robotic devices is listening for signs of stress inside the planet’s largest life-support system.
