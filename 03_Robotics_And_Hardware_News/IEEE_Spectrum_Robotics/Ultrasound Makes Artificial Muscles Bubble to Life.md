@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/artificial-muscle-ultrasound-waves-robots)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/animated-gif-of-a-stingraybot-incorporating-variable-size-microbubble-array-artificial-muscles-that-undulate-propulsion-when-exc.gif?id=61957961&width=1200&height=600&coordinates=0%2C89%2C0%2C89)  
+![](https://spectrum.ieee.org/media-library/animated-gif-of-a-stingraybot-incorporating-variable-size-microbubble-array-artificial-muscles-that-undulate-propulsion-when-exc.gif?id=61957961&width=1200&height=800&coordinates=16%2C0%2C17%2C0)  
   
 
 A soft gel filled with tiny bubbles might not look like much. But when pulsed with [ultrasound waves](https://spectrum.ieee.org/tag/ultrasound), the material behaves like natural muscle: contracting, gripping, and lifting with surprising strength.

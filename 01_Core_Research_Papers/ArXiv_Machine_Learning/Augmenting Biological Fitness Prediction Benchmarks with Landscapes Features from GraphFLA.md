@@ -1,0 +1,7 @@
+# Augmenting Biological Fitness Prediction Benchmarks with Landscapes Features from GraphFLA
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.24826)
+
+## 요약
+arXiv:2510.24826v1 Announce Type: new
+Abstract: Machine learning models increasingly map biological sequence-fitness landscapes to predict mutational effects. Effective evaluation of these models requires benchmarks curated from empirical data. Despite their impressive scales, existing benchmarks lack topographical information regarding the underlying fitness landscapes, which hampers interpretation and comparison of model performance beyond averaged scores. Here, we introduce GraphFLA, a Python framework that constructs and analyzes fitness landscapes from mutagensis data in diverse modalities (e.g., DNA, RNA, protein, and beyond) with up to millions of mutants. GraphFLA calculates 20 biologically relevant features that characterize 4 fundamental aspects of landscape topography. By applying GraphFLA to over 5,300 landscapes from ProteinGym, RNAGym, and CIS-BP, we demonstrate its utility in interpreting and comparing the performance of dozens of fitness prediction models, highlighting factors influencing model accuracy and respective advantages of different models. In addition, we release 155 combinatorially complete empirical fitness landscapes, encompassing over 2.2 million sequences across various modalities. All the codes and datasets are available at https://github.com/COLA-Laboratory/GraphFLA.

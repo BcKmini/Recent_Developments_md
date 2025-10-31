@@ -1,0 +1,7 @@
+# Combining SAR Simulators to Train ATR Models with Synthetic Data
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2510.24768)
+
+## 요약
+arXiv:2510.24768v1 Announce Type: new
+Abstract: This work aims to train Deep Learning models to perform Automatic Target Recognition (ATR) on Synthetic Aperture Radar (SAR) images. To circumvent the lack of real labelled measurements, we resort to synthetic data produced by SAR simulators. Simulation offers full control over the virtual environment, which enables us to generate large and diversified datasets at will. However, simulations are intrinsically grounded on simplifying assumptions of the real world (i.e. physical models). Thus, synthetic datasets are not as representative as real measurements. Consequently, ATR models trained on synthetic images cannot generalize well on real measurements. Our contributions to this problem are twofold: on one hand, we demonstrate and quantify the impact of the simulation paradigm on the ATR. On the other hand, we propose a new approach to tackle the ATR problem: combine two SAR simulators that are grounded on different (but complementary) paradigms to produce synthetic datasets. To this end, we use two simulators: MOCEM, which is based on a scattering centers model approach, and Salsa, which resorts on a ray tracing strategy. We train ATR models using synthetic dataset generated both by MOCEM and Salsa and our Deep Learning approach called ADASCA. We reach an accuracy of almost 88 % on the MSTAR measurements.
