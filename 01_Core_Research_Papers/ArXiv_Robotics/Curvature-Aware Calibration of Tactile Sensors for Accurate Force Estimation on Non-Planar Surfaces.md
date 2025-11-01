@@ -1,0 +1,7 @@
+# Curvature-Aware Calibration of Tactile Sensors for Accurate Force Estimation on Non-Planar Surfaces
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2510.25965)
+
+## 요약
+arXiv:2510.25965v1 Announce Type: new
+Abstract: Flexible tactile sensors are increasingly used in real-world applications such as robotic grippers, prosthetic hands, wearable gloves, and assistive devices, where they need to conform to curved and irregular surfaces. However, most existing tactile sensors are calibrated only on flat substrates, and their accuracy and consistency degrade once mounted on curved geometries. This limitation restricts their reliability in practical use. To address this challenge, we develop a calibration model for a widely used resistive tactile sensor design that enables accurate force estimation on one-dimensional curved surfaces. We then train a neural network (a multilayer perceptron) to predict local curvature from baseline sensor outputs recorded under no applied load, achieving an R2 score of 0.91. The proposed approach is validated on five daily objects with varying curvatures under forces from 2 N to 8 N. Results show that the curvature-aware calibration maintains consistent force accuracy across all surfaces, while flat-surface calibration underestimates force as curvature increases. Our results demonstrate that curvature-aware modeling improves the accuracy, consistency, and reliability of flexible tactile sensors, enabling dependable performance across real-world applications.

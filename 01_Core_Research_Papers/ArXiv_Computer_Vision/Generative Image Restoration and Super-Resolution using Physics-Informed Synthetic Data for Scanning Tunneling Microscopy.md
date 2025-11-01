@@ -1,0 +1,7 @@
+# Generative Image Restoration and Super-Resolution using Physics-Informed Synthetic Data for Scanning Tunneling Microscopy
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2510.25921)
+
+## 요약
+arXiv:2510.25921v1 Announce Type: new
+Abstract: Scanning tunnelling microscopy (STM) enables atomic-resolution imaging and atom manipulation, but its utility is often limited by tip degradation and slow serial data acquisition. Fabrication adds another layer of complexity since the tip is often subjected to large voltages, which may alter the shape of its apex, requiring it to be conditioned. Here, we propose a machine learning (ML) approach for image repair and super-resolution to alleviate both challenges. Using a dataset of only 36 pristine experimental images of Si(001):H, we demonstrate that a physics-informed synthetic data generation pipeline can be used to train several state-of-the-art flow-matching and diffusion models. Quantitative evaluation with metrics such as the CLIP Maximum Mean Discrepancy (CMMD) score and structural similarity demonstrates that our models are able to effectively restore images and offer a two- to fourfold reduction in image acquisition time by accurately reconstructing images from sparsely sampled data. Our framework has the potential to significantly increase STM experimental throughput by offering a route to reducing the frequency of tip-conditioning procedures and to enhancing frame rates in existing high-speed STM systems.

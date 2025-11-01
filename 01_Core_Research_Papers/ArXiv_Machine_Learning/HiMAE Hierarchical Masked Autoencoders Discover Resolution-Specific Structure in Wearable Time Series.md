@@ -1,0 +1,7 @@
+# HiMAE: Hierarchical Masked Autoencoders Discover Resolution-Specific Structure in Wearable Time Series
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.25785)
+
+## 요약
+arXiv:2510.25785v1 Announce Type: new
+Abstract: Wearable sensors provide abundant physiological time series, yet the principles governing their predictive utility remain unclear. We hypothesize that temporal resolution is a fundamental axis of representation learning, with different clinical and behavioral outcomes relying on structure at distinct scales. To test this resolution hypothesis, we introduce HiMAE (Hierarchical Masked Autoencoder), a self supervised framework that combines masked autoencoding with a hierarchical convolutional encoder decoder. HiMAE produces multi resolution embeddings that enable systematic evaluation of which temporal scales carry predictive signal, transforming resolution from a hyperparameter into a probe for interpretability. Across classification, regression, and generative benchmarks, HiMAE consistently outperforms state of the art foundation models that collapse scale, while being orders of magnitude smaller. HiMAE is an efficient representation learner compact enough to run entirely on watch, achieving sub millisecond inference on smartwatch class CPUs for true edge inference. Together, these contributions position HiMAE as both an efficient self supervised learning method and a discovery tool for scale sensitive structure in wearable health.
