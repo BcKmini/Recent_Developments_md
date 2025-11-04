@@ -1,0 +1,8 @@
+# Layer of Truth: Probing Belief Shifts under Continual Pre-Training Poisoning
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.26829)
+
+## 요약
+arXiv:2510.26829v1 Announce Type: new
+Abstract: Large language models (LLMs) continually evolve through pre-training on ever-expanding web data, but this adaptive process also exposes them to subtle forms of misinformation. While prior work has explored data poisoning during static pre-training, the effects of such manipulations under continual pre-training remain largely unexplored. Drawing inspiration from the illusory truth effect in human cognition - where repeated exposure to falsehoods increases belief in their accuracy - we ask whether LLMs exhibit a similar vulnerability. We investigate whether repeated exposure to false but confidently stated facts can shift a model's internal representation away from the truth.
+We introduce Layer of Truth, a framework and dataset for probing belief dynamics in continually trained LLMs. By injecting controlled amounts of poisoned data and probing intermediate representations across checkpoints, model scales, and question types, we quantify when and how factual beliefs shift. Our findings reveal that even minimal exposure can induce persistent representational drift in well-established facts, with susceptibility varying across layers and model sizes. These results highlight an overlooked vulnerability of continually updated LLMs: their capacity to internalize misinformation analogously to humans, underscoring the need for robust monitoring of factual integrity during model updates.

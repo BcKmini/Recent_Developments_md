@@ -1,0 +1,7 @@
+# Design for One, Deploy for Many: Navigating Tree Mazes with Multiple Agents
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2510.26900)
+
+## 요약
+arXiv:2510.26900v1 Announce Type: new
+Abstract: Maze-like environments, such as cave and pipe networks, pose unique challenges for multiple robots to coordinate, including communication constraints and congestion. To address these challenges, we propose a distributed multi-agent maze traversal algorithm for environments that can be represented by acyclic graphs. It uses a leader-switching mechanism where one agent, assuming a head role, employs any single-agent maze solver while the other agents each choose an agent to follow. The head role gets transferred to neighboring agents where necessary, ensuring it follows the same path as a single agent would. The multi-agent maze traversal algorithm is evaluated in simulations with groups of up to 300 agents, various maze sizes, and multiple single-agent maze solvers. It is compared against strategies that are na\"ive, or assume either global communication or full knowledge of the environment. The algorithm outperforms the na\"ive strategy in terms of makespan and sum-of-fuel. It is superior to the global-communication strategy in terms of makespan but is inferior to it in terms of sum-of-fuel. The findings suggest it is asymptotically equivalent to the full-knowledge strategy with respect to either metric. Moreover, real-world experiments with up to 20 Pi-puck robots confirm the feasibility of the approach.

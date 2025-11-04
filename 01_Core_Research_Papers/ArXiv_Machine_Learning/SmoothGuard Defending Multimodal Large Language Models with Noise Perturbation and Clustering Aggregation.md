@@ -1,0 +1,7 @@
+# SmoothGuard: Defending Multimodal Large Language Models with Noise Perturbation and Clustering Aggregation
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2510.26830)
+
+## 요약
+arXiv:2510.26830v1 Announce Type: new
+Abstract: Multimodal large language models (MLLMs) have achieved impressive performance across diverse tasks by jointly reasoning over textual and visual inputs. Despite their success, these models remain highly vulnerable to adversarial manipulations, raising concerns about their safety and reliability in deployment. In this work, we first generalize an approach for generating adversarial images within the HuggingFace ecosystem and then introduce SmoothGuard, a lightweight and model-agnostic defense framework that enhances the robustness of MLLMs through randomized noise injection and clustering-based prediction aggregation. Our method perturbs continuous modalities (e.g., images and audio) with Gaussian noise, generates multiple candidate outputs, and applies embedding-based clustering to filter out adversarially influenced predictions. The final answer is selected from the majority cluster, ensuring stable responses even under malicious perturbations. Extensive experiments on POPE, LLaVA-Bench (In-the-Wild), and MM-SafetyBench demonstrate that SmoothGuard improves resilience to adversarial attacks while maintaining competitive utility. Ablation studies further identify an optimal noise range (0.1-0.2) that balances robustness and utility.
