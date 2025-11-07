@@ -1,0 +1,7 @@
+# Hybrid Convolution and Vision Transformer NAS Search Space for TinyML Image Classification
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2511.02992)
+
+## 요약
+arXiv:2511.02992v1 Announce Type: new
+Abstract: Hybrids of Convolutional Neural Network (CNN) and Vision Transformer (ViT) have outperformed pure CNN or ViT architecture. However, since these architectures require large parameters and incur large computational costs, they are unsuitable for tinyML deployment. This paper introduces a new hybrid CNN-ViT search space for Neural Architecture Search (NAS) to find efficient hybrid architectures for image classification. The search space covers hybrid CNN and ViT blocks to learn local and global information, as well as the novel Pooling block of searchable pooling layers for efficient feature map reduction. Experimental results on the CIFAR10 dataset show that our proposed search space can produce hybrid CNN-ViT architectures with superior accuracy and inference speed to ResNet-based tinyML models under tight model size constraints.

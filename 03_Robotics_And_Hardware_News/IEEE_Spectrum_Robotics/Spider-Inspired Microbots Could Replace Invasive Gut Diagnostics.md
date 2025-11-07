@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/magnetic-pill-sized-robot-cartwheel)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/conceptual-illustration-of-a-mini-cross-shaped-soft-robot-tumbling-down-the-length-of-a-small-intestine.jpg?id=62003291&width=2000&height=1500&coordinates=320%2C0%2C320%2C0)  
+![](https://spectrum.ieee.org/media-library/conceptual-illustration-of-a-mini-cross-shaped-soft-robot-tumbling-down-the-length-of-a-small-intestine.jpg?id=62003291&width=1245&height=700&coordinates=0%2C120%2C0%2C120)  
   
 
 Deadly intestinal cancers are on the rise, and the best chance to beat them is with an early diagnosis. But current techniques used to inspect the digestive tract are highly invasive, scaring many patients away. Some researchers hope that soft, magnetically controlled robots the size of a vitamin capsule could replace these diagnostic methods in a few short years.

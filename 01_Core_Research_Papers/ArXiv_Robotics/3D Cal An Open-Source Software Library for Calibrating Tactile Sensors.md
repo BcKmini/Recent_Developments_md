@@ -1,0 +1,7 @@
+# 3D Cal: An Open-Source Software Library for Calibrating Tactile Sensors
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.03078)
+
+## 요약
+arXiv:2511.03078v1 Announce Type: new
+Abstract: Tactile sensing plays a key role in enabling dexterous and reliable robotic manipulation, but realizing this capability requires substantial calibration to convert raw sensor readings into physically meaningful quantities. Despite its near-universal necessity, the calibration process remains ad hoc and labor-intensive. Here, we introduce \libname{}, an open-source library that transforms a low-cost 3D printer into an automated probing device capable of generating large volumes of labeled training data for tactile sensor calibration. We demonstrate the utility of \libname{} by calibrating two commercially available vision-based tactile sensors, DIGIT and GelSight Mini, to reconstruct high-quality depth maps using the collected data and a custom convolutional neural network. In addition, we perform a data ablation study to determine how much data is needed for accurate calibration, providing practical guidelines for researchers working with these specific sensors, and we benchmark the trained models on previously unseen objects to evaluate calibration accuracy and generalization performance. By automating tactile sensor calibration, \libname{} can accelerate tactile sensing research, simplify sensor deployment, and promote the practical integration of tactile sensing in robotic platforms.

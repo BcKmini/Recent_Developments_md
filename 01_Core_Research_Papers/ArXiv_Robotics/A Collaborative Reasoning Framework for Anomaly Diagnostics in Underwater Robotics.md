@@ -1,0 +1,7 @@
+# A Collaborative Reasoning Framework for Anomaly Diagnostics in Underwater Robotics
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.03075)
+
+## 요약
+arXiv:2511.03075v1 Announce Type: new
+Abstract: The safe deployment of autonomous systems in safety-critical settings requires a paradigm that combines human expertise with AI-driven analysis, especially when anomalies are unforeseen. We introduce AURA (Autonomous Resilience Agent), a collaborative framework for anomaly and fault diagnostics in robotics. AURA integrates large language models (LLMs), a high-fidelity digital twin (DT), and human-in-the-loop interaction to detect and respond to anomalous behavior in real time. The architecture uses two agents with clear roles: (i) a low-level State Anomaly Characterization Agent that monitors telemetry and converts signals into a structured natural-language problem description, and (ii) a high-level Diagnostic Reasoning Agent that conducts a knowledge-grounded dialogue with an operator to identify root causes, drawing on external sources. Human-validated diagnoses are then converted into new training examples that refine the low-level perceptual model. This feedback loop progressively distills expert knowledge into the AI, transforming it from a static tool into an adaptive partner. We describe the framework's operating principles and provide a concrete implementation, establishing a pattern for trustworthy, continually improving human-robot teams.

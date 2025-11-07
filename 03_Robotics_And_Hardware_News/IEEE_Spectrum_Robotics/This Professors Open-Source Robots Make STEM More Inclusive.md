@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/berry-hands-on-robotics-education)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-smiling-black-woman-wearing-glasses-and-an-orange-shirt-holds-an-two-wheeled-robot-consisting-of-a-flat-piece-with-multiple-bo.jpg?id=62000303&width=2000&height=1500&coordinates=0%2C0%2C0%2C0)  
+![](https://spectrum.ieee.org/media-library/a-smiling-black-woman-wearing-glasses-and-an-orange-shirt-holds-an-two-wheeled-robot-consisting-of-a-flat-piece-with-multiple-bo.jpg?id=62000303&width=1245&height=700&coordinates=0%2C281%2C0%2C282)  
   
 
 As an electrical engineering student in the 1980s and ‘90s, [Carlotta Berry](https://www.rose-hulman.edu/academics/faculty/berry-carlotta-berry123.html) had two experiences that helped shape her future as an educator.
