@@ -1,0 +1,7 @@
+# SILVI: Simple Interface for Labeling Video Interactions
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2511.03819)
+
+## 요약
+arXiv:2511.03819v1 Announce Type: new
+Abstract: Computer vision methods are increasingly used for the automated analysis of large volumes of video data collected through camera traps, drones, or direct observations of animals in the wild. While recent advances have focused primarily on detecting individual actions, much less work has addressed the detection and annotation of interactions -- a crucial aspect for understanding social and individualized animal behavior. Existing open-source annotation tools support either behavioral labeling without localization of individuals, or localization without the capacity to capture interactions. To bridge this gap, we present SILVI, an open-source labeling software that integrates both functionalities. SILVI enables researchers to annotate behaviors and interactions directly within video data, generating structured outputs suitable for training and validating computer vision models. By linking behavioral ecology with computer vision, SILVI facilitates the development of automated approaches for fine-grained behavioral analyses. Although developed primarily in the context of animal behavior, SILVI could be useful more broadly to annotate human interactions in other videos that require extracting dynamic scene graphs. The software, along with documentation and download instructions, is available at: https://gitlab.gwdg.de/kanbertay/interaction-labelling-app.

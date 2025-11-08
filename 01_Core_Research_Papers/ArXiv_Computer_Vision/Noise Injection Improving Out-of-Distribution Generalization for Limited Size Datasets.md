@@ -1,0 +1,7 @@
+# Noise Injection: Improving Out-of-Distribution Generalization for Limited Size Datasets
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2511.03855)
+
+## 요약
+arXiv:2511.03855v1 Announce Type: new
+Abstract: Deep learned (DL) models for image recognition have been shown to fail to generalize to data from different devices, populations, etc. COVID-19 detection from Chest X-rays (CXRs), in particular, has been shown to fail to generalize to out-of-distribution (OOD) data from new clinical sources not covered in the training set. This occurs because models learn to exploit shortcuts - source-specific artifacts that do not translate to new distributions - rather than reasonable biomarkers to maximize performance on in-distribution (ID) data. Rendering the models more robust to distribution shifts, our study investigates the use of fundamental noise injection techniques (Gaussian, Speckle, Poisson, and Salt and Pepper) during training. Our empirical results demonstrate that this technique can significantly reduce the performance gap between ID and OOD evaluation from 0.10-0.20 to 0.01-0.06, based on results averaged over ten random seeds across key metrics such as AUC, F1, accuracy, recall and specificity. Our source code is publicly available at https://github.com/Duongmai127/Noisy-ood

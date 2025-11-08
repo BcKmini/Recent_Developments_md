@@ -1,0 +1,7 @@
+# Desert Waste Detection and Classification Using Data-Based and Model-Based Enhanced YOLOv12 DL Model
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2511.03888)
+
+## 요약
+arXiv:2511.03888v1 Announce Type: new
+Abstract: The global waste crisis is escalating, with solid waste generation expected to increase by 70% by 2050. Traditional waste collection methods, particularly in remote or harsh environments like deserts, are labor-intensive, inefficient, and often hazardous. Recent advances in computer vision and deep learning have opened the door to automated waste detection systems, yet most research focuses on urban environments and recyclable materials, overlooking organic and hazardous waste and underexplored terrains such as deserts. In this work, we propose an enhanced real-time object detection framework based on a pruned, lightweight version of YOLOv12 integrated with Self-Adversarial Training (SAT) and specialized data augmentation strategies. Using the DroneTrashNet dataset, we demonstrate significant improvements in precision, recall, and mean average precision (mAP), while achieving low latency and compact model size suitable for deployment on resource-constrained aerial drones. Benchmarking our model against state-of-the-art lightweight YOLO variants further highlights its optimal balance of accuracy and efficiency. Our results validate the effectiveness of combining data-centric and model-centric enhancements for robust, real-time waste detection in desert environments.

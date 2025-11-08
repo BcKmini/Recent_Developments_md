@@ -1,0 +1,7 @@
+# LoRA-Edge: Tensor-Train-Assisted LoRA for Practical CNN Fine-Tuning on Edge Devices
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2511.03765)
+
+## 요약
+arXiv:2511.03765v1 Announce Type: new
+Abstract: On-device fine-tuning of CNNs is essential to withstand domain shift in edge applications such as Human Activity Recognition (HAR), yet full fine-tuning is infeasible under strict memory, compute, and energy budgets. We present LoRA-Edge, a parameter-efficient fine-tuning (PEFT) method that builds on Low-Rank Adaptation (LoRA) with tensor-train assistance. LoRA-Edge (i) applies Tensor-Train Singular Value Decomposition (TT-SVD) to pre-trained convolutional layers, (ii) selectively updates only the output-side core with zero-initialization to keep the auxiliary path inactive at the start, and (iii) fuses the update back into dense kernels, leaving inference cost unchanged. This design preserves convolutional structure and reduces the number of trainable parameters by up to two orders of magnitude compared to full fine-tuning. Across diverse HAR datasets and CNN backbones, LoRA-Edge achieves accuracy within 4.7% of full fine-tuning while updating at most 1.49% of parameters, consistently outperforming prior parameter-efficient baselines under similar budgets. On a Jetson Orin Nano, TT-SVD initialization and selective-core training yield 1.4-3.8x faster convergence to target F1. LoRA-Edge thus makes structure-aligned, parameter-efficient on-device CNN adaptation practical for edge platforms.
