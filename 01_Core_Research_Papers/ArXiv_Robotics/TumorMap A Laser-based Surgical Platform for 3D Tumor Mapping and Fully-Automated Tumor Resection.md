@@ -1,0 +1,7 @@
+# TumorMap: A Laser-based Surgical Platform for 3D Tumor Mapping and Fully-Automated Tumor Resection
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.05723)
+
+## 요약
+arXiv:2511.05723v1 Announce Type: new
+Abstract: Surgical resection of malignant solid tumors is critically dependent on the surgeon's ability to accurately identify pathological tissue and remove the tumor while preserving surrounding healthy structures. However, building an intraoperative 3D tumor model for subsequent removal faces major challenges due to the lack of high-fidelity tumor reconstruction, difficulties in developing generalized tissue models to handle the inherent complexities of tumor diagnosis, and the natural physical limitations of bimanual operation, physiologic tremor, and fatigue creep during surgery. To overcome these challenges, we introduce "TumorMap", a surgical robotic platform to formulate intraoperative 3D tumor boundaries and achieve autonomous tissue resection using a set of multifunctional lasers. TumorMap integrates a three-laser mechanism (optical coherence tomography, laser-induced endogenous fluorescence, and cutting laser scalpel) combined with deep learning models to achieve fully-automated and noncontact tumor resection. We validated TumorMap in murine osteoscarcoma and soft-tissue sarcoma tumor models, and established a novel histopathological workflow to estimate sensor performance. With submillimeter laser resection accuracy, we demonstrated multimodal sensor-guided autonomous tumor surgery without any human intervention.
