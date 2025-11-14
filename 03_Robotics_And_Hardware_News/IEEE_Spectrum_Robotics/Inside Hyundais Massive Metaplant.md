@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/hyundai-metaplant)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-vast-manufacturing-hall-stretches-into-the-distance-with-robotic-vehicles-visible-in-the-foreground.jpg?id=62037653&width=1200&height=800&coordinates=451%2C0%2C452%2C0)  
+![](https://spectrum.ieee.org/media-library/a-vast-manufacturing-hall-stretches-into-the-distance-with-robotic-vehicles-visible-in-the-foreground.jpg?id=62037653&width=1200&height=600&coordinates=0%2C74%2C0%2C74)  
   
 
 When I traveled to Ellabell, Ga., in May to report on [Hyundai Motor Group](https://www.hyundaimotorgroup.com/en/main/mainRecommend)’s hyperefficient [Metaplant](https://www.hmgma.com/)—a US $[12.6 billion](https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-metaplant-america-celebrates-grand-opening%252C-powering-u.s.-economic-growth-0000000920) boost to U.S.-based manufacturing of EVs and batteries—the company’s timing appeared solid. At this temple of [leading-edge factory tech](https://spectrum.ieee.org/hyundai-metaplant-georgia), [Ioniq 5](https://www.hyundaiusa.com/us/en/vehicles/ioniq-5) and [Ioniq 9](https://www.hyundaiusa.com/us/en/vehicles/ioniq-9) SUVs marched along surgically spotless assembly lines, giving the South Korean automaker a defensible bulwark against the Trump administration’s tariffs and onshoring fervor.

@@ -1,0 +1,7 @@
+# ATOM-CBF: Adaptive Safe Perception-Based Control under Out-of-Distribution Measurements
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.08741)
+
+## 요약
+arXiv:2511.08741v1 Announce Type: new
+Abstract: Ensuring the safety of real-world systems is challenging, especially when they rely on learned perception modules to infer the system state from high-dimensional sensor data. These perception modules are vulnerable to epistemic uncertainty, often failing when encountering out-of-distribution (OoD) measurements not seen during training. To address this gap, we introduce ATOM-CBF (Adaptive-To-OoD-Measurement Control Barrier Function), a novel safe control framework that explicitly computes and adapts to the epistemic uncertainty from OoD measurements, without the need for ground-truth labels or information on distribution shifts. Our approach features two key components: (1) an OoD-aware adaptive perception error margin and (2) a safety filter that integrates this adaptive error margin, enabling the filter to adjust its conservatism in real-time. We provide empirical validation in simulations, demonstrating that ATOM-CBF maintains safety for an F1Tenth vehicle with LiDAR scans and a quadruped robot with RGB images.

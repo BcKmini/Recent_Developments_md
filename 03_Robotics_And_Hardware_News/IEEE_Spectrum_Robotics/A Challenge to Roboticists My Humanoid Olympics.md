@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/humanoid-robot-olympics)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-collection-of-8-video-stills-showing-a-man-in-a-silver-bodysuit-doing-tasks-including-picking-up-dog-poop-wiping-a-window-pe.jpg?id=61943822&width=1200&height=800&coordinates=0%2C167%2C0%2C167)  
+![](https://spectrum.ieee.org/media-library/a-collection-of-8-video-stills-showing-a-man-in-a-silver-bodysuit-doing-tasks-including-picking-up-dog-poop-wiping-a-window-pe.jpg?id=61943822&width=1200&height=600&coordinates=0%2C500%2C0%2C500)  
   
 
 I was a little disappointed by China’s [World Humanoid Robot Games](https://apnews.com/article/humanoid-robot-games-beijing-china-artificial-intelligence-f0bdd670fae9904aea2c4df398cdcb1a).[1](https://spectrum.ieee.org/feeds/topic/robotics.rss#note1) As fun as real-life [Rock ‘Em Sock ‘Em Robots](https://en.wikipedia.org/wiki/Rock_%27Em_Sock_%27Em_Robots) is, what people *really* care about is [robots doing their chores](https://spectrum.ieee.org/ai-robots). This is why robot laundry folding videos are so popular: we didn’t know how to do that even a few years ago. And it is certainly something that people want! But as [this article](https://itcanthink.substack.com/p/why-is-everyones-robot-folding-clothes) so nicely articulates, basic laundry folding is in a sweet spot given the techniques we have now. It might feel like if our AI techniques can fold laundry, maybe they can do anything—but that isn’t true, and we’re going to have to invent new techniques to be really general purpose and useful.
