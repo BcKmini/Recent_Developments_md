@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/underwater-robot-electromagnetic-fin)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/white-robot-fish-swimming-underwater-with-visible-circuitry.jpg?id=62005455&width=1200&height=600&coordinates=0%2C521%2C0%2C522)  
+![](https://spectrum.ieee.org/media-library/white-robot-fish-swimming-underwater-with-visible-circuitry.jpg?id=62005455&width=1200&height=400&coordinates=0%2C1216%2C0%2C1216)  
   
 
 *This article is part of our exclusive [IEEE Journal Watch series](https://spectrum.ieee.org/collections/journal-watch/) in partnership with [IEEE Xplore](https://spectrum.ieee.org/tag/ieee-xplore).*

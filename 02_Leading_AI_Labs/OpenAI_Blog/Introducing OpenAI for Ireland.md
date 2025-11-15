@@ -1,0 +1,6 @@
+# Introducing OpenAI for Ireland
+
+**출처:** [OpenAI_Blog](https://openai.com/index/openai-for-ireland)
+
+## 요약
+OpenAI launches OpenAI for Ireland, partnering with the Irish Government, Dogpatch Labs and Patch to help SMEs, founders and young builders use AI to innovate, boost productivity and build the next generation of Irish tech startups.
