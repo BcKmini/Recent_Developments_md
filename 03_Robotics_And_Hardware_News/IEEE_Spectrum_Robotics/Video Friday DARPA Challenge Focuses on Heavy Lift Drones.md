@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/video-friday-heavy-lift-drones)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/barbell-weight-plates-flying-over-a-checkered-finish-line-in-a-sunny-field-with-flags.png?id=62177472&width=1200&height=400&coordinates=0%2C440%2C0%2C440)  
+![](https://spectrum.ieee.org/media-library/barbell-weight-plates-flying-over-a-checkered-finish-line-in-a-sunny-field-with-flags.png?id=62177472&width=1200&height=800&coordinates=300%2C0%2C300%2C0)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.

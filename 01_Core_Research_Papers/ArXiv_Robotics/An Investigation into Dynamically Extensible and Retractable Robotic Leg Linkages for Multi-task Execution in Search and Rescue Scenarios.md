@@ -1,0 +1,7 @@
+# An Investigation into Dynamically Extensible and Retractable Robotic Leg Linkages for Multi-task Execution in Search and Rescue Scenarios
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.10816)
+
+## 요약
+arXiv:2511.10816v1 Announce Type: new
+Abstract: Search and rescue (SAR) robots are required to quickly traverse terrain and perform high-force rescue tasks, necessitating both terrain adaptability and controlled high-force output. Few platforms exist today for SAR, and fewer still have the ability to cover both tasks of terrain adaptability and high-force output when performing extraction. While legged robots offer significant ability to traverse uneven terrain, they typically are unable to incorporate mechanisms that provide variable high-force outputs, unlike traditional wheel-based drive trains. This work introduces a novel concept for a dynamically extensible and retractable robot leg. Leveraging a dynamically extensible and retractable five-bar linkage design, it allows for mechanically switching between height-advantaged and force-advantaged configurations via a geometric transformation. A testbed evaluated leg performance across linkage geometries and operating modes, with empirical and analytical analyses conducted on stride length, force output, and stability. The results demonstrate that the morphing leg offers a promising path toward SAR robots that can both navigate terrain quickly and perform rescue tasks effectively.

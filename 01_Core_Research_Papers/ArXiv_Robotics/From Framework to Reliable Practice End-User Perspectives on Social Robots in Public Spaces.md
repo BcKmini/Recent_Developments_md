@@ -1,0 +1,7 @@
+# From Framework to Reliable Practice: End-User Perspectives on Social Robots in Public Spaces
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.10770)
+
+## 요약
+arXiv:2511.10770v1 Announce Type: new
+Abstract: As social robots increasingly enter public environments, their acceptance depends not only on technical reliability but also on ethical integrity, accessibility, and user trust. This paper reports on a pilot deployment of an ARI social robot functioning as a university receptionist, designed in alignment with the SecuRoPS framework for secure and ethical social robot deployment. Thirty-five students and staff interacted with the robot and provided structured feedback on safety, privacy, usability, accessibility, and transparency. The results show generally positive perceptions of physical safety, data protection, and ethical behavior, while also highlighting challenges related to accessibility, inclusiveness, and dynamic interaction. Beyond the empirical findings, the study demonstrates how theoretical frameworks for ethical and secure design can be implemented in real-world contexts through end-user evaluation. It also provides a public GitHub repository containing reusable templates for ARI robot applications to support reproducibility and lower the entry barrier for new researchers. By combining user perspectives with practical technical resources, this work contributes to ongoing discussions in AI and society and supports the development of trustworthy, inclusive, and ethically responsible social robots for public spaces.
