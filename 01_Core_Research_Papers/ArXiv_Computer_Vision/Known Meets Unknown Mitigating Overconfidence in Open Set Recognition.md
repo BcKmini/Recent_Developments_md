@@ -1,0 +1,7 @@
+# Known Meets Unknown: Mitigating Overconfidence in Open Set Recognition
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2511.13775)
+
+## 요약
+arXiv:2511.13775v1 Announce Type: new
+Abstract: Open Set Recognition (OSR) requires models not only to accurately classify known classes but also to effectively reject unknown samples. However, when unknown samples are semantically similar to known classes, inter-class overlap in the feature space often causes models to assign unjustifiably high confidence to them, leading to misclassification as known classes -- a phenomenon known as overconfidence. This overconfidence undermines OSR by blurring the decision boundary between known and unknown classes. To address this issue, we propose a framework that explicitly mitigates overconfidence caused by inter-class overlap. The framework consists of two components: a perturbation-based uncertainty estimation module, which applies controllable parameter perturbations to generate diverse predictions and quantify predictive uncertainty, and an unknown detection module with distinct learning-based classifiers, implemented as a two-stage procedure, which leverages the estimated uncertainty to improve discrimination between known and unknown classes, thereby enhancing OSR performance. Experimental results on three public datasets show that the proposed framework achieves superior performance over existing OSR methods.

@@ -1,0 +1,7 @@
+# BIM-Discrepancy-Driven Active Sensing for Risk-Aware UAV-UGV Navigation
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.14037)
+
+## 요약
+arXiv:2511.14037v1 Announce Type: new
+Abstract: This paper presents a BIM-discrepancy-driven active sensing framework for cooperative navigation between unmanned aerial vehicles (UAVs) and unmanned ground vehicles (UGVs) in dynamic construction environments. Traditional navigation approaches rely on static Building Information Modeling (BIM) priors or limited onboard perception. In contrast, our framework continuously fuses real-time LiDAR data from aerial and ground robots with BIM priors to maintain an evolving 2D occupancy map. We quantify navigation safety through a unified corridor-risk metric integrating occupancy uncertainty, BIM-map discrepancy, and clearance. When risk exceeds safety thresholds, the UAV autonomously re-scans affected regions to reduce uncertainty and enable safe replanning. Validation in PX4-Gazebo simulation with Robotec GPU LiDAR demonstrates that risk-triggered re-scanning reduces mean corridor risk by 58% and map entropy by 43% compared to static BIM navigation, while maintaining clearance margins above 0.4 m. Compared to frontier-based exploration, our approach achieves similar uncertainty reduction in half the mission time. These results demonstrate that integrating BIM priors with risk-adaptive aerial sensing enables scalable, uncertainty-aware autonomy for construction robotics.

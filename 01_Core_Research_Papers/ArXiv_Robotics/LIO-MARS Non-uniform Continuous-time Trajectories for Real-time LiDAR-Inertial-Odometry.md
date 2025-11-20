@@ -1,0 +1,7 @@
+# LIO-MARS: Non-uniform Continuous-time Trajectories for Real-time LiDAR-Inertial-Odometry
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.13985)
+
+## 요약
+arXiv:2511.13985v1 Announce Type: new
+Abstract: Autonomous robotic systems heavily rely on environment knowledge to safely navigate. For search & rescue, a flying robot requires robust real-time perception, enabled by complementary sensors. IMU data constrains acceleration and rotation, whereas LiDAR measures accurate distances around the robot. Building upon the LiDAR odometry MARS, our LiDAR-inertial odometry (LIO) jointly aligns multi-resolution surfel maps with a Gaussian mixture model (GMM) using a continuous-time B-spline trajectory. Our new scan window uses non-uniform temporal knot placement to ensure continuity over the whole trajectory without additional scan delay. Moreover, we accelerate essential covariance and GMM computations with Kronecker sums and products by a factor of 3.3. An unscented transform de-skews surfels, while a splitting into intra-scan segments facilitates motion compensation during spline optimization. Complementary soft constraints on relative poses and preintegrated IMU pseudo-measurements further improve robustness and accuracy. Extensive evaluation showcases the state-of-the-art quality of our LIO-MARS w.r.t. recent LIO systems on various handheld, ground and aerial vehicle-based datasets.
