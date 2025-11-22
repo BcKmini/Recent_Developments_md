@@ -1,0 +1,7 @@
+# Beyond Tsybakov: Model Margin Noise and $\mathcal{H}$-Consistency Bounds
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2511.15816)
+
+## 요약
+arXiv:2511.15816v1 Announce Type: new
+Abstract: We introduce a new low-noise condition for classification, the Model Margin Noise (MM noise) assumption, and derive enhanced $\mathcal{H}$-consistency bounds under this condition. MM noise is weaker than Tsybakov noise condition: it is implied by Tsybakov noise condition but can hold even when Tsybakov fails, because it depends on the discrepancy between a given hypothesis and the Bayes-classifier rather than on the intrinsic distributional minimal margin (see Figure 1 for an illustration of an explicit example). This hypothesis-dependent assumption yields enhanced $\mathcal{H}$-consistency bounds for both binary and multi-class classification. Our results extend the enhanced $\mathcal{H}$-consistency bounds of Mao, Mohri, and Zhong (2025a) with the same favorable exponents but under a weaker assumption than the Tsybakov noise condition; they interpolate smoothly between linear and square-root regimes for intermediate noise levels. We also instantiate these bounds for common surrogate loss families and provide illustrative tables.
