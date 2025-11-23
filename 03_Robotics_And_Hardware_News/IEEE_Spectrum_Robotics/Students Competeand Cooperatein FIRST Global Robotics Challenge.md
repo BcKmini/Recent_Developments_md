@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/first-global-robotics-challenge)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-group-of-students-and-adults-from-different-countries-pose-with-robots-in-front-of-signage-for-the-first-global-robotics-compe.jpg?id=62186165&width=1245&height=700&coordinates=0%2C86%2C0%2C86)  
+![](https://spectrum.ieee.org/media-library/a-group-of-students-and-adults-from-different-countries-pose-with-robots-in-front-of-signage-for-the-first-global-robotics-compe.jpg?id=62186165&width=1200&height=800&coordinates=236%2C0%2C237%2C0)  
   
 
 Aspiring engineers from 191 countries gathered in Panama City in October to compete in the [FIRST Global Robotics Challenge](https://first.global/fgc/). The annual contest aims to foster problem-solving, cooperation, and inspire the next generation of engineers through three challenges that are inspired by a different theme every year. Teams of students from 14 to 18 years old from around the world compete in the three day event, remotely operating their [robots](https://spectrum.ieee.org/robocup-robots-guide) to complete the challenges. This year’s topic was “Eco-equilibrium,” emphasizing the importance of [preserving ecosystems](https://spectrum.ieee.org/google-deepmind-alphaearth-foundations-ai) and protecting vulnerable species.
