@@ -1,0 +1,7 @@
+# Multi-UAV Swarm Obstacle Avoidance Based on Potential Field Optimization
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.16911)
+
+## 요약
+arXiv:2511.16911v1 Announce Type: new
+Abstract: In multi UAV scenarios,the traditional Artificial Potential Field (APF) method often leads to redundant flight paths and frequent abrupt heading changes due to unreasonable obstacle avoidance path planning,and is highly prone to inter UAV collisions during the obstacle avoidance process.To address these issues,this study proposes a novel hybrid algorithm that combines the improved Multi-Robot Formation Obstacle Avoidance (MRF IAPF) algorithm with an enhanced APF optimized for single UAV path planning.Its core ideas are as follows:first,integrating three types of interaction forces from MRF IAPF obstacle repulsion force,inter UAV interaction force,and target attraction force;second,incorporating a refined single UAV path optimization mechanism,including collision risk assessment and an auxiliary sub goal strategy.When a UAV faces a high collision threat,temporary waypoints are generated to guide obstacle avoidance,ensuring eventual precise arrival at the actual target.Simulation results demonstrate that compared with traditional APF based formation algorithms,the proposed algorithm achieves significant improvements in path length optimization and heading stability,can effectively avoid obstacles and quickly restore the formation configuration,thus verifying its applicability and effectiveness in static environments with unknown obstacles.

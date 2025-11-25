@@ -1,0 +1,7 @@
+# Joint Design of Protein Surface and Structure Using a Diffusion Bridge Model
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2511.16675)
+
+## 요약
+arXiv:2511.16675v1 Announce Type: new
+Abstract: Protein-protein interactions (PPIs) are governed by surface complementarity and hydrophobic interactions at protein interfaces. However, designing diverse and physically realistic protein structure and surfaces that precisely complement target receptors remains a significant challenge in computational protein design. In this work, we introduce PepBridge, a novel framework for the joint design of protein surface and structure that seamlessly integrates receptor surface geometry and biochemical properties. Starting with a receptor surface represented as a 3D point cloud, PepBridge generates complete protein structures through a multi-step process. First, it employs denoising diffusion bridge models (DDBMs) to map receptor surfaces to ligand surfaces. Next, a multi-model diffusion model predicts the corresponding structure, while Shape-Frame Matching Networks ensure alignment between surface geometry and backbone architecture. This integrated approach facilitates surface complementarity, conformational stability, and chemical feasibility. Extensive validation across diverse protein design scenarios demonstrates PepBridge's efficacy in generating structurally viable proteins, representing a significant advancement in the joint design of top-down protein structure.

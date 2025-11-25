@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/soft-edible-robot)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/sands-shift-in-a-glass-box-as-an-orange-robotic-worm-surfaces.gif?id=62162692&width=2000&height=1500&coordinates=23%2C0%2C23%2C0)  
+![](https://spectrum.ieee.org/media-library/sands-shift-in-a-glass-box-as-an-orange-robotic-worm-surfaces.gif?id=62162692&width=1200&height=800&coordinates=0%2C10%2C0%2C10)  
   
 
 While there are many useful questions to ask when encountering a new robot, “can I eat it” is generally not one of them. I say ‘generally,’ because [edible robots are actually a thing](https://spectrum.ieee.org/tag/edible-robots)—and not just edible in the sense that you can technically swallow them and suffer [both the benefits and consequences](https://spectrum.ieee.org/magnetic-pill-sized-robot-cartwheel), but **ingestible**, where you can [take a big bite out of the robot](https://spectrum.ieee.org/edible-robots-2667244222), chew it up, and swallow it.
