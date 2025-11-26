@@ -1,0 +1,7 @@
+# Multimodal AI for Body Fat Estimation: Computer Vision and Anthropometry with DEXA Benchmarks
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2511.17576)
+
+## 요약
+arXiv:2511.17576v1 Announce Type: new
+Abstract: Tracking body fat percentage is essential for effective weight management, yet gold-standard methods such as DEXA scans remain expensive and inaccessible for most people. This study evaluates the feasibility of artificial intelligence (AI) models as low-cost alternatives using frontal body images and basic anthropometric data. The dataset consists of 535 samples: 253 cases with recorded anthropometric measurements (weight, height, neck, ankle, and wrist) and 282 images obtained via web scraping from Reddit posts with self-reported body fat percentages, including some reported as DEXA-derived by the original posters. Because no public datasets exist for computer-vision-based body fat estimation, this dataset was compiled specifically for this study. Two approaches were developed: (1) ResNet-based image models and (2) regression models using anthropometric measurements. A multimodal fusion framework is also outlined for future expansion once paired datasets become available. The image-based model achieved a Root Mean Square Error (RMSE) of 4.44% and a Coefficient of Determination (R^2) of 0.807. These findings demonstrate that AI-assisted models can offer accessible and low-cost body fat estimates, supporting future consumer applications in health and fitness.

@@ -1,0 +1,7 @@
+# AUTOSAR AP and ROS 2 Collaboration Framework
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.17540)
+
+## 요약
+arXiv:2511.17540v1 Announce Type: new
+Abstract: The field of autonomous vehicle research is advancing rapidly, necessitating platforms that meet real-time performance, safety, and security requirements for practical deployment. AUTOSAR Adaptive Platform (AUTOSAR AP) is widely adopted in development to meet these criteria; however, licensing constraints and tool implementation challenges limit its use in research. Conversely, Robot Operating System 2 (ROS 2) is predominantly used in research within the autonomous driving domain, leading to a disparity between research and development platforms that hinders swift commercialization. This paper proposes a collaboration framework that enables AUTOSAR AP and ROS 2 to communicate with each other using a Data Distribution Service for Real-Time Systems (DDS). In contrast, AUTOSAR AP uses Scalable service-Oriented Middleware over IP (SOME/IP) for communication. The proposed framework bridges these protocol differences, ensuring seamless interaction between the two platforms. We validate the functionality and performance of our bridge converter through empirical analysis, demonstrating its efficiency in conversion time and ease of integration with ROS 2 tools. Furthermore, the availability of the proposed collaboration framework is improved by automatically generating a configuration file for the proposed bridge converter.

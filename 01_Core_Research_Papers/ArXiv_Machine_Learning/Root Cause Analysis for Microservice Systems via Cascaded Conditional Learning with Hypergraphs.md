@@ -1,0 +1,7 @@
+# Root Cause Analysis for Microservice Systems via Cascaded Conditional Learning with Hypergraphs
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2511.17566)
+
+## 요약
+arXiv:2511.17566v1 Announce Type: new
+Abstract: Root cause analysis in microservice systems typically involves two core tasks: root cause localization (RCL) and failure type identification (FTI). Despite substantial research efforts, conventional diagnostic approaches still face two key challenges. First, these methods predominantly adopt a joint learning paradigm for RCL and FTI to exploit shared information and reduce training time. However, this simplistic integration neglects the causal dependencies between tasks, thereby impeding inter-task collaboration and information transfer. Second, these existing methods primarily focus on point-to-point relationships between instances, overlooking the group nature of inter-instance influences induced by deployment configurations and load balancing. To overcome these limitations, we propose CCLH, a novel root cause analysis framework that orchestrates diagnostic tasks based on cascaded conditional learning. CCLH provides a three-level taxonomy for group influences between instances and incorporates a heterogeneous hypergraph to model these relationships, facilitating the simulation of failure propagation. Extensive experiments conducted on datasets from three microservice benchmarks demonstrate that CCLH outperforms state-of-the-art methods in both RCL and FTI.
