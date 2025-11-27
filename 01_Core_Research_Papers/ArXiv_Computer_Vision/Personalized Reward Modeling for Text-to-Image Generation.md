@@ -1,0 +1,7 @@
+# Personalized Reward Modeling for Text-to-Image Generation
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2511.19458)
+
+## 요약
+arXiv:2511.19458v1 Announce Type: new
+Abstract: Recent text-to-image (T2I) models generate semantically coherent images from textual prompts, yet evaluating how well they align with individual user preferences remains an open challenge. Conventional evaluation methods, general reward functions or similarity-based metrics, fail to capture the diversity and complexity of personal visual tastes. In this work, we present PIGReward, a personalized reward model that dynamically generates user-conditioned evaluation dimensions and assesses images through CoT reasoning. To address the scarcity of user data, PIGReward adopt a self-bootstrapping strategy that reasons over limited reference data to construct rich user contexts, enabling personalization without user-specific training. Beyond evaluation, PIGReward provides personalized feedback that drives user-specific prompt optimization, improving alignment between generated images and individual intent. We further introduce PIGBench, a per-user preference benchmark capturing diverse visual interpretations of shared prompts. Extensive experiments demonstrate that PIGReward surpasses existing methods in both accuracy and interpretability, establishing a scalable and reasoning-based foundation for personalized T2I evaluation and optimization. Taken together, our findings highlight PIGReward as a robust steptoward individually aligned T2I generation.
