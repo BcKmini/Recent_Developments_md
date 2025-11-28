@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/robots-folding-clothes)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-silver-and-black-bipedal-humanoid-uses-its-five-fingered-hands-to-gray-towels-a-towel-to-be-folded-sits-on-one-side-and-on-t.gif?id=62207438&width=1200&height=400&coordinates=0%2C168%2C0%2C169)  
+![](https://spectrum.ieee.org/media-library/a-silver-and-black-bipedal-humanoid-uses-its-five-fingered-hands-to-gray-towels-a-towel-to-be-folded-sits-on-one-side-and-on-t.gif?id=62207438&width=1245&height=700&coordinates=0%2C37%2C0%2C37)  
   
 
 It seems like every week there’s a new video of a robot folding clothes. We’ve had some fantastic demonstrations, like [this semi-autonomous video from Weave Robotics on X](https://x.com/weaverobotics/status/1954951502671515897).
