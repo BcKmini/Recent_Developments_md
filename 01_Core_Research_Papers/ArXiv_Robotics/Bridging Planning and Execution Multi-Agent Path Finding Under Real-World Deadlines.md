@@ -1,0 +1,7 @@
+# Bridging Planning and Execution: Multi-Agent Path Finding Under Real-World Deadlines
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.21886)
+
+## 요약
+arXiv:2511.21886v1 Announce Type: new
+Abstract: The Multi-Agent Path Finding (MAPF) problem aims to find collision-free paths for multiple agents while optimizing objectives such as the sum of costs or makespan. MAPF has wide applications in domains like automated warehouses, manufacturing systems, and airport logistics. However, most MAPF formulations assume a simplified robot model for planning, which overlooks execution-time factors such as kinodynamic constraints, communication latency, and controller variability. This gap between planning and execution is problematic for time-sensitive applications. To bridge this gap, we propose REMAP, an execution-informed MAPF planning framework that can be combined with leading search-based MAPF planners with minor changes. Our framework integrates the proposed ExecTimeNet to accurately estimate execution time based on planned paths. We demonstrate our method for solving MAPF with Real-world Deadlines (MAPF-RD) problem, where agents must reach their goals before a predefined wall-clock time. We integrate our framework with two popular MAPF methods, MAPF-LNS and CBS. Experiments show that REMAP achieves up to 20% improvement in solution quality over baseline methods (e.g., constant execution speed estimators) on benchmark maps with up to 300 agents.

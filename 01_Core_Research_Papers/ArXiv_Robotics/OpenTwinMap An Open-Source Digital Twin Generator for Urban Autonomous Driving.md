@@ -1,0 +1,7 @@
+# OpenTwinMap: An Open-Source Digital Twin Generator for Urban Autonomous Driving
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2511.21925)
+
+## 요약
+arXiv:2511.21925v1 Announce Type: new
+Abstract: Digital twins of urban environments play a critical role in advancing autonomous vehicle (AV) research by enabling simulation, validation, and integration with emerging generative world models. While existing tools have demonstrated value, many publicly available solutions are tightly coupled to specific simulators, difficult to extend, or introduce significant technical overhead. For example, CARLA-the most widely used open-source AV simulator-provides a digital twin framework implemented entirely as an Unreal Engine C++ plugin, limiting flexibility and rapid prototyping. In this work, we propose OpenTwinMap, an open-source, Python-based framework for generating high-fidelity 3D urban digital twins. The completed framework will ingest LiDAR scans and OpenStreetMap (OSM) data to produce semantically segmented static environment assets, including road networks, terrain, and urban structures, which can be exported into Unreal Engine for AV simulation. OpenTwinMap emphasizes extensibility and parallelization, lowering the barrier for researchers to adapt and scale the pipeline to diverse urban contexts. We describe the current capabilities of the OpenTwinMap, which includes preprocessing of OSM and LiDAR data, basic road mesh and terrain generation, and preliminary support for CARLA integration.
