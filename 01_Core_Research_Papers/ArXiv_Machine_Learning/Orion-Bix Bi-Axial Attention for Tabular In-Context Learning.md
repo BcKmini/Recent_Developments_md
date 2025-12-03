@@ -1,0 +1,7 @@
+# Orion-Bix: Bi-Axial Attention for Tabular In-Context Learning
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.00181)
+
+## 요약
+arXiv:2512.00181v1 Announce Type: new
+Abstract: Tabular data drive most real-world machine learning applications, yet building general-purpose models for them remains difficult. Mixed numeric and categorical fields, weak feature structure, and limited labeled data make scaling and generalization challenging. To this end, we introduce Orion-Bix, a tabular foundation model that combines biaxial attention with meta-learned in-context reasoning for few-shot tabular learning. Its encoder alternates standard, grouped, hierarchical, and relational attention, fusing their outputs through multi-CLS summarization to capture both local and global dependencies efficiently. A label-aware ICL head adapts on the fly and scales to large label spaces via hierarchical decision routing. Meta-trained on synthetically generated, structurally diverse tables with causal priors, Orion-Bix learns transferable inductive biases across heterogeneous data. Delivered as a scikit-learn compatible foundation model, it outperforms gradient-boosting baselines and remains competitive with state-of-the-art tabular foundation models on public benchmarks, showing that biaxial attention with episodic meta-training enables robust, few-shot-ready tabular learning. The model is publicly available at https://github.com/Lexsi-Labs/Orion-BiX .
