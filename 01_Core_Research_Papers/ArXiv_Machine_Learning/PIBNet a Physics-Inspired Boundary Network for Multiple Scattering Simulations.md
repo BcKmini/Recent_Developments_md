@@ -1,0 +1,7 @@
+# PIBNet: a Physics-Inspired Boundary Network for Multiple Scattering Simulations
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.02049)
+
+## 요약
+arXiv:2512.02049v1 Announce Type: new
+Abstract: The boundary element method (BEM) provides an efficient numerical framework for solving multiple scattering problems in unbounded homogeneous domains, since it reduces the discretization to the domain boundaries, thereby condensing the computational complexity. The procedure first consists in determining the solution trace on the boundaries of the domain by solving a boundary integral equation, after which the volumetric solution can be recovered at low computational cost with a boundary integral representation. As the first step of the BEM represents the main computational bottleneck, we introduce PIBNet, a learning-based approach designed to approximate the solution trace. The method leverages a physics-inspired graph-based strategy to model obstacles and their long-range interactions efficiently. Then, we introduce a novel multiscale graph neural network architecture for simulating the multiple scattering. To train and evaluate our network, we present a benchmark consisting of several datasets of different types of multiple scattering problems. The results indicate that our approach not only surpasses existing state-of-the-art learning-based methods on the considered tasks but also exhibits superior generalization to settings with an increased number of obstacles. github.com/ENSTA-U2IS-AI/pibnet

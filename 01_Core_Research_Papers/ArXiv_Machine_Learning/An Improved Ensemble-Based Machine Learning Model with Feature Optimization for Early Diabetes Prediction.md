@@ -1,0 +1,7 @@
+# An Improved Ensemble-Based Machine Learning Model with Feature Optimization for Early Diabetes Prediction
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.02023)
+
+## 요약
+arXiv:2512.02023v1 Announce Type: new
+Abstract: Diabetes is a serious worldwide health issue, and successful intervention depends on early detection. However, overlapping risk factors and data asymmetry make prediction difficult. To use extensive health survey data to create a machine learning framework for diabetes classification that is both accurate and comprehensible, to produce results that will aid in clinical decision-making. Using the BRFSS dataset, we assessed a number of supervised learning techniques. SMOTE and Tomek Links were used to correct class imbalance. To improve prediction performance, both individual models and ensemble techniques such as stacking were investigated. The 2015 BRFSS dataset, which includes roughly 253,680 records with 22 numerical features, is used in this study. Strong ROC-AUC performance of approximately 0.96 was attained by the individual models Random Forest, XGBoost, CatBoost, and LightGBM.The stacking ensemble with XGBoost and KNN yielded the best overall results with 94.82\% accuracy, ROC-AUC of 0.989, and PR-AUC of 0.991, indicating a favourable balance between recall and precision. In our study, we proposed and developed a React Native-based application with a Python Flask backend to support early diabetes prediction, providing users with an accessible and efficient health monitoring tool.
