@@ -1,0 +1,7 @@
+# Delta Sampling: Data-Free Knowledge Transfer Across Diffusion Models
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.03056)
+
+## 요약
+arXiv:2512.03056v1 Announce Type: new
+Abstract: Diffusion models like Stable Diffusion (SD) drive a vibrant open-source ecosystem including fully fine-tuned checkpoints and parameter-efficient adapters such as LoRA, LyCORIS, and ControlNet. However, these adaptation components are tightly coupled to a specific base model, making them difficult to reuse when the base model is upgraded (e.g., from SD 1.x to 2.x) due to substantial changes in model parameters and architecture. In this work, we propose Delta Sampling (DS), a novel method that enables knowledge transfer across base models with different architectures, without requiring access to the original training data. DS operates entirely at inference time by leveraging the delta: the difference in model predictions before and after the adaptation of a base model. This delta is then used to guide the denoising process of a new base model. We evaluate DS across various SD versions, demonstrating that DS achieves consistent improvements in creating desired effects (e.g., visual styles, semantic concepts, and structures) under different sampling strategies. These results highlight DS as an effective, plug-and-play mechanism for knowledge transfer in diffusion-based image synthesis. Code:~ https://github.com/Zhidong-Gao/DeltaSampling

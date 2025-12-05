@@ -1,0 +1,7 @@
+# Surfel-LIO: Fast LiDAR-Inertial Odometry with Pre-computed Surfels and Hierarchical Z-order Voxel Hashing
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2512.03397)
+
+## 요약
+arXiv:2512.03397v1 Announce Type: new
+Abstract: LiDAR-inertial odometry (LIO) is an active research area, as it enables accurate real-time state estimation in GPS-denied environments. Recent advances in map data structures and spatial indexing have significantly improved the efficiency of LIO systems. Nevertheless, we observe that two aspects may still leave room for improvement: (1) nearest neighbor search often requires examining multiple spatial units to gather sufficient points for plane fitting, and (2) plane parameters are typically recomputed at every iteration despite unchanged map geometry. Motivated by these observations, we propose Surfel-LIO, which employs a hierarchical voxel structure (hVox) with pre-computed surfel representation. This design enables O(1) correspondence retrieval without runtime neighbor enumeration or plane fitting, combined with Z-order curve encoding for cache-friendly spatial indexing. Experimental results on the M3DGR dataset demonstrate that our method achieves significantly faster processing speed compared to recent state-of-the-art methods while maintaining comparable state estimation accuracy. Our implementation is publicly available at https://github.com/93won/lidar\_inertial\_odometry.
