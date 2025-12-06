@@ -1,0 +1,7 @@
+# MoReGen: Multi-Agent Motion-Reasoning Engine for Code-based Text-to-Video Synthesis
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.04221)
+
+## 요약
+arXiv:2512.04221v1 Announce Type: new
+Abstract: While text-to-video (T2V) generation has achieved remarkable progress in photorealism, generating intent-aligned videos that faithfully obey physics principles remains a core challenge. In this work, we systematically study Newtonian motion-controlled text-to-video generation and evaluation, emphasizing physical precision and motion coherence. We introduce MoReGen, a motion-aware, physics-grounded T2V framework that integrates multi-agent LLMs, physics simulators, and renderers to generate reproducible, physically accurate videos from text prompts in the code domain. To quantitatively assess physical validity, we propose object-trajectory correspondence as a direct evaluation metric and present MoReSet, a benchmark of 1,275 human-annotated videos spanning nine classes of Newtonian phenomena with scene descriptions, spatiotemporal relations, and ground-truth trajectories. Using MoReSet, we conduct experiments on existing T2V models, evaluating their physical validity through both our MoRe metrics and existing physics-based evaluators. Our results reveal that state-of-the-art models struggle to maintain physical validity, while MoReGen establishes a principled direction toward physically coherent video synthesis.

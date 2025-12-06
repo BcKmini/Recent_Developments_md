@@ -1,0 +1,7 @@
+# Generalized Event Partonomy Inference with Structured Hierarchical Predictive Learning
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.04219)
+
+## 요약
+arXiv:2512.04219v1 Announce Type: new
+Abstract: Humans naturally perceive continuous experience as a hierarchy of temporally nested events, fine-grained actions embedded within coarser routines. Replicating this structure in computer vision requires models that can segment video not just retrospectively, but predictively and hierarchically. We introduce PARSE, a unified framework that learns multiscale event structure directly from streaming video without supervision. PARSE organizes perception into a hierarchy of recurrent predictors, each operating at its own temporal granularity: lower layers model short-term dynamics while higher layers integrate longer-term context through attention-based feedback. Event boundaries emerge naturally as transient peaks in prediction error, yielding temporally coherent, nested partonomies that mirror the containment relations observed in human event perception. Evaluated across three benchmarks, Breakfast Actions, 50 Salads, and Assembly 101, PARSE achieves state-of-the-art performance among streaming methods and rivals offline baselines in both temporal alignment (H-GEBD) and structural consistency (TED, hF1). The results demonstrate that predictive learning under uncertainty provides a scalable path toward human-like temporal abstraction and compositional event understanding.
