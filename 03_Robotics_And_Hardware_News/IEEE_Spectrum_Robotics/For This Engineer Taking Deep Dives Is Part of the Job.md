@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/levi-unema-underwater-robotics-exploration)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-person-stands-on-a-boat-in-front-of-a-large-mechanical-apparatus-bearing-noaa-logo.png?id=62218869&width=1245&height=700&coordinates=0%2C409%2C0%2C409)  
+![](https://spectrum.ieee.org/media-library/a-person-stands-on-a-boat-in-front-of-a-large-mechanical-apparatus-bearing-noaa-logo.png?id=62218869&width=2000&height=1500&coordinates=0%2C71%2C0%2C72)  
   
 
 Early in [Levi Unema](https://www.linkedin.com/in/levi-unema-a5614381/)’s career as an electrical engineer, he was presented with an unusual opportunity. While working on assembly lines at an automotive parts supplier in 2015, he got a surprise call from his high-school science teacher that set him off on an entirely new path: piloting underwater robots to explore [the ocean’s deepest abysses](https://spectrum.ieee.org/underwater-robotics).
