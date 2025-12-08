@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/remote-robotic-stroke-treatment-evt)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/dr-vitor-pereira-remotely-performing-a-surgical-procedure-using-remedy-robotics-n1-system.jpg?id=62225319&width=2000&height=1500&coordinates=150%2C0%2C150%2C0)  
+![](https://spectrum.ieee.org/media-library/dr-vitor-pereira-remotely-performing-a-surgical-procedure-using-remedy-robotics-n1-system.jpg?id=62225319&width=1200&height=800&coordinates=56%2C0%2C56%2C0)  
   
 
 When treating strokes, every second counts. But for patients in remote areas, it may take hours to receive treatment.

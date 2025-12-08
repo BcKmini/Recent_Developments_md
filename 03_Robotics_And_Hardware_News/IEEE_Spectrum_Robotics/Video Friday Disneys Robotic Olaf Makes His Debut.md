@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/video-friday-disney-robot-olaf)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/olaf-the-snowman-animatronic-with-details-in-a-tech-workshop-setting.png?id=62240105&width=2000&height=1500&coordinates=27%2C0%2C27%2C0)  
+![](https://spectrum.ieee.org/media-library/olaf-the-snowman-animatronic-with-details-in-a-tech-workshop-setting.png?id=62240105&width=1200&height=800&coordinates=0%2C30%2C0%2C31)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.
