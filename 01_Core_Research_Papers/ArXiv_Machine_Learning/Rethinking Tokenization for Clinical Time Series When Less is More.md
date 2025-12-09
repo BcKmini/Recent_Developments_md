@@ -1,0 +1,7 @@
+# Rethinking Tokenization for Clinical Time Series: When Less is More
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.05217)
+
+## 요약
+arXiv:2512.05217v1 Announce Type: new
+Abstract: Tokenization strategies shape how models process electronic health records, yet fair comparisons of their effectiveness remain limited. We present a systematic evaluation of tokenization approaches for clinical time series modeling using transformer-based architectures, revealing task-dependent and sometimes counterintuitive findings about temporal and value feature importance. Through controlled ablations across four clinical prediction tasks on MIMIC-IV, we demonstrate that explicit time encodings provide no consistent statistically significant benefit for the evaluated downstream tasks. Value features show task-dependent importance, affecting mortality prediction but not readmission, suggesting code sequences alone can carry sufficient predictive signal. We further show that frozen pretrained code encoders dramatically outperform their trainable counterparts while requiring dramatically fewer parameters. Larger clinical encoders provide consistent improvements across tasks, benefiting from frozen embeddings that eliminate computational overhead. Our controlled evaluation enables fairer tokenization comparisons and demonstrates that simpler, parameter-efficient approaches can, in many cases, achieve strong performance, though the optimal tokenization strategy remains task-dependent.
