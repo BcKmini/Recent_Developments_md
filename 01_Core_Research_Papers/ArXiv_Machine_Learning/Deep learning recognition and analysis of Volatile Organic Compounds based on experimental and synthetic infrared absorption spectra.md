@@ -1,0 +1,7 @@
+# Deep learning recognition and analysis of Volatile Organic Compounds based on experimental and synthetic infrared absorption spectra
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.06059)
+
+## 요약
+arXiv:2512.06059v1 Announce Type: new
+Abstract: Volatile Organic Compounds (VOCs) are organic molecules that have low boiling points and therefore easily evaporate into the air. They pose significant risks to human health, making their accurate detection the crux of efforts to monitor and minimize exposure. Infrared (IR) spectroscopy enables the ultrasensitive detection at low-concentrations of VOCs in the atmosphere by measuring their IR absorption spectra. However, the complexity of the IR spectra limits the possibility to implement VOC recognition and quantification in real-time. While deep neural networks (NNs) are increasingly used for the recognition of complex data structures, they typically require massive datasets for the training phase. Here, we create an experimental VOC dataset for nine different classes of compounds at various concentrations, using their IR absorption spectra. To further increase the amount of spectra and their diversity in term of VOC concentration, we augment the experimental dataset with synthetic spectra created via conditional generative NNs. This allows us to train robust discriminative NNs, able to reliably identify the nine VOCs, as well as to precisely predict their concentrations. The trained NN is suitable to be incorporated into sensing devices for VOCs recognition and analysis.

@@ -1,0 +1,7 @@
+# Closed-Loop Robotic Manipulation of Transparent Substrates for Self-Driving Laboratories using Deep Learning Micro-Error Correction
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2512.06038)
+
+## 요약
+arXiv:2512.06038v1 Announce Type: new
+Abstract: Self-driving laboratories (SDLs) have accelerated the throughput and automation capabilities for discovering and improving chemistries and materials. Although these SDLs have automated many of the steps required to conduct chemical and materials experiments, a commonly overlooked step in the automation pipeline is the handling and reloading of substrates used to transfer or deposit materials onto for downstream characterization. Here, we develop a closed-loop method of Automated Substrate Handling and Exchange (ASHE) using robotics, dual-actuated dispensers, and deep learning-driven computer vision to detect and correct errors in the manipulation of fragile and transparent substrates for SDLs. Using ASHE, we demonstrate a 98.5% first-time placement accuracy across 130 independent trials of reloading transparent glass substrates into an SDL, where only two substrate misplacements occurred and were successfully detected as errors and automatically corrected. Through the development of more accurate and reliable methods for handling various types of substrates, we move toward an improvement in the automation capabilities of self-driving laboratories, furthering the acceleration of novel chemical and materials discoveries.

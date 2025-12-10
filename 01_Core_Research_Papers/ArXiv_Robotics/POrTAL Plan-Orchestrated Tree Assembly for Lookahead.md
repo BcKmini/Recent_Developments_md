@@ -1,0 +1,7 @@
+# POrTAL: Plan-Orchestrated Tree Assembly for Lookahead
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2512.06002)
+
+## 요약
+arXiv:2512.06002v1 Announce Type: new
+Abstract: Assigning tasks to robots often involves supplying the robot with an overarching goal, such as through natural language, and then relying on the robot to uncover and execute a plan to achieve that goal. In many settings common to human-robot interaction, however, the world is only partially observable to the robot, requiring that it create plans under uncertainty. Although many probabilistic planning algorithms exist for this purpose, these algorithms can be inefficient if executed with the robot's limited computational resources, or may require more steps than expected to achieve the goal. We thereby created a new, lightweight, probabilistic planning algorithm, Plan-Orchestrated Tree Assembly for Lookahead (POrTAL), that combines the strengths of two baseline planning algorithms, FF-Replan and POMCP. In a series of case studies, we demonstrate POrTAL's ability to quickly arrive at solutions that outperform these baselines in terms of number of steps. We additionally demonstrate how POrTAL performs under varying temporal constraints.
