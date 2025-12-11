@@ -1,0 +1,7 @@
+# RaX-Crash: A Resource Efficient and Explainable Small Model Pipeline with an Application to City Scale Injury Severity Prediction
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.07848)
+
+## 요약
+arXiv:2512.07848v1 Announce Type: new
+Abstract: New York City reports over one hundred thousand motor vehicle collisions each year, creating substantial injury and public health burden. We present RaX-Crash, a resource efficient and explainable small model pipeline for structured injury severity prediction on the official NYC Motor Vehicle Collisions dataset. RaX-Crash integrates three linked tables with tens of millions of records, builds a unified feature schema in partitioned storage, and trains compact tree based ensembles (Random Forest and XGBoost) on engineered tabular features, which are compared against locally deployed small language models (SLMs) prompted with textual summaries. On a temporally held out test set, XGBoost and Random Forest achieve accuracies of 0.7828 and 0.7794, clearly outperforming SLMs (0.594 and 0.496); class imbalance analysis shows that simple class weighting improves fatal recall with modest accuracy trade offs, and SHAP attribution highlights human vulnerability factors, timing, and location as dominant drivers of predicted severity. Overall, RaX-Crash indicates that interpretable small model ensembles remain strong baselines for city scale injury analytics, while hybrid pipelines that pair tabular predictors with SLM generated narratives improve communication without sacrificing scalability.
