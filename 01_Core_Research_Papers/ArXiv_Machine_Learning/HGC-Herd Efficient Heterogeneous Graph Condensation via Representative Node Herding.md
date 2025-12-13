@@ -1,0 +1,7 @@
+# HGC-Herd: Efficient Heterogeneous Graph Condensation via Representative Node Herding
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.09947)
+
+## 요약
+arXiv:2512.09947v1 Announce Type: new
+Abstract: Heterogeneous graph neural networks (HGNNs) have demonstrated strong capability in modeling complex semantics across multi-type nodes and relations. However, their scalability to large-scale graphs remains challenging due to structural redundancy and high-dimensional node features. Existing graph condensation approaches, such as GCond, are primarily developed for homogeneous graphs and rely on gradient matching, resulting in considerable computational, memory, and optimization overhead. We propose HGC-Herd, a training-free condensation framework that generates compact yet informative heterogeneous graphs while maintaining both semantic and structural fidelity. HGC-Herd integrates lightweight feature propagation to encode multi-hop relational context and employs a class-wise herding mechanism to identify representative nodes per class, producing balanced and discriminative subsets for downstream learning tasks. Extensive experiments on ACM, DBLP, and Freebase validate that HGC-Herd attains comparable or superior accuracy to full-graph training while markedly reducing both runtime and memory consumption. These results underscore its practical value for efficient and scalable heterogeneous graph representation learning.

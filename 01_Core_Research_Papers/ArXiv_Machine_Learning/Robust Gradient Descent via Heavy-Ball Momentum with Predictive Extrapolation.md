@@ -1,0 +1,7 @@
+# Robust Gradient Descent via Heavy-Ball Momentum with Predictive Extrapolation
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.10033)
+
+## 요약
+arXiv:2512.10033v1 Announce Type: new
+Abstract: Accelerated gradient methods like Nesterov's Accelerated Gradient (NAG) achieve faster convergence on well-conditioned problems but often diverge on ill-conditioned or non-convex landscapes due to aggressive momentum accumulation. We propose Heavy-Ball Synthetic Gradient Extrapolation (HB-SGE), a robust first-order method that combines heavy-ball momentum with predictive gradient extrapolation. Unlike classical momentum methods that accumulate historical gradients, HB-SGE estimates future gradient directions using local Taylor approximations, providing adaptive acceleration while maintaining stability. We prove convergence guarantees for strongly convex functions and demonstrate empirically that HB-SGE prevents divergence on problems where NAG and standard momentum fail. On ill-conditioned quadratics (condition number $\kappa=50$), HB-SGE converges in 119 iterations while both SGD and NAG diverge. On the non-convex Rosenbrock function, HB-SGE achieves convergence in 2,718 iterations where classical momentum methods diverge within 10 steps. While NAG remains faster on well-conditioned problems, HB-SGE provides a robust alternative with speedup over SGD across diverse landscapes, requiring only $O(d)$ memory overhead and the same hyperparameters as standard momentum.

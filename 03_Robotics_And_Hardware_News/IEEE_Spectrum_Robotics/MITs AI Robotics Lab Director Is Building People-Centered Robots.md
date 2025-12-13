@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/mits-ai-robotics-lab-director)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/portrait-of-daniela-rus.jpg?id=62267674&width=1245&height=700&coordinates=0%2C171%2C0%2C171)  
+![](https://spectrum.ieee.org/media-library/portrait-of-daniela-rus.jpg?id=62267674&width=1200&height=800&coordinates=0%2C76%2C0%2C76)  
   
 
 [Daniela Rus](https://spectrum.ieee.org/the-heart-and-the-chip-what-could-go-wrong) has spent her career breaking barriers—scientific, social, and material—in her quest to build machines that amplify rather than replace human capability. She made robotics her life’s work, she says, because she understood it was a way to expand the possibilities of computing while enhancing human capabilities.

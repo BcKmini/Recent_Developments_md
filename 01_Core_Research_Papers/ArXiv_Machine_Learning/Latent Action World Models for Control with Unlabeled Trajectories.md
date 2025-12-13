@@ -1,0 +1,7 @@
+# Latent Action World Models for Control with Unlabeled Trajectories
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.10016)
+
+## 요약
+arXiv:2512.10016v1 Announce Type: new
+Abstract: Inspired by how humans combine direct interaction with action-free experience (e.g., videos), we study world models that learn from heterogeneous data. Standard world models typically rely on action-conditioned trajectories, which limits effectiveness when action labels are scarce. We introduce a family of latent-action world models that jointly use action-conditioned and action-free data by learning a shared latent action representation. This latent space aligns observed control signals with actions inferred from passive observations, enabling a single dynamics model to train on large-scale unlabeled trajectories while requiring only a small set of action-labeled ones. We use the latent-action world model to learn a latent-action policy through offline reinforcement learning (RL), thereby bridging two traditionally separate domains: offline RL, which typically relies on action-conditioned data, and action-free training, which is rarely used with subsequent RL. On the DeepMind Control Suite, our approach achieves strong performance while using about an order of magnitude fewer action-labeled samples than purely action-conditioned baselines. These results show that latent actions enable training on both passive and interactive data, which makes world models learn more efficiently.
