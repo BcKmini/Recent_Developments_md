@@ -1,0 +1,7 @@
+# Weakly Supervised Tuberculosis Localization in Chest X-rays through Knowledge Distillation
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.11057)
+
+## 요약
+arXiv:2512.11057v1 Announce Type: new
+Abstract: Tuberculosis (TB) remains one of the leading causes of mortality worldwide, particularly in resource-limited countries. Chest X-ray (CXR) imaging serves as an accessible and cost-effective diagnostic tool but requires expert interpretation, which is often unavailable. Although machine learning models have shown high performance in TB classification, they often depend on spurious correlations and fail to generalize. Besides, building large datasets featuring high-quality annotations for medical images demands substantial resources and input from domain specialists, and typically involves several annotators reaching agreement, which results in enormous financial and logistical expenses. This study repurposes knowledge distillation technique to train CNN models reducing spurious correlations and localize TB-related abnormalities without requiring bounding-box annotations. By leveraging a teacher-student framework with ResNet50 architecture, the proposed method trained on TBX11k dataset achieve impressive 0.2428 mIOU score. Experimental results further reveal that the student model consistently outperforms the teacher, underscoring improved robustness and potential for broader clinical deployment in diverse settings.

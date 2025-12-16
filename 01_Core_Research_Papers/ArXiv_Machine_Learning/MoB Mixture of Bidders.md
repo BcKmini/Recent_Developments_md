@@ -1,0 +1,7 @@
+# MoB: Mixture of Bidders
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.10969)
+
+## 요약
+arXiv:2512.10969v1 Announce Type: new
+Abstract: Mixture of Experts (MoE) architectures have demonstrated remarkable success in scaling neural networks, yet their application to continual learning remains fundamentally limited by a critical vulnerability: the learned gating network itself suffers from catastrophic forgetting. We introduce Mixture of Bidders (MoB), a novel framework that reconceptualizes expert routing as a decentralized economic mechanism. MoB replaces learned gating networks with Vickrey-Clarke-Groves (VCG) auctions, where experts compete for each data batch by bidding their true cost -- a principled combination of execution cost (predicted loss) and forgetting cost (Elastic Weight Consolidation penalty). This game-theoretic approach provides three key advantages: (1) {stateless routing that is immune to catastrophic forgetting, (2) \textbf{truthful bidding} guaranteed by dominant-strategy incentive compatibility, and (3) emergent specialization without explicit task boundaries. On Split-MNIST benchmarks, MoB achieves 88.77% average accuracy compared to 19.54% for Gated MoE and 27.96% for Monolithic EWC, representing a 4.5 times improvement over the strongest baseline. We further extend MoB with autonomous self-monitoring experts that detect their own knowledge consolidation boundaries, eliminating the need for explicit task demarcation.

@@ -1,0 +1,7 @@
+# Multimodal Fusion of Regional Brain Experts for Interpretable Alzheimer's Disease Diagnosis
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.10966)
+
+## 요약
+arXiv:2512.10966v1 Announce Type: new
+Abstract: Accurate and early diagnosis of Alzheimer's disease (AD) can benefit from integrating complementary information from multiple modalities, mirroring clinical practice. However, conventional fusion approaches often rely on simple concatenation of features, which cannot adaptively balance the contributions of biomarkers such as amyloid PET and MRI across brain regions. In this work, we propose MREF-AD, a Multimodal Regional Expert Fusion model for AD diagnosis. It is a Mixture-of-Experts (MoE) framework that models meso-scale brain regions in each modality as an independent expert and employs two-level gating networks to learn subject-specific fusion weights. Beyond improving diagnostic performance, MREF-AD provides modality- and region-level insight into how structural and molecular imaging jointly contribute to disease diagnosis. Using data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), MREF-AD achieves state-of-the-art performance over baselines while providing enhanced interpretability of brain region-specific biomarker relevance, underscoring its utility as a general framework for adaptive and interpretable multimodal fusion in neuroimaging.

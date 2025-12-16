@@ -1,0 +1,7 @@
+# Design and Experimental Validation of Closed-Form CBF-Based Safe Control for Stewart Platform Under Multiple Constraints
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2512.11125)
+
+## 요약
+arXiv:2512.11125v1 Announce Type: new
+Abstract: This letter presents a closed-form solution of Control Barrier Function (CBF) framework for enforcing safety constraints on a Stewart robotic platform. The proposed method simultaneously handles multiple position and velocity constraints through an explicit closed-form control law, eliminating the need to solve a Quadratic Program (QP) at every control step and enabling efficient real-time implementation. This letter derives necessary and sufficient conditions under which the closed-form expression remains non-singular, thereby ensuring well-posedness of the CBF solution to multi-constraint problem. The controller is validated in both simulation and hardware experiments on a custom-built Stewart platform prototype, demonstrating safetyguaranteed performance that is comparable to the QP-based formulation, while reducing computation time by more than an order of magnitude. The results confirm that the proposed approach provides a reliable and computationally lightweight framework for real-time safe control of parallel robotic systems. The experimental videos are available on the project website. (https://nail-uh.github.io/StewartPlatformSafeControl.github.io/)
