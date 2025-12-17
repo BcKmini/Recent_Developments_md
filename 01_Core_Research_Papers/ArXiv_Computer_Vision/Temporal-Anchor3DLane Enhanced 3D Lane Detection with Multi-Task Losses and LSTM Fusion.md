@@ -1,0 +1,7 @@
+# Temporal-Anchor3DLane: Enhanced 3D Lane Detection with Multi-Task Losses and LSTM Fusion
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.11869)
+
+## 요약
+arXiv:2512.11869v1 Announce Type: new
+Abstract: Monocular 3D lane detection remains challenging due to depth ambiguity, occlusion, and temporal instability across frames. Anchor-based approaches such as Anchor3DLane have demonstrated strong performance by regressing continuous 3D lane curves from multi-camera surround views. However, the baseline model still exhibits (i) sensitivity to regression outliers, (ii) weak supervision of global curve geometry, (iii) difficulty in balancing multiple loss terms, and (iv) limited exploitation of temporal continuity. We propose Temporal-Anchor3DLane, an enhanced 3D lane detection framework that extends Anchor3DLane with three key contributions: (1) a set of multi-task loss improvements, including Balanced L1 regression, Chamfer point-set distance, and uncertainty-based loss weighting, together with focal and Dice components for classification and visibility; (2) a lightweight Temporal LSTM Fusion module that aggregates per-anchor features across frames, replacing a heavier Transformer-style temporal fusion; and (3) ESCOP-style training refinements that couple curve-level supervision with temporal consistency. On OpenLane, Temporal-Anchor3DLane improves F1 by +6.2 and yields smoother temporal trajectories, showing that small architectural and loss refinements significantly enhance 3D lane robustness without extra sensors or scaling.

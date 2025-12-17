@@ -1,0 +1,7 @@
+# Performance and Efficiency of Climate In-Situ Data Reconstruction: Why Optimized IDW Outperforms kriging and Implicit Neural Representation
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.11832)
+
+## 요약
+arXiv:2512.11832v1 Announce Type: new
+Abstract: This study evaluates three reconstruction methods for sparse climate data: the simple inverse distance weighting (IDW), the statistically grounded ordinary kriging (OK), and the advanced implicit neural representation model (MMGN architecture). All methods were optimized through hyper-parameter tuning using validation splits. An extensive set of experiments was conducted, followed by a comprehensive statistical analysis. The results demonstrate the superiority of the simple IDW method over the other reference methods in terms of both reconstruction accuracy and computational efficiency. IDW achieved the lowest RMSE ($3.00 \pm 1.93$), MAE ($1.32 \pm 0.77$), and $\Delta\_{MAX}$ ($24.06 \pm 17.15$), as well as the highest $R^2$ ($0.68 \pm 0.16$), across 100 randomly sampled sparse datasets from the ECA\&D database. Differences in RMSE, MAE, and $R^2$ were statistically significant and exhibited moderate to large effect sizes. The Dunn post-hoc test further confirmed the consistent superiority of IDW across all evaluated quality measures [...]
