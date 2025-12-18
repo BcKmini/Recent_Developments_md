@@ -1,0 +1,7 @@
+# Physics-Guided Deep Learning for Heat Pump Stress Detection: A Comprehensive Analysis on When2Heat Dataset
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.13696)
+
+## 요약
+arXiv:2512.13696v1 Announce Type: new
+Abstract: Heat pump systems are critical components in modern energy-efficient buildings, yet their operational stress detection remains challenging due to complex thermodynamic interactions and limited real-world data. This paper presents a novel Physics-Guided Deep Neural Network (PG-DNN) approach for heat pump stress classification using the When2Heat dataset, containing 131,483 samples with 656 features across 26 European countries. The methodology integrates physics-guided feature selection and class definition with a deep neural network architecture featuring 5 hidden layers and dual regularization strategies. The model achieves 78.1\% test accuracy and 78.5% validation accuracy, demonstrating significant improvements over baseline approaches: +5.0% over shallow networks, +4.0% over limited feature sets, and +2.0% over single regularization strategies. Comprehensive ablation studies validate the effectiveness of physics-guided feature selection, variable thresholding for realistic class distribution, and cross-country energy pattern analysis. The proposed system provides a production-ready solution for heat pump stress detection with 181,348 parameters and 720 seconds training time on AMD Ryzen 9 7950X with RTX 4080 hardware.
