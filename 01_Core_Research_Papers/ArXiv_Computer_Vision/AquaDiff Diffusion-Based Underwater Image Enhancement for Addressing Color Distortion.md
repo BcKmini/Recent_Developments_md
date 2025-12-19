@@ -1,0 +1,7 @@
+# AquaDiff: Diffusion-Based Underwater Image Enhancement for Addressing Color Distortion
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.14760)
+
+## 요약
+arXiv:2512.14760v1 Announce Type: new
+Abstract: Underwater images are severely degraded by wavelength-dependent light absorption and scattering, resulting in color distortion, low contrast, and loss of fine details that hinder vision-based underwater applications. To address these challenges, we propose AquaDiff, a diffusion-based underwater image enhancement framework designed to correct chromatic distortions while preserving structural and perceptual fidelity. AquaDiff integrates a chromatic prior-guided color compensation strategy with a conditional diffusion process, where cross-attention dynamically fuses degraded inputs and noisy latent states at each denoising step. An enhanced denoising backbone with residual dense blocks and multi-resolution attention captures both global color context and local details. Furthermore, a novel cross-domain consistency loss jointly enforces pixel-level accuracy, perceptual similarity, structural integrity, and frequency-domain fidelity. Extensive experiments on multiple challenging underwater benchmarks demonstrate that AquaDiff provides good results as compared to the state-of-the-art traditional, CNN-, GAN-, and diffusion-based methods, achieving superior color correction and competitive overall image quality across diverse underwater conditions.

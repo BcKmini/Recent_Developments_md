@@ -1,0 +1,7 @@
+# SkyCap: Bitemporal VHR Optical-SAR Quartets for Amplitude Change Detection and Foundation-Model Evaluation
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.14755)
+
+## 요약
+arXiv:2512.14755v1 Announce Type: new
+Abstract: Change detection for linear infrastructure monitoring requires reliable high-resolution data and regular acquisition cadence. Optical very-high-resolution (VHR) imagery is interpretable and straightforward to label, but clouds break this cadence. Synthetic Aperture Radar (SAR) enables all-weather acquisitions, yet is difficult to annotate. We introduce SkyCap, a bitemporal VHR optical-SAR dataset constructed by archive matching and co-registration of (optical) SkySat and Capella Space (SAR) scenes. We utilize optical-to-SAR label transfer to obtain SAR amplitude change detection (ACD) labels without requiring SAR-expert annotations. We perform continued pretraining of SARATR-X on our SAR data and benchmark the resulting SAR-specific foundation models (FMs) together with SARATR-X against optical FMs on SkyCap under different preprocessing choices. Among evaluated models, MTP(ViT-B+RVSA), an optical FM, with dB+Z-score preprocessing attains the best result (F1$\_c$ = 45.06), outperforming SAR-specific FMs further pretrained directly on Capella data. We observe strong sensitivity to preprocessing alignment with pretraining statistics, and the ranking of optical models on optical change detection does not transfer one-to-one to SAR ACD. To our knowledge, this is the first evaluation of foundation models on VHR SAR ACD.

@@ -1,0 +1,7 @@
+# Autonomous Source Knowledge Selection in Multi-Domain Adaptation
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.14710)
+
+## 요약
+arXiv:2512.14710v1 Announce Type: new
+Abstract: Unsupervised multi-domain adaptation plays a key role in transfer learning by leveraging acquired rich source information from multiple source domains to solve target task from an unlabeled target domain. However, multiple source domains often contain much redundant or unrelated information which can harm transfer performance, especially when in massive-source domain settings. It is urgent to develop effective strategies for identifying and selecting the most transferable knowledge from massive source domains to address the target task. In this paper, we propose a multi-domain adaptation method named \underline{\textit{Auto}}nomous Source Knowledge \underline{\textit{S}}election (AutoS) to autonomosly select source training samples and models, enabling the prediction of target task using more relevant and transferable source information. The proposed method employs a density-driven selection strategy to choose source samples during training and to determine which source models should contribute to target prediction. Simulteneously, a pseudo-label enhancement module built on a pre-trained multimodal modal is employed to mitigate target label noise and improve self-supervision. Experiments on real-world datasets indicate the superiority of the proposed method.

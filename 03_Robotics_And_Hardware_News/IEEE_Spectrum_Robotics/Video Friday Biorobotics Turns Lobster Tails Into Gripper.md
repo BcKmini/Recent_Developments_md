@@ -40,11 +40,11 @@ When you start to suspect that your [robotic EV charging](https://spectrum.ieee.
 
 [ [Flexiv](https://www.flexiv.com/case-studies/ev_charging_solution) ]
 
-Yeah uh if the application for this humanoid is actually making robot parts with a hammer and anvil, then I’d be impressed.
+Yeah, uh, if the application for this humanoid is actually making robot parts with a hammer and anvil, then I’d be impressed.
 
 [ [EngineAI](https://www.engineai.com.cn/product-t800) ]
 
-> *Researchers at Columbia Engineering have designed a robot that can learn a human-like sense of neatness. The researchers taught the system by showing it millions of examples, not teaching it specific instructions. The result is a model that can look at a cluttered tabletop and rearrange scattered objects in an orderly fashion.*
+> *Researchers at Columbia Engineering have designed a robot that can learn a humanlike sense of neatness. The researchers taught the system by showing it millions of examples, not teaching it specific instructions. The result is a model that can look at a cluttered tabletop and rearrange scattered objects in an orderly fashion.*
 
 [ [Paper](https://arxiv.org/html/2310.04566v3) ]
 
@@ -56,16 +56,16 @@ While I definitely appreciate in-the-field testing, it’s also worth asking to 
 
 [ [DEEP Robotics](https://www.deeprobotics.cn/en) ]
 
-> *Introducing HMND 01 Alpha Bipedal — autonomous, adaptive, designed for real-world impact. Built in 5 months, walking stably after 48 hours of training.*
+> *Introducing HMND 01 Alpha Bipedal—autonomous, adaptive, designed for real-world impact. Built in five months, walking stably after 48 hours of training.*
 
 [ [Humanoid](https://thehumanoid.ai/product/) ]
 
-Unitree says that “this is to validate the overall reliability of the robot” but I really have to wonder how useful this kind of reliability validation actually is.
+Unitree says that “this is to validate the overall reliability of the robot,” but I really have to wonder how useful this kind of reliability validation actually is.
 
 [ [Unitree](https://www.unitree.com/) ]
 
-This University of Pennsylvania GRASP on Robotics Seminar is by Jie Tan from Google DeepMind, on “Gemini Robotics: Bringing AI into the Physical World.”
+This University of Pennsylvania GRASP on Robotics seminar is by Jie Tan from Google DeepMind, on “Gemini Robotics: Bringing AI into the Physical World.”
 
-> *Recent advancements in large multimodal models have led to the emergence of remarkable generalist capabilities in digital domains, yet their translation to physical agents such as robots remains a significant challenge. In this talk, I will present Gemini Robotics, an advanced Vision-Language-Action (VLA) generalist model capable of directly controlling robots. Furthermore, I will discuss the challenges, learnings and future research directions on robot foundation models.*
+> *Recent advancements in large multimodal models have led to the emergence of remarkable generalist capabilities in digital domains, yet their translation to physical agents such as robots remains a significant challenge. In this talk, I will present Gemini Robotics, an advanced Vision-Language-Action (VLA) generalist model capable of directly controlling robots. Furthermore, I will discuss the challenges, learnings, and future research directions on robot foundation models.*
 
 [ [University of Pennsylvania GRASP Laboratory](https://www.grasp.upenn.edu/events/fall-2025-grasp-on-robotics-jie-tan/) ]
