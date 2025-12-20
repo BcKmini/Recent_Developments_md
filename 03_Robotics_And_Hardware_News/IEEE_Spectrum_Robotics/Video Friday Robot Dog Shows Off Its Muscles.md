@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/musculoskeletal-robot-dog)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/person-interacts-with-a-large-robotic-skeleton-model-of-a-canine-on-wheeled-legs-outdoors.png?id=62313004&width=1245&height=700&coordinates=0%2C39%2C0%2C40)  
+![](https://spectrum.ieee.org/media-library/person-interacts-with-a-large-robotic-skeleton-model-of-a-canine-on-wheeled-legs-outdoors.png?id=62313004&width=1200&height=800&coordinates=30%2C0%2C30%2C0)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.
@@ -12,9 +12,9 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 Enjoy today’s videos!
 
-> *Suzumori Endo Lab, Science Tokyo has developed a dog musculoskeletal robot using thin McKibben muscles. This robot mimics the flexible “hammock-like” shoulder structure to investigate the biomechanical functions of dog musculoskeletal systems.*
+> *Suzumori Endo Lab, Science Tokyo has developed a musculoskeletal dog robot using thin McKibben muscles. This robot mimics the flexible “hammock-like” shoulder structure to investigate the biomechanical functions of dog musculoskeletal systems.*
 
-[ [Suzimori Endo Robotics Laboratory](https://www.robotics.mech.e.titech.ac.jp/suzumori/home.html) ]
+[ [Suzumori Endo Robotics Laboratory](https://www.robotics.mech.e.titech.ac.jp/suzumori/home.html) ]
 
 HOLEY SNAILBOT!!!
 
@@ -44,11 +44,11 @@ Thanks, Bram!
 
 [ [Waymo](https://waymo.com/blog/2025/12/demonstrably-safe-ai-for-autonomous-driving) ]
 
-> *Built by Texas A&M engineering students, this AI-powered robotic dog is reimagining how robots operate in disaster zones. Designed to climb through rubble, avoid hazards and make autonomous decisions in real time, the robot uses a custom multimodal large language model (MLLM) combined with visual memory and voice commands to see, remember and plan its next move like a first responder.*
+> *Built by Texas A&M engineering students, this AI-powered robotic dog is reimagining how robots operate in disaster zones. Designed to climb through rubble, avoid hazards, and make autonomous decisions in real time, the robot uses a custom multimodal large language model (MLLM) combined with visual memory and voice commands to see, remember, and plan its next move like a first responder.*
 
 [ [Texas A&M](https://engineering.tamu.edu/) ]
 
-> *So far, aerial microrobots have only been able to fly slowly along smooth trajectories, far from the swift, agile flight of real insects — until now. MIT researchers have demonstrated aerial microrobots that can fly with speed and agility that is comparable to their biological counterparts. A collaborative team designed a new AI-based controller for the robotic bug that enabled it to follow gymnastic flight paths, such as executing continuous body flips.*
+> *So far, aerial microrobots have only been able to fly slowly along smooth trajectories, far from the swift, agile flight of real insects—until now. MIT researchers have demonstrated aerial microrobots that can fly with speed and agility comparable to their biological counterparts. A collaborative team designed a new AI-based controller for the robotic bug that enabled it to follow gymnastic flight paths, such as executing continuous body flips.*
 
 [ [MIT](https://news.mit.edu/2025/mit-engineers-design-aerial-microrobot-fly-like-bumblebee-1203) ]
 
@@ -60,9 +60,9 @@ Thanks, Bram!
 
 [ [Google DeepMind](https://deepmind.google/models/gemini-robotics/) ]
 
-This GRASP on Robotics Seminar is by Parastoo Abtahi from Princeton University, on “When Robots Disappear – From Haptic Illusions in VR to Object-Oriented Interactions in AR”.
+This GRASP on Robotics Seminar is by Parastoo Abtahi from Princeton University, on “When Robots Disappear–From Haptic Illusions in VR to Object-Oriented Interactions in AR.”
 
 > *Advances in audiovisual rendering have led to the commercialization of virtual reality (VR); however, haptic technology has not kept up with these advances. While a variety of robotic systems aim to address this gap by simulating the sensation of touch, many hardware limitations make realistic touch interactions in VR challenging. In my research, I explore how, by understanding human perception through the lens of sensorimotor control theory, we can design interactions that not only overcome the current limitations of robotic hardware for VR but also extend our abilities beyond what is possible in the physical world.*  
-> *In the first part of this talk, I will present my work on redirection illusions that leverage the limits of human perception to improve the perceived performance of encountered-type haptic devices in VR, such as the position accuracy of drones and the resolution of shape displays. In the second part, I will share how we apply these illusory interactions to physical spaces and use augmented reality (AR) to facilitate situated and bidirectional human-robot communication, bridging users’ mental models and robotic representations.*
+>  *In the first part of this talk, I will present my work on redirection illusions that leverage the limits of human perception to improve the perceived performance of encountered-type haptic devices in VR, such as the position accuracy of drones and the resolution of shape displays. In the second part, I will share how we apply these illusory interactions to physical spaces and use augmented reality (AR) to facilitate situated and bidirectional human-robot communication, bridging users’ mental models and robotic representations.*
 
 [ [University of Pennsylvania GRASP Laboratory](https://www.grasp.upenn.edu/events/fall-2025-grasp-on-robotics-parastoo-abtahi/) ]
