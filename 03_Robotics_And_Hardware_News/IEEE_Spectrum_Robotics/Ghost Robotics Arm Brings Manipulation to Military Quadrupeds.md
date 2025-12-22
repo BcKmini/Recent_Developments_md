@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/ghost-robotics-quadruped-robot-arm)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/robotic-dog-lifting-backpack-with-its-mechanical-arm-in-an-industrial-setting.jpg?id=62304619&width=1200&height=800&coordinates=0%2C83%2C0%2C84)  
+![](https://spectrum.ieee.org/media-library/robotic-dog-lifting-backpack-with-its-mechanical-arm-in-an-industrial-setting.jpg?id=62304619&width=1200&height=600&coordinates=0%2C250%2C0%2C250)  
   
 
 [Ghost Robotics](https://www.ghostrobotics.io/) is today announcing a major upgrade for their Vision 60 quadruped: an arm. Ghost, a company which originated at the [GRASP Lab at the University of Pennsylvania](https://www.grasp.upenn.edu/), specializes in exceptionally rugged quadrupeds, and while many of its customers use its robots for public safety and disaster relief, it also [provides robots](https://www.army.mil/article/274841/promising_experiment_signals_future_integration_of_advanced_tech_into_army_units) to the United States military, which has very specific needs when it comes to keeping humans out of danger.
