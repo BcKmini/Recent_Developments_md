@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/lobster-biorobotics)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/robotic-gripper-with-feather-like-fingers-delicately-holds-a-brown-mushroom-on-a-black-background.jpg?id=62284894&width=1200&height=600&coordinates=0%2C63%2C0%2C64)  
+![](https://spectrum.ieee.org/media-library/robotic-gripper-with-feather-like-fingers-delicately-holds-a-brown-mushroom-on-a-black-background.jpg?id=62284894&width=1245&height=700&coordinates=0%2C1%2C0%2C1)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.

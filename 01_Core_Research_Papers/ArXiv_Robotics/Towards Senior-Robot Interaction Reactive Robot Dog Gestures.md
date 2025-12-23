@@ -1,0 +1,7 @@
+# Towards Senior-Robot Interaction: Reactive Robot Dog Gestures
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2512.17136)
+
+## 요약
+arXiv:2512.17136v1 Announce Type: new
+Abstract: As the global population ages, many seniors face the problem of loneliness. Companion robots offer a potential solution. However, current companion robots often lack advanced functionality, while task-oriented robots are not designed for social interaction, limiting their suitability and acceptance by seniors. Our work introduces a senior-oriented system for quadruped robots that allows for more intuitive user input and provides more socially expressive output. For user input, we implemented a MediaPipe-based module for hand gesture and head movement recognition, enabling control without a remote. For output, we designed and trained robotic dog gestures using curriculum-based reinforcement learning in Isaac Gym, progressing from simple standing to three-legged balancing and leg extensions, and more. The final tests achieved over 95\% success on average in simulation, and we validated a key social gesture (the paw-lift) on a Unitree robot. Real-world tests demonstrated the feasibility and social expressiveness of this framework, while also revealing sim-to-real challenges in joint compliance, load distribution, and balance control. These contributions advance the development of practical quadruped robots as social companions for the senior and outline pathways for sim-to-real adaptation and inform future user studies.

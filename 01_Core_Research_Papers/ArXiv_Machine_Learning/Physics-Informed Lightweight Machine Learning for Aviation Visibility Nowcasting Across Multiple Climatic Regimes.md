@@ -1,0 +1,8 @@
+# Physics-Informed Lightweight Machine Learning for Aviation Visibility Nowcasting Across Multiple Climatic Regimes
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.16967)
+
+## 요약
+arXiv:2512.16967v1 Announce Type: new
+Abstract: Short-term prediction (nowcasting) of low-visibility and precipitation events is critical for aviation safety and operational efficiency. Current operational approaches rely on computationally intensive numerical weather prediction guidance and human-issued TAF products, which often exhibit conservative biases and limited temporal resolution. This study presents a lightweight gradient boosting framework (XGBoost) trained exclusively on surface observation data (METAR) and enhanced through physics-guided feature engineering based on thermodynamic principles. The framework is evaluated across 11 international airports representing distinct climatic regimes (including SCEL, KJFK, KORD, KDEN, SBGR, and VIDP) using historical data from 2000 to 2024. Results suggest that the model successfully captures underlying local physical processes without manual configuration. In a blind comparative evaluation against operational TAF forecasts, the automated model achieved substantially higher detection rates at tactical horizons (3 hours), with a 2.5 to 4.0 times improvement in recall while reducing false alarms. Furthermore, SHAP analysis reveals that the model performs an implicit reconstruction of local physical drivers (advection, radiation, and subsidence), providing actionable explainability for operational situational awareness.
+Keywords: aviation meteorology; physics-guided machine learning; explainable artificial intelligence; lightweight machine learning; nowcasting; METAR; TAF verification; edge computing
