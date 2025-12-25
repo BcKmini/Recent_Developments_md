@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/irobot-bankruptcy-colin-angle-amazon)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/many-boxes-of-irobot-roomba-robot-vacuums-on-display-at-a-store.jpg?id=62593562&width=1200&height=800&coordinates=0%2C83%2C0%2C84)  
+![](https://spectrum.ieee.org/media-library/many-boxes-of-irobot-roomba-robot-vacuums-on-display-at-a-store.jpg?id=62593562&width=1245&height=700&coordinates=0%2C187%2C0%2C188)  
   
 
 On Sunday evening, the legendary robotics company iRobot, manufacturer of the Roomba robotic vacuum, [filed for bankruptcy](https://investor.irobot.com/news-releases/news-release-details/irobot-announces-strategic-transaction-drive-long-term-growth%5C). The company will be handing over all of its assets to its Chinese manufacturing partner, Picea. According to iRobot’s press release, “this agreement represents a critical step toward strengthening iRobot’s financial foundation and positioning the Company for long-term growth and innovation,” which sounds like the sort of thing that you put in a press release when you’re trying your best to put a positive spin on really, really bad news.

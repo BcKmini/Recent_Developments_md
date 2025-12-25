@@ -1,0 +1,7 @@
+# Generating the Past, Present and Future from a Motion-Blurred Image
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.19817)
+
+## 요약
+arXiv:2512.19817v1 Announce Type: new
+Abstract: We seek to answer the question: what can a motion-blurred image reveal about a scene's past, present, and future? Although motion blur obscures image details and degrades visual quality, it also encodes information about scene and camera motion during an exposure. Previous techniques leverage this information to estimate a sharp image from an input blurry one, or to predict a sequence of video frames showing what might have occurred at the moment of image capture. However, they rely on handcrafted priors or network architectures to resolve ambiguities in this inverse problem, and do not incorporate image and video priors on large-scale datasets. As such, existing methods struggle to reproduce complex scene dynamics and do not attempt to recover what occurred before or after an image was taken. Here, we introduce a new technique that repurposes a pre-trained video diffusion model trained on internet-scale datasets to recover videos revealing complex scene dynamics during the moment of capture and what might have occurred immediately into the past or future. Our approach is robust and versatile; it outperforms previous methods for this task, generalizes to challenging in-the-wild images, and supports downstream tasks such as recovering camera trajectories, object motion, and dynamic 3D scene structure. Code and data are available at https://blur2vid.github.io
