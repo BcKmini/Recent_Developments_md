@@ -12,6 +12,8 @@
 
 But, of course, it was complicated. The drone needed to hover at about 13.5 meters overhead, and the balloon was configured to detonate at a specific point in midair to ensure optimal water dispersal, as calculated by UMD’s [Department of Fire Protection Engineering](https://fpe.umd.edu/). On a signal, [Andrés Felipe Rivas Bolivar](https://www.linkedin.com/posts/umd-engineering_andr%C3%A9s-felipe-rivas-bolivar-a-phd-student-activity-7308862171122126849-VWv-/), a doctoral student in aerospace engineering, launched the Alta X toward the fire. As a second, smaller drone outfitted with a thermal camera surveyed the scene from above, Rivas maneuvered the balloon-laden drone to the proper position. After about a half minute, he released the water bomb...and the balloon plummeted to the ground just wide of the platform, bursting with a **thwaaaap**.
 
+This article is part of our special report [Top Tech 2026](https://spectrum.ieee.org/special-reports/top-tech-2026).
+
 On this warm but blustery day in mid-October, a team of about 20 UMD students and professors were gathered at a fire and rescue training center in La Plata, Md., to demonstrate the building blocks of what could be the future of wildfire fighting. They called their team [Crossfire](https://crossfire.umd.edu/). Their guests were a handful of officials from the [XPrize Foundation](https://www.xprize.org/), which has organized a pair of competitions to vastly speed up [wildfire detection and suppression](https://www.xprize.org/competitions/wildfire). Twelve other teams are competing with Crossfire in the semifinals for the autonomous wildfire-suppression track of the competition. In the final round, to be held in June 2026, five of those teams will have to find a fire within 1,000 square kilometers of what XPrize calls “environmentally challenging” terrain and then navigate to and extinguish it, all within 10 minutes. The winner collects a US $3.5 million purse—and, hopefully, the world’s wildfire-fighting armies get a powerful new weapon for their arsenals.
 
 The Wildfire Problem
@@ -60,7 +62,7 @@ Crossfire’s approach of detonating water balloons in midair—which has yet to
 
 With a new balloon installed on the Alta X, the team attempted to attack the fire a second time. This time, Rivas spent several minutes maneuvering the drone to get it in place before dropping the balloon, which appeared to partially detonate, spewing water as it fell. The balloon didn’t completely burst until it hit the platform, spraying water all over and creating a huge puff of steam. But when the smoke cleared, the fire still burned. Crossfire’s detonators, it turned out, were rated for warmer weather than this October day. “We’ve tested this probably 20 different times, and 20 different times it’s been successful,” Alvarez said ruefully.
 
-Crossfire’s drone carries a water balloon skyward, finds the fire, and drops the balloon. Jayme Thornton
+Crossfire’s drone carries a water balloon skyward, finds the fire, and drops the balloon.Jayme Thornton
 
 But the third attempt, several hours later, was the charm. Rivas whisked the Alta X over the fire. Taha, on the other side of the fire, checked its position and motioned for release. The balloon exploded a few meters below the drone, and a shower of water blanketed the fire. The thermal camera on the observation drone confirmed the fire had been extinguished. Muted “yays” and a smattering of applause broke out.
 
