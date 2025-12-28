@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/top-robotics-stories-2025)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/illustration-of-a-humanoid-robot-walking-a-robotic-dog.jpg?id=62601947&width=1200&height=800&coordinates=0%2C83%2C0%2C84)  
+![](https://spectrum.ieee.org/media-library/illustration-of-a-humanoid-robot-walking-a-robotic-dog.jpg?id=62601947&width=1200&height=600&coordinates=0%2C250%2C0%2C250)  
   
 
 Usually, I start off these annual highlights posts by saying that it was the best year ever for robotics. But this year, I’m not so sure. [At the end of 2024](https://spectrum.ieee.org/top-robotics-stories-2024), it really seemed like AI and humanoid robots were poised to make a transformative amount of progress towards some sort of practicality. While it’s certainly true that progress has been made, it’s hard to rationalize what’s actually happened in 2025 with the amount of money and hype that has suffused robotics over the course of the year. And for better or worse, humanoids are overshadowing everything else, raising questions about what will happen if the companies building them ultimately do not succeed.

@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/happy-holidays-robot)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/robot-shooting-fire-towards-a-candle-on-a-table-with-a-backdrop-of-robot-silhouettes.png?id=62607756&width=1200&height=800&coordinates=150%2C0%2C150%2C0)  
+![](https://spectrum.ieee.org/media-library/robot-shooting-fire-towards-a-candle-on-a-table-with-a-backdrop-of-robot-silhouettes.png?id=62607756&width=1200&height=600&coordinates=0%2C60%2C0%2C60)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.
