@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/wildfire-drones)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-man-in-a-hard-hat-and-high-visibility-vest-looks-on-as-a-drone-drops-water-to-extinguish-a-fire.jpg?id=62601800&width=1200&height=600&coordinates=0%2C1666%2C0%2C1667)  
+![](https://spectrum.ieee.org/media-library/a-man-in-a-hard-hat-and-high-visibility-vest-looks-on-as-a-drone-drops-water-to-extinguish-a-fire.jpg?id=62601800&width=1200&height=800&coordinates=0%2C1388%2C0%2C1389)  
   
 
 **T****o the untrained eye,** it did not look like a particularly complicated mission. A large black quadcopter drone, more than two meters spanning the propeller tips, sat parked on the grass. Nestled between the legs of its landing gear was a red balloon filled with water. Not far away, on a concrete pad, a stack of wood pallets was ablaze, the flames whipping around in a heavy wind. A student at the University of Maryland (UMD) would fly the [Alta X](https://freeflysystems.com/alta-x) [drone](https://spectrum.ieee.org/drones-sensors-wildfire-detection) all of about 25 meters to the fire. There it would drop the water balloon to [extinguish the flames](https://spectrum.ieee.org/lockheeds-drones-fires).
