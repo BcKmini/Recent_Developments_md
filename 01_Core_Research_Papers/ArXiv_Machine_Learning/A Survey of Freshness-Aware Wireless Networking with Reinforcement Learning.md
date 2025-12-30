@@ -1,0 +1,7 @@
+# A Survey of Freshness-Aware Wireless Networking with Reinforcement Learning
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.21412)
+
+## 요약
+arXiv:2512.21412v1 Announce Type: new
+Abstract: The age of information (AoI) has become a central measure of data freshness in modern wireless systems, yet existing surveys either focus on classical AoI formulations or provide broad discussions of reinforcement learning (RL) in wireless networks without addressing freshness as a unified learning problem. Motivated by this gap, this survey examines RL specifically through the lens of AoI and generalized freshness optimization. We organize AoI and its variants into native, function-based, and application-oriented families, providing a clearer view of how freshness should be modeled in B5G and 6G systems. Building on this foundation, we introduce a policy-centric taxonomy that reflects the decisions most relevant to freshness, consisting of update-control RL, medium-access RL, risk-sensitive RL, and multi-agent RL. This structure provides a coherent framework for understanding how learning can support sampling, scheduling, trajectory planning, medium access, and distributed coordination. We further synthesize recent progress in RL-driven freshness control and highlight open challenges related to delayed decision processes, stochastic variability, and cross-layer design. The goal is to establish a unified foundation for learning-based freshness optimization in next-generation wireless networks.

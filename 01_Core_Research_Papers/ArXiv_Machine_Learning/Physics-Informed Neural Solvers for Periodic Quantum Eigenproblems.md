@@ -1,0 +1,7 @@
+# Physics-Informed Neural Solvers for Periodic Quantum Eigenproblems
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.21349)
+
+## 요약
+arXiv:2512.21349v1 Announce Type: new
+Abstract: This thesis presents a physics-informed machine learning framework for solving the Floquet-Bloch eigenvalue problem associated with particles in two-dimensional periodic potentials, with a focus on honeycomb lattice geometry, due to its distinctive band topology featuring Dirac points and its relevance to materials such as graphene. By leveraging neural networks to learn complex Bloch functions and their associated eigenvalues (energies) simultaneously, we develop a mesh-free solver enforcing the governing Schr\"odinger equation, Bloch periodicity, and normalization constraints through a composite loss function without supervision. The model is trained over the Brillouin zone to recover band structures and Bloch modes, with numerical validation against traditional plane-wave expansion methods. We further explore transfer learning techniques to adapt the solver from nearly-free electron potentials to strongly varying potentials, demonstrating its ability to capture changes in band structure topology. This work contributes to the growing field of physics-informed machine learning for quantum eigenproblems, providing insights into the interplay between symmetry, band structure, and neural architectures.

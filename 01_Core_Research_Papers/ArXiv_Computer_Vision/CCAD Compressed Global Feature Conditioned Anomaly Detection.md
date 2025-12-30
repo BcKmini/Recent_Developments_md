@@ -1,0 +1,7 @@
+# CCAD: Compressed Global Feature Conditioned Anomaly Detection
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.21459)
+
+## 요약
+arXiv:2512.21459v1 Announce Type: new
+Abstract: Anomaly detection holds considerable industrial significance, especially in scenarios with limited anomalous data. Currently, reconstruction-based and unsupervised representation-based approaches are the primary focus. However, unsupervised representation-based methods struggle to extract robust features under domain shift, whereas reconstruction-based methods often suffer from low training efficiency and performance degradation due to insufficient constraints. To address these challenges, we propose a novel method named Compressed Global Feature Conditioned Anomaly Detection (CCAD). CCAD synergizes the strengths of both paradigms by adapting global features as a new modality condition for the reconstruction model. Furthermore, we design an adaptive compression mechanism to enhance both generalization and training efficiency. Extensive experiments demonstrate that CCAD consistently outperforms state-of-the-art methods in terms of AUC while achieving faster convergence. In addition, we contribute a reorganized and re-annotated version of the DAGM 2007 dataset with new annotations to further validate our method's effectiveness. The code for reproducing main results is available at https://github.com/chloeqxq/CCAD.
