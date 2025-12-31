@@ -1,0 +1,7 @@
+# Bugs with Features: Vision-Based Fault-Tolerant Collective Motion Inspired by Nature
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2512.22448)
+
+## 요약
+arXiv:2512.22448v1 Announce Type: new
+Abstract: In collective motion, perceptually-limited individuals move in an ordered manner, without centralized control. The perception of each individual is highly localized, as is its ability to interact with others. While natural collective motion is robust, most artificial swarms are brittle. This particularly occurs when vision is used as the sensing modality, due to ambiguities and information-loss inherent in visual perception. This paper presents mechanisms for robust collective motion inspired by studies of locusts. First, we develop a robust distance estimation method that combines visually perceived horizontal and vertical sizes of neighbors. Second, we introduce intermittent locomotion as a mechanism that allows robots to reliably detect peers that fail to keep up, and disrupt the motion of the swarm. We show how such faulty robots can be avoided in a manner that is robust to errors in classifying them as faulty. Through extensive physics-based simulation experiments, we show dramatic improvements to swarm resilience when using these techniques. We show these are relevant to both distance-based Avoid-Attract models, as well as to models relying on Alignment, in a wide range of experiment settings.
