@@ -1,0 +1,7 @@
+# SHIELD: Spherical-Projection Hybrid-Frontier Integration for Efficient LiDAR-based Drone Exploration
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2512.23972)
+
+## 요약
+arXiv:2512.23972v1 Announce Type: new
+Abstract: This paper introduces SHIELD, a Spherical-Projection Hybrid-Frontier Integration for Efficient LiDAR-based Drone exploration method. Although laser LiDAR offers the advantage of a wide field of view, its application in UAV exploration still faces several challenges. The observation quality of LiDAR point clouds is generally inferior to that of depth cameras. Traditional frontier methods based on known and unknown regions impose a heavy computational burden, especially when handling the wide field of view of LiDAR. In addition, regions without point cloud are also difficult to classify as free space through raycasting. To address these problems, the SHIELD is proposed. It maintains an observation-quality occupancy map and performs ray-casting on this map to address the issue of inconsistent point-cloud quality during exploration. A hybrid frontier method is used to tackle both the computational burden and the limitations of point-cloud quality exploration. In addition, an outward spherical-projection ray-casting strategy is proposed to jointly ensure flight safety and exploration efficiency in open areas. Simulations and flight experiments prove the effectiveness of SHIELD. This work will be open-sourced to contribute to the research community.

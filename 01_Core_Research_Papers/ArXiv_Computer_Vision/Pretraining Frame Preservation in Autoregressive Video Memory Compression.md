@@ -1,0 +1,7 @@
+# Pretraining Frame Preservation in Autoregressive Video Memory Compression
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2512.23851)
+
+## 요약
+arXiv:2512.23851v1 Announce Type: new
+Abstract: We present PFP, a neural network structure to compress long videos into short contexts, with an explicit pretraining objective to preserve the high-frequency details of single frames at arbitrary temporal positions. The baseline model can compress a 20-second video into a context at about 5k length, where random frames can be retrieved with perceptually preserved appearances. Such pretrained models can be directly fine-tuned as memory encoders for autoregressive video models, enabling long history memory with low context cost and relatively low fidelity loss. We evaluate the framework with ablative settings and discuss the trade-offs of possible neural architecture designs.

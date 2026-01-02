@@ -1,0 +1,7 @@
+# Network Traffic Analysis with Process Mining: The UPSIDE Case Study
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2512.23718)
+
+## 요약
+arXiv:2512.23718v1 Announce Type: new
+Abstract: Online gaming is a popular activity involving the adoption of complex systems and network infrastructures. The relevance of gaming, which generates large amounts of market revenue, drove research in modeling network devices' behavior to evaluate bandwidth consumption, predict and sustain high loads, and detect malicious activity. In this context, process mining appears promising due to its ability to combine data-driven analyses with model-based insights. In this paper, we propose a process mining-based method that analyzes gaming network traffic, allowing: unsupervised characterization of different states from gaming network data; encoding such states through process mining into interpretable Petri nets; and classification of gaming network traffic data to identify different video games being played. We apply the method to the UPSIDE case study, involving gaming network data of several devices interacting with two video games: Clash Royale and Rocket League. Results demonstrate that the gaming network behavior can be effectively and interpretably modeled through states represented as Petri nets with sufficient coherence (94.02% inter-device similarity) and specificity (174.99% inter-state separation) while maintaining a good classification accuracy of the two different video games (73.84% AUC).
