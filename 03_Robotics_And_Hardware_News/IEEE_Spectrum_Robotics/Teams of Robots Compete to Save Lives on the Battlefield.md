@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/darpa-triage-challenge-robots)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/aerial-drone-robotic-arm-explosion-and-medical-cross-on-abstract-background.jpg?id=62605094&width=1200&height=800&coordinates=0%2C23%2C0%2C24)  
+![](https://spectrum.ieee.org/media-library/aerial-drone-robotic-arm-explosion-and-medical-cross-on-abstract-background.jpg?id=62605094&width=600&height=600&coordinates=266%2C0%2C267%2C0)  
   
 
 Last September, the [Defense Advanced Research Projects Agency](https://www.darpa.mil/) (DARPA) unleashed teams of robots on [simulated mass-casualty scenarios](https://spectrum.ieee.org/do-we-want-robot-warriors-to-decide-who-lives-or-dies), including an airplane crash and a night ambush. The robots’ job was to find victims and estimate the severity of their injuries, with the goal of [helping human medics](https://spectrum.ieee.org/ai-doctor) get to the people who need them the most.
