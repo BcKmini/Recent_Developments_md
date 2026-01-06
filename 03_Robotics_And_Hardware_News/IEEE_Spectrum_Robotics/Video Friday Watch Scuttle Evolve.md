@@ -24,7 +24,7 @@ Very satisfying sound on this one.
 
 [ [Pudu Robotics](https://www.pudurobotics.com/en) ]
 
-> *Welcome to the AgileX Robotics Data Collection Facility—where real robots build the foundation for universal embodied intelligence. Our core mission? Enable large-scale data sharing and reuse across dual-arm teleoperation robots of diverse morphologies, breaking down data silos that slow down AI progress.*
+> *Welcome to the AgileX Robotics Data Collection Facility, where real robots build the foundation for universal embodied intelligence. Our core mission? Enable large-scale data sharing and reuse across dual-arm teleoperation robots of diverse morphologies, breaking down data silos that slow down AI progress.*
 
 [ [AgileX](https://global.agilex.ai/products/pika) ]
 
@@ -32,7 +32,7 @@ I’m not sure how much thought was put into this, but giving a service robot an
 
 [ [Pudu Robotics](https://www.pudurobotics.com/en) ]
 
-UBTECH says they have built 1000 of their [Walker S2 humanoid robots](https://spectrum.ieee.org/video-friday-baseball-robot), over 500 of which are “delivered & working.” I would very much like to know what “working” means in this context.
+UBTECH says they have built 1,000 of their [Walker S2 humanoid robots](https://spectrum.ieee.org/video-friday-baseball-robot), over 500 of which are “delivered & working.” I would very much like to know what “working” means in this context.
 
 [ [UBTECH](https://www.ubtrobot.com/en/) ]
 

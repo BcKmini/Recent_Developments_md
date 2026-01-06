@@ -1,0 +1,7 @@
+# Vehicle Painting Robot Path Planning Using Hierarchical Optimization
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.00271)
+
+## 요약
+arXiv:2601.00271v1 Announce Type: new
+Abstract: In vehicle production factories, the vehicle painting process employs multiple robotic arms to simultaneously apply paint to car bodies advancing along a conveyor line. Designing paint paths for these robotic arms, which involves assigning car body areas to arms and determining paint sequences for each arm, remains a time-consuming manual task for engineers, indicating the demand for automation and design time reduction. The unique constraints of the painting process hinder the direct application of conventional robotic path planning techniques, such as those used in welding. Therefore, this paper formulates the design of paint paths as a hierarchical optimization problem, where the upper-layer subproblem resembles a vehicle routing problem (VRP), and the lower-layer subproblem involves detailed path planning. This approach allows the use of different optimization algorithms at each layer, and permits flexible handling of constraints specific to the vehicle painting process through the design of variable representation, constraints, repair operators, and an initialization process at the upper and lower layers. Experiments with three commercially available vehicle models demonstrated that the proposed method can automatically design paths that satisfy all constraints for vehicle painting with quality comparable to those created manually by engineers.

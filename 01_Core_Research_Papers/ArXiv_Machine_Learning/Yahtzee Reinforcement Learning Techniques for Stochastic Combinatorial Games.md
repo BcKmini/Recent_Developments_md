@@ -1,0 +1,7 @@
+# Yahtzee: Reinforcement Learning Techniques for Stochastic Combinatorial Games
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.00007)
+
+## 요약
+arXiv:2601.00007v1 Announce Type: new
+Abstract: Yahtzee is a classic dice game with a stochastic, combinatorial structure and delayed rewards, making it an interesting mid-scale RL benchmark. While an optimal policy for solitaire Yahtzee can be computed using dynamic programming methods, multiplayer is intractable, motivating approximation methods. We formulate Yahtzee as a Markov Decision Process (MDP), and train self-play agents using various policy gradient methods: REINFORCE, Advantage Actor-Critic (A2C), and Proximal Policy Optimization (PPO), all using a multi-headed network with a shared trunk. We ablate feature and action encodings, architecture, return estimators, and entropy regularization to understand their impact on learning. Under a fixed training budget, REINFORCE and PPO prove sensitive to hyperparameters and fail to reach near-optimal performance, whereas A2C trains robustly across a range of settings. Our agent attains a median score of 241.78 points over 100,000 evaluation games, within 5.0\% of the optimal DP score of 254.59, achieving the upper section bonus and Yahtzee at rates of 24.9\% and 34.1\%, respectively. All models struggle to learn the upper bonus strategy, overindexing on four-of-a-kind's, highlighting persistent long-horizon credit-assignment and exploration challenges.

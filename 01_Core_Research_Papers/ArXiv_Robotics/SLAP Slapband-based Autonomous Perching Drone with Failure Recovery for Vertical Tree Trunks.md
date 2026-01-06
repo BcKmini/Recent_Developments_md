@@ -1,0 +1,7 @@
+# SLAP: Slapband-based Autonomous Perching Drone with Failure Recovery for Vertical Tree Trunks
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.00238)
+
+## 요약
+arXiv:2601.00238v1 Announce Type: new
+Abstract: Perching allows unmanned aerial vehicles (UAVs) to reduce energy consumption, remain anchored for surface sampling operations, or stably survey their surroundings. Previous efforts for perching on vertical surfaces have predominantly focused on lightweight mechanical design solutions with relatively scant system-level integration. Furthermore, perching strategies for vertical surfaces commonly require high-speed, aggressive landing operations that are dangerous for a surveyor drone with sensitive electronics onboard. This work presents the preliminary investigation of a perching approach suitable for larger drones that both gently perches on vertical tree trunks and reacts and recovers from perch failures. The system in this work, called SLAP, consists of vision-based perch site detector, an IMU (inertial-measurement-unit)-based perch failure detector, an attitude controller for soft perching, an optical close-range detection system, and a fast active elastic gripper with microspines made from commercially-available slapbands. We validated this approach on a modified 1.2 kg commercial quadrotor with component and system analysis. Initial human-in-the-loop autonomous indoor flight experiments achieved a 75% perch success rate on a real oak tree segment across 20 flights, and 100% perch failure recovery across 2 flights with induced failures.
