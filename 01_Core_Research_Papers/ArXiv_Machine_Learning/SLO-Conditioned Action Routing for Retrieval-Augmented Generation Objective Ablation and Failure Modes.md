@@ -1,0 +1,7 @@
+# SLO-Conditioned Action Routing for Retrieval-Augmented Generation: Objective Ablation and Failure Modes
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.00841)
+
+## 요약
+arXiv:2601.00841v1 Announce Type: new
+Abstract: Retrieval-augmented generation (RAG) introduces a practical control problem: retrieval depth and generation behavior must be chosen per query to satisfy service-level objectives (SLOs) such as cost, refusal rate, and hallucination risk. This work models per-query control as a small discrete action: choose a retrieval depth and a generation mode (guarded vs. auto), or refuse. An offline logged dataset is constructed from SQuAD 2.0 by executing each action and recording accuracy, token cost, hallucination/refusal indicators, and an SLO-weighted reward. Two simple policy-learning objectives are evaluated: supervised classification of the per-state best action (Argmax-CE) and a reward-weighted variant (Argmax-CE-WT). Across the evaluated settings, a strong fixed baseline (low k, guarded prompting) performs competitively; learned policies mainly provide additional cost savings under a quality-focused SLO and can exhibit refusal collapse under a cheap SLO when refusal is heavily rewarded. The contribution is a reproducible case study of SLO-aware control for RAG pipelines, emphasizing failure modes and reporting conventions rather than proposing a new retriever or language model.
