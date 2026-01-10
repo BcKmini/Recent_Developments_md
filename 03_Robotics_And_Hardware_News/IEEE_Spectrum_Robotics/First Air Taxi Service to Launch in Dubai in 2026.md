@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/joby-air-taxi)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-futuristic-looking-white-aircraft-is-seen-flying-over-a-brown-desert-landscape-with-the-skyscrapers-of-a-large-modern-city-in.jpg?id=62599869&width=1200&height=400&coordinates=0%2C833%2C0%2C834)  
+![](https://spectrum.ieee.org/media-library/a-futuristic-looking-white-aircraft-is-seen-flying-over-a-brown-desert-landscape-with-the-skyscrapers-of-a-large-modern-city-in.jpg?id=62599869&width=1200&height=800&coordinates=0%2C0%2C0%2C0)  
   
 
 Summary

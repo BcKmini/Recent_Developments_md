@@ -1,0 +1,7 @@
+# Autonomous Reasoning for Spacecraft Control: A Large Language Model Framework with Group Relative Policy Optimization
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.04334)
+
+## 요약
+arXiv:2601.04334v1 Announce Type: new
+Abstract: This paper presents a learning-based guidance-and-control approach that couples a reasoning-enabled Large Language Model (LLM) with Group Relative Policy Optimization (GRPO). A two-stage procedure consisting of Supervised Fine-Tuning (SFT) to learn formatting and control primitives, followed by GRPO for interaction-driven policy improvement, trains controllers for each environment. The framework is demonstrated on four control problems spanning a gradient of dynamical complexity, from canonical linear systems through nonlinear oscillatory dynamics to three-dimensional spacecraft attitude control with gyroscopic coupling and thrust constraints. Results demonstrate that an LLM with explicit reasoning, optimized via GRPO, can synthesize feasible stabilizing policies under consistent training settings across both linear and nonlinear systems. The two-stage training methodology enables models to generate control sequences while providing human-readable explanations of their decision-making process. This work establishes a foundation for applying GRPO-based reasoning to autonomous control systems, with potential applications in aerospace and other safety-critical domains.

@@ -1,0 +1,7 @@
+# ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.04342)
+
+## 요약
+arXiv:2601.04342v1 Announce Type: new
+Abstract: Recent advances in video diffusion models have shifted towards transformer-based architectures, achieving state-of-the-art video generation but at the cost of quadratic attention complexity, which severely limits scalability for longer sequences. We introduce ReHyAt, a Recurrent Hybrid Attention mechanism that combines the fidelity of softmax attention with the efficiency of linear attention, enabling chunk-wise recurrent reformulation and constant memory usage. Unlike the concurrent linear-only SANA Video, ReHyAt's hybrid design allows efficient distillation from existing softmax-based models, reducing the training cost by two orders of magnitude to ~160 GPU hours, while being competitive in the quality. Our light-weight distillation and finetuning pipeline provides a recipe that can be applied to future state-of-the-art bidirectional softmax-based models. Experiments on VBench and VBench-2.0, as well as a human preference study, demonstrate that ReHyAt achieves state-of-the-art video quality while reducing attention cost from quadratic to linear, unlocking practical scalability for long-duration and on-device video generation. Project page is available at https://qualcomm-ai-research.github.io/rehyat.

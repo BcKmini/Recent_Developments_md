@@ -1,0 +1,7 @@
+# Fast Continuum Robot Shape and External Load State Estimation on SE(3)
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.04493)
+
+## 요약
+arXiv:2601.04493v1 Announce Type: new
+Abstract: Previous on-manifold approaches to continuum robot state estimation have typically adopted simplified Cosserat rod models, which cannot directly account for actuation inputs or external loads. We introduce a general framework that incorporates uncertainty models for actuation (e.g., tendon tensions), applied forces and moments, process noise, boundary conditions, and arbitrary backbone measurements. By adding temporal priors across time steps, our method additionally performs joint estimation in both the spatial (arclength) and temporal domains, enabling full \textit{spacetime} state estimation. Discretizing the arclength domain yields a factor graph representation of the continuum robot model, which can be exploited for fast batch sparse nonlinear optimization in the style of SLAM. The framework is general and applies to a broad class of continuum robots; as illustrative cases, we show (i) tendon-driven robots in simulation, where we demonstrate real-time kinematics with uncertainty, tip force sensing from position feedback, and distributed load estimation from backbone strain, and (ii) a surgical concentric tube robot in experiment, where we validate accurate kinematics and tip force estimation, highlighting potential for surgical palpation.
