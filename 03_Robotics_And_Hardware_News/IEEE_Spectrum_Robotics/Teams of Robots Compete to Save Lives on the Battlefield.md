@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/darpa-triage-challenge-robots)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/aerial-drone-robotic-arm-explosion-and-medical-cross-on-abstract-background.jpg?id=62605094&width=1200&height=800&coordinates=0%2C23%2C0%2C24)  
+![](https://spectrum.ieee.org/media-library/aerial-drone-robotic-arm-explosion-and-medical-cross-on-abstract-background.jpg?id=62605094&width=1245&height=700&coordinates=0%2C114%2C0%2C114)  
   
 
 Last September, the [Defense Advanced Research Projects Agency](https://www.darpa.mil/) (DARPA) unleashed teams of robots on [simulated mass-casualty scenarios](https://spectrum.ieee.org/do-we-want-robot-warriors-to-decide-who-lives-or-dies), including an airplane crash and a night ambush. The robots’ job was to find victims and estimate the severity of their injuries, with the goal of [helping human medics](https://spectrum.ieee.org/ai-doctor) get to the people who need them the most.
@@ -22,7 +22,7 @@ The final event of the [DARPA Triage Challenge](https://www.darpa.mil/research/c
 
 **When could you have used robots like these?**
 
-**Elenberg:** On the way to one of the challenge events, there was a four-car accident on a back road. For me on my own, that was a mass casualty event. I could hear some people yelling and see others walking around, and so I was able to reason that those people could breathe and move.
+**Elenberg:** On the way to one of the challenge events, there was a four-car accident on a back road. For me on my own, that was a mass-casualty event. I could hear some people yelling and see others walking around, and so I was able to reason that those people could breathe and move.
 
 In the fourth car, I had to crawl inside to reach a gentleman who was slumped over with an occluded airway. I was able to lift his head until I could hear him breathing. I could see that he was hemorrhaging and feel that he was going into shock because his skin was cold. A robot couldn’t have gotten inside of the car to make those assessments.
 

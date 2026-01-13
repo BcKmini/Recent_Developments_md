@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/robots-ces-2026)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-humanoid-robot-stands-in-a-workshop-surrounded-by-yellow-safety-barriers.png?id=62698082&width=1200&height=800&coordinates=150%2C0%2C150%2C0)  
+![](https://spectrum.ieee.org/media-library/a-humanoid-robot-stands-in-a-workshop-surrounded-by-yellow-safety-barriers.png?id=62698082&width=1245&height=700&coordinates=0%2C0%2C0%2C0)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.
@@ -20,7 +20,7 @@ I appreciate the creativity and technical innovation here, but realistically, if
 
 [ [Roborock](https://us.roborock.com/pages/ces-2026) ]
 
-> *Wow, SwitchBot’s CES 2026 video show almost as many robots in their fantasy home as I have in my real home.*
+> *Wow, SwitchBot’s CES 2026 video shows almost as many robots in their fantasy home as I have in my real home.*
 
 [ [SwitchBot](https://www.switch-bot.com/pages/events-ces-2026) ]
 
@@ -36,7 +36,7 @@ Yes, this is definitely a robot I want in close proximity to my life.
 
 [ [Mentee Robotics](https://www.menteebot.com/) ]
 
-Personally, I think that we should encourage humanoid robots to fall much more often, just so that we can see whether they can get up again.
+Personally, I think we should encourage humanoid robots to fall much more often, just so we can see whether they can get up again.
 
 [ [Agility Robotics](https://www.agilityrobotics.com/) ]
 
@@ -52,7 +52,7 @@ Humanoid robots are now available as platforms, which is a great way of sidestep
 
 [ [PNDbotics](https://pndbotics.com/humanoid) ]
 
-> *We’re introducing Spatially-Enhanced Recurrent Units (SRUs) — a simple yet powerful modification that enables robots to build implicit spatial memories for navigation. Published in the International Journal of Robotics Research (IJRR), this work demonstrates up to +105% improvement over baseline approaches, with robots successfully navigating 70+ meters in the real world using only a single forward-facing camera.*
+> *We’re introducing Spatially Enhanced Recurrent Units (SRUs)—a simple yet powerful modification that enables robots to build implicit spatial memories for navigation. Published in the International Journal of Robotics Research (IJRR), this work demonstrates up to +105 percent improvement over baseline approaches, with robots successfully navigating 70+ meters in the real world using only a single forward-facing camera.*
 
 [ [ETHZ RSL](https://michaelfyang.github.io/sru-project-website/) ]
 

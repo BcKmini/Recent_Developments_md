@@ -1,0 +1,7 @@
+# When the Server Steps In: Calibrated Updates for Fair Federated Learning
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.05352)
+
+## 요약
+arXiv:2601.05352v1 Announce Type: new
+Abstract: Federated learning (FL) has emerged as a transformative distributed learning paradigm, enabling multiple clients to collaboratively train a global model under the coordination of a central server without sharing their raw training data. While FL offers notable advantages, it faces critical challenges in ensuring fairness across diverse demographic groups. To address these fairness concerns, various fairness-aware debiasing methods have been proposed. However, many of these approaches either require modifications to clients' training protocols or lack flexibility in their aggregation strategies. In this work, we address these limitations by introducing EquFL, a novel server-side debiasing method designed to mitigate bias in FL systems. EquFL operates by allowing the server to generate a single calibrated update after receiving model updates from the clients. This calibrated update is then integrated with the aggregated client updates to produce an adjusted global model that reduces bias. Theoretically, we establish that EquFL converges to the optimal global model achieved by FedAvg and effectively reduces fairness loss over training rounds. Empirically, we demonstrate that EquFL significantly mitigates bias within the system, showcasing its practical effectiveness.
