@@ -1,0 +1,7 @@
+# Precision Meets Art: Autonomous Multi-UAV System for Large Scale Mural Drawing
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.06508)
+
+## 요약
+arXiv:2601.06508v1 Announce Type: new
+Abstract: The integration of autonomous unmanned aerial vehicles (UAVs) into large-scale artistic projects has emerged as a new application in robotics. This paper presents the design, deployment, and testing of a novel multi-drone system for automated mural painting in outdoor settings. This technology makes use of new software that coordinates multiple drones simultaneously, utilizing state-machine algorithms for task execution. Key advancements are the complex positioning system that combines 2D localization using a single motion tracking camera with onboard LiDAR for precise positioning, and a novel flight control algorithm, which works differently along the trajectory and normally to it, ensuring smoothness and high precision of the drawings at the same time. A 100 square meters mural was created using the developed multi-drone system, validating the system's efficacy. Compared to single-drone approaches, our multi-UAV solution significantly improves scalability and operational speed while maintaining high stability even in harsh weather conditions. The findings highlight the potential of autonomous robotic swarms in creative applications, paving the way for further advancements in large-scale robotic art.

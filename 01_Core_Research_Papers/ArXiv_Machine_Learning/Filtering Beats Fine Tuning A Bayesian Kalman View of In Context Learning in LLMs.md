@@ -1,0 +1,9 @@
+# Filtering Beats Fine Tuning: A Bayesian Kalman View of In Context Learning in LLMs
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.06100)
+
+## 요약
+arXiv:2601.06100v1 Announce Type: new
+Abstract: We present a theory-first framework that interprets inference-time adaptation in large language models (LLMs) as online Bayesian state estimation. Rather than modeling rapid adaptation as implicit optimization or meta-learning, we formulate task- and context-specific learning as the sequential inference of a low-dimensional latent adaptation state governed by a linearized state-space model. Under Gaussian assumptions, adaptation follows a Kalman recursion with closed-form updates for both the posterior mean and covariance.
+This perspective elevates epistemic uncertainty to an explicit dynamical variable. We show that inference-time learning is driven by covariance collapse, i.e., rapid contraction of posterior uncertainty induced by informative tokens, which typically precedes convergence of the posterior mean. Using observability conditions on token-level Jacobians, we establish stability of the Bayesian filter, prove exponential covariance contraction rates, and derive mean-square error bounds. Gradient descent, natural-gradient methods, and meta-learning updates arise as singular, noise-free limits of the filtering dynamics, positioning optimization-based adaptation as a degenerate approximation of Bayesian inference.
+The resulting theory provides a unified probabilistic account of in-context learning, parameter-efficient adaptation, and test-time learning without parameter updates. It yields explicit guarantees on stability and sample efficiency, offers a principled interpretation of prompt informativeness via information accumulation, and clarifies the role of uncertainty dynamics absent from existing accounts. Minimal illustrative experiments corroborate the qualitative predictions of the theory.

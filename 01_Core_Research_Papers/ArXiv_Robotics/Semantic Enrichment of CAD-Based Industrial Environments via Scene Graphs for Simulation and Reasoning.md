@@ -1,0 +1,7 @@
+# Semantic Enrichment of CAD-Based Industrial Environments via Scene Graphs for Simulation and Reasoning
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.06415)
+
+## 요약
+arXiv:2601.06415v1 Announce Type: new
+Abstract: Utilizing functional elements in an industrial environment, such as displays and interactive valves, provide effective possibilities for robot training. When preparing simulations for robots or applications that involve high-level scene understanding, the simulation environment must be equally detailed. Although CAD files for such environments deliver an exact description of the geometry and visuals, they usually lack semantic, relational and functional information, thus limiting the simulation and training possibilities. A 3D scene graph can organize semantic, spatial and functional information by enriching the environment through a Large Vision-Language Model (LVLM). In this paper we present an offline approach to creating detailed 3D scene graphs from CAD environments. This will serve as a foundation to include the relations of functional and actionable elements, which then can be used for dynamic simulation and reasoning. Key results of this research include both quantitative results of the generated semantic labels as well as qualitative results of the scene graph, especially in hindsight of pipe structures and identified functional relations. All code, results and the environment will be made available at https://cad-scenegraph.github.io
