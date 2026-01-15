@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/tech-in-2026)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/futuristic-drone-like-air-taxi-on-helipad-surrounded-by-desert-landscape.jpg?id=62639193&width=1245&height=700&coordinates=0%2C56%2C0%2C57)  
+![](https://spectrum.ieee.org/media-library/futuristic-drone-like-air-taxi-on-helipad-surrounded-by-desert-landscape.jpg?id=62639193&width=1200&height=800&coordinates=0%2C0%2C0%2C0)  
   
 
 Every September as we plan our [January tech forecast](https://spectrum.ieee.org/mostly-right-updates-on-our-2014-predictions) issue, **IEEE** **Spectrum’s** editors survey their beats and seek out promising projects that could solve seemingly intractable problems or transform entire industries.
