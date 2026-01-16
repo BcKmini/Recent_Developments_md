@@ -1,0 +1,7 @@
+# ForensicFormer: Hierarchical Multi-Scale Reasoning for Cross-Domain Image Forgery Detection
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.08873)
+
+## 요약
+arXiv:2601.08873v1 Announce Type: new
+Abstract: The proliferation of AI-generated imagery and sophisticated editing tools has rendered traditional forensic methods ineffective for cross-domain forgery detection. We present ForensicFormer, a hierarchical multi-scale framework that unifies low-level artifact detection, mid-level boundary analysis, and high-level semantic reasoning via cross-attention transformers. Unlike prior single-paradigm approaches, which achieve <75% accuracy on out-of-distribution datasets, our method maintains 86.8% average accuracy across seven diverse test sets, spanning traditional manipulations, GAN-generated images, and diffusion model outputs - a significant improvement over state-of-the-art universal detectors. We demonstrate superior robustness to JPEG compression (83% accuracy at Q=70 vs. 66% for baselines) and provide pixel-level forgery localization with a 0.76 F1-score. Extensive ablation studies validate that each hierarchical component contributes 4-10% accuracy improvement, and qualitative analysis reveals interpretable forensic features aligned with human expert reasoning. Our work bridges classical image forensics and modern deep learning, offering a practical solution for real-world deployment where manipulation techniques are unknown a priori.

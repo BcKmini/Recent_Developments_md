@@ -1,0 +1,7 @@
+# Residual Cross-Modal Fusion Networks for Audio-Visual Navigation
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.08868)
+
+## 요약
+arXiv:2601.08868v1 Announce Type: new
+Abstract: Audio-visual embodied navigation aims to enable an agent to autonomously localize and reach a sound source in unseen 3D environments by leveraging auditory cues. The key challenge of this task lies in effectively modeling the interaction between heterogeneous features during multimodal fusion, so as to avoid single-modality dominance or information degradation, particularly in cross-domain scenarios. To address this, we propose a Cross-Modal Residual Fusion Network, which introduces bidirectional residual interactions between audio and visual streams to achieve complementary modeling and fine-grained alignment, while maintaining the independence of their representations. Unlike conventional methods that rely on simple concatenation or attention gating, CRFN explicitly models cross-modal interactions via residual connections and incorporates stabilization techniques to improve convergence and robustness. Experiments on the Replica and Matterport3D datasets demonstrate that CRFN significantly outperforms state-of-the-art fusion baselines and achieves stronger cross-domain generalization. Notably, our experiments also reveal that agents exhibit differentiated modality dependence across different datasets. The discovery of this phenomenon provides a new perspective for understanding the cross-modal collaboration mechanism of embodied agents.

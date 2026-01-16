@@ -1,0 +1,7 @@
+# CEI: A Unified Interface for Cross-Embodiment Visuomotor Policy Learning in 3D Space
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.09163)
+
+## 요약
+arXiv:2601.09163v1 Announce Type: new
+Abstract: Robotic foundation models trained on large-scale manipulation datasets have shown promise in learning generalist policies, but they often overfit to specific viewpoints, robot arms, and especially parallel-jaw grippers due to dataset biases. To address this limitation, we propose Cross-Embodiment Interface (\CEI), a framework for cross-embodiment learning that enables the transfer of demonstrations across different robot arm and end-effector morphologies. \CEI introduces the concept of \textit{functional similarity}, which is quantified using Directional Chamfer Distance. Then it aligns robot trajectories through gradient-based optimization, followed by synthesizing observations and actions for unseen robot arms and end-effectors. In experiments, \CEI transfers data and policies from a Franka Panda robot to \textbf{16} different embodiments across \textbf{3} tasks in simulation, and supports bidirectional transfer between a UR5+AG95 gripper robot and a UR5+Xhand robot across \textbf{6} real-world tasks, achieving an average transfer ratio of 82.4\%. Finally, we demonstrate that \CEI can also be extended with spatial generalization and multimodal motion generation capabilities using our proposed techniques. Project website: https://cross-embodiment-interface.github.io/
