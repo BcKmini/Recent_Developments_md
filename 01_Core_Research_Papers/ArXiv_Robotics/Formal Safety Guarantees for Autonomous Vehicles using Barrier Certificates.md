@@ -1,0 +1,7 @@
+# Formal Safety Guarantees for Autonomous Vehicles using Barrier Certificates
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.09740)
+
+## 요약
+arXiv:2601.09740v1 Announce Type: new
+Abstract: Modern AI technologies enable autonomous vehicles to perceive complex scenes, predict human behavior, and make real-time driving decisions. However, these data-driven components often operate as black boxes, lacking interpretability and rigorous safety guarantees. Autonomous vehicles operate in dynamic, mixed-traffic environments where interactions with human-driven vehicles introduce uncertainty and safety challenges. This work develops a formally verified safety framework for Connected and Autonomous Vehicles (CAVs) that integrates Barrier Certificates (BCs) with interpretable traffic conflict metrics, specifically Time-to-Collision (TTC) as a spatio-temporal safety metric. Safety conditions are verified using Satisfiability Modulo Theories (SMT) solvers, and an adaptive control mechanism ensures vehicles comply with these constraints in real time. Evaluation on real-world highway datasets shows a significant reduction in unsafe interactions, with up to 40\% fewer events where TTC falls below a 3 seconds threshold, and complete elimination of conflicts in some lanes. This approach provides both interpretable and provable safety guarantees, demonstrating a practical and scalable strategy for safe autonomous driving.

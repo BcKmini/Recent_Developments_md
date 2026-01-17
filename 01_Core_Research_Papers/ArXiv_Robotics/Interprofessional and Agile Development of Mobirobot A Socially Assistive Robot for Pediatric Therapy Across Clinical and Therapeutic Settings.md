@@ -1,0 +1,10 @@
+# Interprofessional and Agile Development of Mobirobot: A Socially Assistive Robot for Pediatric Therapy Across Clinical and Therapeutic Settings
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.09838)
+
+## 요약
+arXiv:2601.09838v1 Announce Type: new
+Abstract: Introduction: Socially assistive robots hold promise for enhancing therapeutic engagement in paediatric clinical settings. However, their successful implementation requires not only technical robustness but also context-sensitive, co-designed solutions. This paper presents Mobirobot, a socially assistive robot developed to support mobilisation in children recovering from trauma, fractures, or depressive disorders through personalised exercise programmes.
+Methods: An agile, human-centred development approach guided the iterative design of Mobirobot. Multidisciplinary clinical teams and end users were involved throughout the co-development process, which focused on early integration into real-world paediatric surgical and psychiatric settings. The robot, based on the NAO platform, features a simple setup, adaptable exercise routines with interactive guidance, motivational dialogue, and a graphical user interface (GUI) for monitoring and no-code system feedback.
+Results: Deployment in hospital environments enabled the identification of key design requirements and usability constraints. Stakeholder feedback led to refinements in interaction design, movement capabilities, and technical configuration. A feasibility study is currently underway to assess acceptance, usability, and perceived therapeutic benefit, with data collection including questionnaires, behavioural observations, and staff-patient interviews.
+Discussion: Mobirobot demonstrates how multiprofessional, stakeholder-led development can yield a socially assistive system suited for dynamic inpatient settings. Early-stage findings underscore the importance of contextual integration, robustness, and minimal-intrusion design. While challenges such as sensor limitations and patient recruitment remain, the platform offers a promising foundation for further research and clinical application.

@@ -1,0 +1,7 @@
+# Diffusion-Driven Deceptive Patches: Adversarial Manipulation and Forensic Detection in Facial Identity Verification
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.09806)
+
+## 요약
+arXiv:2601.09806v1 Announce Type: new
+Abstract: This work presents an end-to-end pipeline for generating, refining, and evaluating adversarial patches to compromise facial biometric systems, with applications in forensic analysis and security testing. We utilize FGSM to generate adversarial noise targeting an identity classifier and employ a diffusion model with reverse diffusion to enhance imperceptibility through Gaussian smoothing and adaptive brightness correction, thereby facilitating synthetic adversarial patch evasion. The refined patch is applied to facial images to test its ability to evade recognition systems while maintaining natural visual characteristics. A Vision Transformer (ViT)-GPT2 model generates captions to provide a semantic description of a person's identity for adversarial images, supporting forensic interpretation and documentation for identity evasion and recognition attacks. The pipeline evaluates changes in identity classification, captioning results, and vulnerabilities in facial identity verification and expression recognition under adversarial conditions. We further demonstrate effective detection and analysis of adversarial patches and adversarial samples using perceptual hashing and segmentation, achieving an SSIM of 0.95.
