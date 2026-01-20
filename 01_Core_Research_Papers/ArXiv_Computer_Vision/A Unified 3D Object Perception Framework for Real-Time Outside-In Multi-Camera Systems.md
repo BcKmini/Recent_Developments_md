@@ -1,0 +1,7 @@
+# A Unified 3D Object Perception Framework for Real-Time Outside-In Multi-Camera Systems
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.10819)
+
+## 요약
+arXiv:2601.10819v1 Announce Type: new
+Abstract: Accurate 3D object perception and multi-target multi-camera (MTMC) tracking are fundamental for the digital transformation of industrial infrastructure. However, transitioning "inside-out" autonomous driving models to "outside-in" static camera networks presents significant challenges due to heterogeneous camera placements and extreme occlusion. In this paper, we present an adapted Sparse4D framework specifically optimized for large-scale infrastructure environments. Our system leverages absolute world-coordinate geometric priors and introduces an occlusion-aware ReID embedding module to maintain identity stability across distributed sensor networks. To bridge the Sim2Real domain gap without manual labeling, we employ a generative data augmentation strategy using the NVIDIA COSMOS framework, creating diverse environmental styles that enhance the model's appearance-invariance. Evaluated on the AI City Challenge 2025 benchmark, our camera-only framework achieves a state-of-the-art HOTA of $45.22$. Furthermore, we address real-time deployment constraints by developing an optimized TensorRT plugin for Multi-Scale Deformable Aggregation (MSDA). Our hardware-accelerated implementation achieves a $2.15\times$ speedup on modern GPU architectures, enabling a single Blackwell-class GPU to support over 64 concurrent camera streams.

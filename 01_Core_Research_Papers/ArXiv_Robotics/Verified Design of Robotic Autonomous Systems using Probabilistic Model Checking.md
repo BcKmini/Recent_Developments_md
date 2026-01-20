@@ -1,0 +1,7 @@
+# Verified Design of Robotic Autonomous Systems using Probabilistic Model Checking
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.10720)
+
+## 요약
+arXiv:2601.10720v1 Announce Type: new
+Abstract: Safety and reliability play a crucial role when designing Robotic Autonomous Systems (RAS). Early consideration of hazards, risks and mitigation actions -- already in the concept study phase -- are important steps in building a solid foundations for the subsequent steps in the system engineering life cycle. The complex nature of RAS, as well as the uncertain and dynamic environments the robots operate within, do not merely effect fault management and operation robustness, but also makes the task of system design concept selection, a hard problem to address. Approaches to tackle the mentioned challenges and their implications on system design, range from ad-hoc concept development and design practices, to systematic, statistical and analytical techniques of Model Based Systems Engineering. In this paper, we propose a methodology to apply a formal method, namely Probabilistic Model Checking (PMC), to enable systematic evaluation and analysis of a given set of system design concepts, ultimately leading to a set of Verified Designs (VD). We illustrate the application of the suggested methodology -- using PRISM as probabilistic model checker -- to a practical RAS concept selection use-case from agriculture robotics. Along the way, we also develop and present a domain-specific Design Evaluation Criteria for agri-RAS.

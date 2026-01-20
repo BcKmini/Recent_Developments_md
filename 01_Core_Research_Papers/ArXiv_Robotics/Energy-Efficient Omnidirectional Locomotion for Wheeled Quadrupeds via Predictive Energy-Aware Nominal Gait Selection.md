@@ -1,0 +1,7 @@
+# Energy-Efficient Omnidirectional Locomotion for Wheeled Quadrupeds via Predictive Energy-Aware Nominal Gait Selection
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.10723)
+
+## 요약
+arXiv:2601.10723v1 Announce Type: new
+Abstract: Wheeled-legged robots combine the efficiency of wheels with the versatility of legs, but face significant energy optimization challenges when navigating diverse environments. In this work, we present a hierarchical control framework that integrates predictive power modeling with residual reinforcement learning to optimize omnidirectional locomotion efficiency for wheeled quadrupedal robots. Our approach employs a novel power prediction network that forecasts energy consumption across different gait patterns over a 1-second horizon, enabling intelligent selection of the most energy-efficient nominal gait. A reinforcement learning policy then generates residual adjustments to this nominal gait, fine-tuning the robot's actions to balance energy efficiency with performance objectives. Comparative analysis shows our method reduces energy consumption by up to 35\% compared to fixed-gait approaches while maintaining comparable velocity tracking performance. We validate our framework through extensive simulations and real-world experiments on a modified Unitree Go1 platform, demonstrating robust performance even under external disturbances. Videos and implementation details are available at \href{https://sites.google.com/view/switching-wpg}{https://sites.google.com/view/switching-wpg}.
