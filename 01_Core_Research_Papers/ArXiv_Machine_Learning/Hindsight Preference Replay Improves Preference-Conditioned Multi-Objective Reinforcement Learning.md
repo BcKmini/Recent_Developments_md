@@ -1,0 +1,7 @@
+# Hindsight Preference Replay Improves Preference-Conditioned Multi-Objective Reinforcement Learning
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.11604)
+
+## 요약
+arXiv:2601.11604v1 Announce Type: new
+Abstract: Multi-objective reinforcement learning (MORL) enables agents to optimize vector-valued rewards while respecting user preferences. CAPQL, a preference-conditioned actor-critic method, achieves this by conditioning on weight vectors w and restricts data usage to the specific preferences under which it was collected, leaving off-policy data from other preferences unused. We introduce Hindsight Preference Replay (HPR), a simple and general replay augmentation strategy that retroactively relabels stored transitions with alternative preferences. This densifies supervision across the preference simplex without altering the CAPQL architecture or loss functions. Evaluated on six MO-Gymnasium locomotion tasks at a fixed 300000-step budget using expected utility (EUM), hypervolume (HV), and sparsity, HPR-CAPQL improves HV in five of six environments and EUM in four of six. On mo-humanoid-v5, for instance, EUM rises from $323\!\pm\!125$ to $1613\!\pm\!464$ and HV from 0.52M to 9.63M, with strong statistical support. mo-halfcheetah-v5 remains a challenging exception where CAPQL attains higher HV at comparable EUM. We report final summaries and Pareto-front visualizations across all tasks.

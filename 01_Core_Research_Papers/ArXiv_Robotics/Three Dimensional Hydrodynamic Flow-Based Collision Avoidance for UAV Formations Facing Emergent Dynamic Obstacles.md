@@ -1,0 +1,7 @@
+# Three Dimensional Hydrodynamic Flow-Based Collision Avoidance for UAV Formations Facing Emergent Dynamic Obstacles
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.11832)
+
+## 요약
+arXiv:2601.11832v1 Announce Type: new
+Abstract: This paper presents a three-dimensional, hydrodynamics-inspired collision avoidance framework for uncrewed aerial vehicle (UAV) formations operating in dynamic environments. When moving obstacles enter a UAV's sensing region, they are modeled as three dimensional doublets or ellipsoids that generate local velocity fields, guiding nearby UAVs to execute smooth, collision-free maneuvers without trajectory discontinuities or explicit trajectory replanning. This flow-based approach enables real-time operation and interpretable behavior by leveraging the nature of fluid flow around obstacles via the harmonic properties of Laplace's equation, inherently avoiding local minima common in traditional potential field methods. To establish and maintain coordination among the UAVs, a Virtual Rigid Body (VRB) formation strategy is integrated, ensuring that formation geometry and trajectory tracking are preserved. Simulation results demonstrate the feasibility and scalability of the method for both individual and multi-UAV scenarios with multiple formation geometries encountering moving obstacles. The proposed approach achieves safe, smooth, and computationally efficient avoidance maneuvers suitable for real-time and practical applications.
