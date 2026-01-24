@@ -1,0 +1,7 @@
+# Neural Collision Detection for Multi-arm Laparoscopy Surgical Robots Through Learning-from-Simulation
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.15459)
+
+## 요약
+arXiv:2601.15459v1 Announce Type: new
+Abstract: This study presents an integrated framework for enhancing the safety and operational efficiency of robotic arms in laparoscopic surgery by addressing key challenges in collision detection and minimum distance estimation. By combining analytical modeling, real-time simulation, and machine learning, the framework offers a robust solution for ensuring safe robotic operations. An analytical model was developed to estimate the minimum distances between robotic arms based on their joint configurations, offering precise theoretical calculations that serve as both a validation tool and a benchmark. To complement this, a 3D simulation environment was created to model two 7-DOF Kinova robotic arms, generating a diverse dataset of configurations for collision detection and distance estimation. Using these insights, a deep neural network model was trained with joint actuators of robot arms and relative positions as inputs, achieving a mean absolute error of 282.2 mm and an R-squared value of 0.85. The close alignment between predicted and actual distances highlights the network's accuracy and its ability to generalize spatial relationships. This work demonstrates the effectiveness of combining analytical precision with machine learning algorithms to enhance the precision and reliability of robotic systems.
