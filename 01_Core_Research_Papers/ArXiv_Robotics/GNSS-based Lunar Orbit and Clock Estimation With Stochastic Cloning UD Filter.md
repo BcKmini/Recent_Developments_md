@@ -1,0 +1,7 @@
+# GNSS-based Lunar Orbit and Clock Estimation With Stochastic Cloning UD Filter
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.16393)
+
+## 요약
+arXiv:2601.16393v1 Announce Type: new
+Abstract: This paper presents a terrestrial GNSS-based orbit and clock estimation framework for lunar navigation satellites. To enable high-precision estimation under the low-observability conditions encountered at lunar distances, we develop a stochastic-cloning UD-factorized filter and delayed-state smoother that provide enhanced numerical stability when processing precise time-differenced carrier phase (TDCP) measurements. A comprehensive dynamics and measurement model is formulated, explicitly accounting for relativistic coupling between orbital and clock states, lunar time-scale transformations, and signal propagation delays including ionospheric, plasmaspheric, and Shapiro effects. The proposed approach is evaluated using high-fidelity Monte-Carlo simulations incorporating realistic multi-constellation GNSS geometry, broadcast ephemeris errors, lunar satellite dynamics, and ionospheric and plasmaspheric delay computed from empirical electron density models. Simulation results demonstrate that combining ionosphere-free pseudorange and TDCP measurements achieves meter-level orbit accuracy and sub-millimeter-per-second velocity accuracy, satisfying the stringent signal-in-space error requirements of future Lunar Augmented Navigation Services (LANS).

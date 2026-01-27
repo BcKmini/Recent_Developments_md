@@ -1,0 +1,7 @@
+# DMAVA: Distributed Multi-Autonomous Vehicle Architecture Using Autoware
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.16336)
+
+## 요약
+arXiv:2601.16336v1 Announce Type: new
+Abstract: Simulating and validating coordination among multiple autonomous vehicles (AVs) is a challenging task as most existing simulation architectures are limited to single-vehicle operation or rely on centralized control. This paper presents a Distributed Multi-AV Architecture (DMAVA) that enables synchronized, real-time autonomous driving simulation across multiple physical hosts. Each vehicle runs its own complete AV stack and operates independently from other AVs. The vehicles in the simulation maintain synchronized coordination through a low-latency data-centric communication layer. The proposed system integrates ROS 2 Humble, Autoware Universe, AWSIM Labs, and Zenoh to support concurrent execution of multiple Autoware stacks within a shared Unity-based environment. Experiments conducted on multiple-host configurations demonstrate stable localization, reliable inter-host communication, and fully synchronized closed-loop control. The DMAVA also serves as a foundation for Multi-Vehicle Autonomous Valet Parking, demonstrating its extensibility toward higher-level cooperative autonomy. Demo videos and source code are available at: https://github.com/zubxxr/distributed-multi-autonomous-vehicle-architecture.

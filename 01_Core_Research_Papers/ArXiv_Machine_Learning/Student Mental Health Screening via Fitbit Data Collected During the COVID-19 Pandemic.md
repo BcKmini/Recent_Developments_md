@@ -1,0 +1,7 @@
+# Student Mental Health Screening via Fitbit Data Collected During the COVID-19 Pandemic
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.16324)
+
+## 요약
+arXiv:2601.16324v1 Announce Type: new
+Abstract: College students experience many stressors, resulting in high levels of anxiety and depression. Wearable technology provides unobtrusive sensor data that can be used for the early detection of mental illness. However, current research is limited concerning the variety of psychological instruments administered, physiological modalities, and time series parameters. In this research, we collect the Student Mental and Environmental Health (StudentMEH) Fitbit dataset from students at our institution during the pandemic. We provide a comprehensive assessment of the ability of predictive machine learning models to screen for depression, anxiety, and stress using different Fitbit modalities. Our findings indicate potential in physiological modalities such as heart rate and sleep to screen for mental illness with the F1 scores as high as 0.79 for anxiety, the former modality reaching 0.77 for stress screening, and the latter modality achieving 0.78 for depression. This research highlights the potential of wearable devices to support continuous mental health monitoring, the importance of identifying best data aggregation levels and appropriate modalities for screening for different mental ailments.

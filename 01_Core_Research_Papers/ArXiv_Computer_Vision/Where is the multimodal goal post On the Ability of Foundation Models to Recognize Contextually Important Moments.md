@@ -1,0 +1,7 @@
+# Where is the multimodal goal post? On the Ability of Foundation Models to Recognize Contextually Important Moments
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.16333)
+
+## 요약
+arXiv:2601.16333v1 Announce Type: new
+Abstract: Foundation models are used for many real-world applications involving language generation from temporally-ordered multimodal events. In this work, we study the ability of models to identify the most important sub-events in a video, which is a fundamental prerequisite for narrating or summarizing multimodal events. Specifically, we focus on football games and evaluate models on their ability to distinguish between important and non-important sub-events in a game. To this end, we construct a new dataset by leveraging human preferences for importance implicit in football game highlight reels, without any additional annotation costs. Using our dataset, which we will publicly release to the community, we compare several state-of-the-art multimodal models and show that they are not far from chance level performance. Analyses of models beyond standard evaluation metrics reveal their tendency to rely on a single dominant modality and their ineffectiveness in synthesizing necessary information from multiple sources. Our findings underline the importance of modular architectures that can handle sample-level heterogeneity in multimodal data and the need for complementary training procedures that can maximize cross-modal synergy.

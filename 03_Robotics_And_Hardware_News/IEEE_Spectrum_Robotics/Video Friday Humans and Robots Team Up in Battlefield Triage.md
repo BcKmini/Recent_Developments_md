@@ -34,7 +34,7 @@ The most incredible part of this video is that they have publicly available powe
 
 [ [KIMLAB](https://publish.illinois.edu/kimlab2020/) ]
 
-For the eleventy billionth time: just because you can do a task with a [humanoid robot](https://spectrum.ieee.org/humanoid-robots), doesn’t mean you should do a task with a humanoid robot.
+For the eleventy-billionth time: Just because you can do a task with a [humanoid robot](https://spectrum.ieee.org/humanoid-robots) doesn’t mean you should do a task with a humanoid robot.
 
 [ [UBTECH](https://www.ubtrobot.com/en/) ]
 
@@ -42,7 +42,7 @@ I am less interested in this autonomous urban delivery robot and more interested
 
 [ [KAIST](https://unmanned.kaist.ac.kr/) ]
 
-Ok so figuring out where [Spot’s face](https://spectrum.ieee.org/spot-is-boston-dynamics-nimble-new-quadruped-robot) is just got a lot more complicated.
+Okay, so figuring out where [Spot’s face](https://spectrum.ieee.org/spot-is-boston-dynamics-nimble-new-quadruped-robot) is just got a lot more complicated.
 
 [ [Boston Dynamics](https://bostondynamics.com/blog/a-new-perspective-for-facilities-inspection/) ]
 
@@ -50,6 +50,6 @@ Ok so figuring out where [Spot’s face](https://spectrum.ieee.org/spot-is-bosto
 
 [ [CLIO](https://arxiv.org/html/2512.05389) ]
 
-The future of work is doing work so that robots can then do the same work except less well.
+The future of work is doing work so that robots can then do the same work, except less well.
 
 [ [AgileX](https://global.agilex.ai/) ]
