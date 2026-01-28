@@ -1,0 +1,7 @@
+# Hybrid Deep Feature Extraction and ML for Construction and Demolition Debris Classification
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.17038)
+
+## 요약
+arXiv:2601.17038v1 Announce Type: new
+Abstract: The construction industry produces significant volumes of debris, making effective sorting and classification critical for sustainable waste management and resource recovery. This study presents a hybrid vision-based pipeline that integrates deep feature extraction with classical machine learning (ML) classifiers for automated construction and demolition (C\&D) debris classification. A novel dataset comprising 1,800 balanced, high-quality images representing four material categories, Ceramic/Tile, Concrete, Trash/Waste, and Wood was collected from real construction sites in the UAE, capturing diverse real-world conditions. Deep features were extracted using a pre-trained Xception network, and multiple ML classifiers, including SVM, kNN, Bagged Trees, LDA, and Logistic Regression, were systematically evaluated. The results demonstrate that hybrid pipelines using Xception features with simple classifiers such as Linear SVM, kNN, and Bagged Trees achieve state-of-the-art performance, with up to 99.5\% accuracy and macro-F1 scores, surpassing more complex or end-to-end deep learning approaches. The analysis highlights the operational benefits of this approach for robust, field-deployable debris identification and provides pathways for future integration with robotics and onsite automation systems.
