@@ -1,0 +1,9 @@
+# NucFuseRank: Dataset Fusion and Performance Ranking for Nuclei Instance Segmentation
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.20104)
+
+## 요약
+arXiv:2601.20104v1 Announce Type: new
+Abstract: Nuclei instance segmentation in hematoxylin and eosin (H&E)-stained images plays an important role in automated histological image analysis, with various applications in downstream tasks. While several machine learning and deep learning approaches have been proposed for nuclei instance segmentation, most research in this field focuses on developing new segmentation algorithms and benchmarking them on a limited number of arbitrarily selected public datasets.
+In this work, rather than focusing on model development, we focused on the datasets used for this task. Based on an extensive literature review, we identified manually annotated, publicly available datasets of H&E-stained images for nuclei instance segmentation and standardized them into a unified input and annotation format. Using two state-of-the-art segmentation models, one based on convolutional neural networks (CNNs) and one based on a hybrid CNN and vision transformer architecture, we systematically evaluated and ranked these datasets based on their nuclei instance segmentation performance. Furthermore, we proposed a unified test set (NucFuse-test) for fair cross-dataset evaluation and a unified training set (NucFuse-train) for improved segmentation performance by merging images from multiple datasets.
+By evaluating and ranking the datasets, performing comprehensive analyses, generating fused datasets, conducting external validation, and making our implementation publicly available, we provided a new benchmark for training, testing, and evaluating nuclei instance segmentation models on H&E-stained histological images.

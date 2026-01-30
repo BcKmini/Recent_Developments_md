@@ -1,0 +1,7 @@
+# Just in time Informed Trees: Manipulability-Aware Asymptotically Optimized Motion Planning
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2601.19972)
+
+## 요약
+arXiv:2601.19972v1 Announce Type: new
+Abstract: In high-dimensional robotic path planning, traditional sampling-based methods often struggle to efficiently identify both feasible and optimal paths in complex, multi-obstacle environments. This challenge is intensified in robotic manipulators, where the risk of kinematic singularities and self-collisions further complicates motion efficiency and safety. To address these issues, we introduce the Just-in-Time Informed Trees (JIT\*) algorithm, an enhancement over Effort Informed Trees (EIT\*), designed to improve path planning through two core modules: the Just-in-Time module and the Motion Performance module. The Just-in-Time module includes "Just-in-Time Edge," which dynamically refines edge connectivity, and "Just-in-Time Sample," which adjusts sampling density in bottleneck areas to enable faster initial path discovery. The Motion Performance module balances manipulability and trajectory cost through dynamic switching, optimizing motion control while reducing the risk of singularities. Comparative analysis shows that JIT\* consistently outperforms traditional sampling-based planners across $\mathbb{R}^4$ to $\mathbb{R}^{16}$ dimensions. Its effectiveness is further demonstrated in single-arm and dual-arm manipulation tasks, with experimental results available in a video at https://youtu.be/nL1BMHpMR7c.

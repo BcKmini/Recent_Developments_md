@@ -1,0 +1,7 @@
+# Latent Object Permanence: Topological Phase Transitions, Free-Energy Principles, and Renormalization Group Flows in Deep Transformer Manifolds
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.19942)
+
+## 요약
+arXiv:2601.19942v1 Announce Type: new
+Abstract: We study the emergence of multi-step reasoning in deep Transformer language models through a geometric and statistical-physics lens. Treating the hidden-state trajectory as a flow on an implicit Riemannian manifold, we analyze the layerwise covariance spectrum of activations, where $C^{(\ell)}=\mathbb{E}[h^{(\ell)}h^{(\ell)\top}]$, and track deviations from a random-matrix bulk. Across model scales (1.5B--30B), we observe a sharp reduction in effective dimensionality consistent with a phase transition: an order parameter based on sparsity/localization, $\Omega(h)=1-\|h\|\_1/(\sqrt{d}\|h\|\_2)$, exhibits a discontinuity near a critical normalized depth $\gamma\_c\approx 0.42$ in sufficiently large models. We formalize the forward pass as a discrete coarse-graining map and relate the appearance of stable "concept basins" to fixed points of this renormalization-like dynamics. The resulting low-entropy regime is characterized by a spectral tail collapse and by the formation of transient, reusable object-like structures in representation space, which we call Transient Class Objects (TCOs). We provide theoretical conditions connecting logical separability to spectral decay and validate the predicted signatures with layerwise probes on multiple open-weight model families.
