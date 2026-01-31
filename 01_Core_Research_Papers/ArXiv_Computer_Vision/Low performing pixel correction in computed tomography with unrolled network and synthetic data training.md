@@ -1,0 +1,7 @@
+# Low performing pixel correction in computed tomography with unrolled network and synthetic data training
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.20995)
+
+## 요약
+arXiv:2601.20995v1 Announce Type: new
+Abstract: Low performance pixels (LPP) in Computed Tomography (CT) detectors would lead to ring and streak artifacts in the reconstructed images, making them clinically unusable. In recent years, several solutions have been proposed to correct LPP artifacts, either in the image domain or in the sinogram domain using supervised deep learning methods. However, these methods require dedicated datasets for training, which are expensive to collect. Moreover, existing approaches focus solely either on image-space or sinogram-space correction, ignoring the intrinsic correlations from the forward operation of the CT geometry. In this work, we propose an unrolled dual-domain method based on synthetic data to correct LPP artifacts. Specifically, the intrinsic correlations of LPP between the sinogram and image domains are leveraged through synthetic data generated from natural images, enabling the trained model to correct artifacts without requiring any real-world clinical data. In experiments simulating 1-2% detectors defect near the isocenter, the proposed method outperformed the state-of-the-art approaches by a large margin. The results indicate that our solution can correct LPP artifacts without the cost of data collection for model training, and it is adaptable to different scanner settings for software-based applications.
