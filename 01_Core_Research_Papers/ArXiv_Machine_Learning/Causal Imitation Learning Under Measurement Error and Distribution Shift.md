@@ -1,0 +1,7 @@
+# Causal Imitation Learning Under Measurement Error and Distribution Shift
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.22206)
+
+## 요약
+arXiv:2601.22206v1 Announce Type: new
+Abstract: We study offline imitation learning (IL) when part of the decision-relevant state is observed only through noisy measurements and the distribution may change between training and deployment. Such settings induce spurious state-action correlations, so standard behavioral cloning (BC) -- whether conditioning on raw measurements or ignoring them -- can converge to systematically biased policies under distribution shift. We propose a general framework for IL under measurement error, inspired by explicitly modeling the causal relationships among the variables, yielding a target that retains a causal interpretation and is robust to distribution shift. Building on ideas from proximal causal inference, we introduce \texttt{CausIL}, which treats noisy state observations as proxy variables, and we provide identification conditions under which the target policy is recoverable from demonstrations without rewards or interactive expert queries. We develop estimators for both discrete and continuous state spaces; for continuous settings, we use an adversarial procedure over RKHS function classes to learn the required parameters. We evaluate \texttt{CausIL} on semi-simulated longitudinal data from the PhysioNet/Computing in Cardiology Challenge 2019 cohort and demonstrate improved robustness to distribution shift compared to BC baselines.

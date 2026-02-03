@@ -1,0 +1,7 @@
+# Do Open-Vocabulary Detectors Transfer to Aerial Imagery? A Comparative Evaluation
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.22164)
+
+## 요약
+arXiv:2601.22164v1 Announce Type: new
+Abstract: Open-vocabulary object detection (OVD) enables zero-shot recognition of novel categories through vision-language models, achieving strong performance on natural images. However, transferability to aerial imagery remains unexplored. We present the first systematic benchmark evaluating five state-of-the-art OVD models on the LAE-80C aerial dataset (3,592 images, 80 categories) under strict zero-shot conditions. Our experimental protocol isolates semantic confusion from visual localization through Global, Oracle, and Single-Category inference modes. Results reveal severe domain transfer failure: the best model (OWLv2) achieves only 27.6% F1-score with 69% false positive rate. Critically, reducing vocabulary size from 80 to 3.2 classes yields 15x improvement, demonstrating that semantic confusion is the primary bottleneck. Prompt engineering strategies such as domain-specific prefixing and synonym expansion, fail to provide meaningful performance gains. Performance varies dramatically across datasets (F1: 0.53 on DIOR, 0.12 on FAIR1M), exposing brittleness to imaging conditions. These findings establish baseline expectations and highlight the need for domain-adaptive approaches in aerial OVD.

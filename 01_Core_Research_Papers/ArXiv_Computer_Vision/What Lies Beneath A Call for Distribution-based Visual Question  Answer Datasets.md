@@ -1,0 +1,7 @@
+# What Lies Beneath: A Call for Distribution-based Visual Question & Answer Datasets
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2601.22218)
+
+## 요약
+arXiv:2601.22218v1 Announce Type: new
+Abstract: Visual Question Answering (VQA) has become an important benchmark for assessing how large multimodal models (LMMs) interpret images. However, most VQA datasets focus on real-world images or simple diagrammatic analysis, with few focused on interpreting complex scientific charts. Indeed, many VQA datasets that analyze charts do not contain the underlying data behind those charts or assume a 1-to-1 correspondence between chart marks and underlying data. In reality, charts are transformations (i.e. analysis, simplification, modification) of data. This distinction introduces a reasoning challenge in VQA that the current datasets do not capture. In this paper, we argue for a dedicated VQA benchmark for scientific charts where there is no 1-to-1 correspondence between chart marks and underlying data. To do so, we survey existing VQA datasets and highlight limitations of the current field. We then generate synthetic histogram charts based on ground truth data, and ask both humans and a large reasoning model questions where precise answers depend on access to the underlying data. We release the open-source dataset, including figures, underlying data, distribution parameters used to generate the data, and bounding boxes for all figure marks and text for future research.

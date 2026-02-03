@@ -1,0 +1,7 @@
+# Attention Isn't All You Need for Emotion Recognition:Domain Features Outperform Transformers on the EAV Dataset
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.22161)
+
+## 요약
+arXiv:2601.22161v1 Announce Type: new
+Abstract: We present a systematic study of multimodal emotion recognition using the EAV dataset, investigating whether complex attention mechanisms improve performance on small datasets. We implement three model categories: baseline transformers (M1), novel factorized attention mechanisms (M2), and improved CNN baselines (M3). Our experiments show that sophisticated attention mechanisms consistently underperform on small datasets. M2 models achieved 5 to 13 percentage points below baselines due to overfitting and destruction of pretrained features. In contrast, simple domain-appropriate modifications proved effective: adding delta MFCCs to the audio CNN improved accuracy from 61.9\% to \textbf{65.56\%} (+3.66pp), while frequency-domain features for EEG achieved \textbf{67.62\%} (+7.62pp over the paper baseline). Our vision transformer baseline (M1) reached \textbf{75.30\%}, exceeding the paper's ViViT result (74.5\%) through domain-specific pretraining, and vision delta features achieved \textbf{72.68\%} (+1.28pp over the paper CNN). These findings demonstrate that for small-scale emotion recognition, domain knowledge and proper implementation outperform architectural complexity.

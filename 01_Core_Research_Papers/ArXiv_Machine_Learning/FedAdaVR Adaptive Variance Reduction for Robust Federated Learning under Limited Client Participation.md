@@ -1,0 +1,7 @@
+# FedAdaVR: Adaptive Variance Reduction for Robust Federated Learning under Limited Client Participation
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2601.22204)
+
+## 요약
+arXiv:2601.22204v1 Announce Type: new
+Abstract: Federated learning (FL) encounters substantial challenges due to heterogeneity, leading to gradient noise, client drift, and partial client participation errors, the last of which is the most pervasive but remains insufficiently addressed in current literature. In this paper, we propose FedAdaVR, a novel FL algorithm aimed at solving heterogeneity issues caused by sporadic client participation by incorporating an adaptive optimiser with a variance reduction technique. This method takes advantage of the most recent stored updates from clients, even when they are absent from the current training round, thereby emulating their presence. Furthermore, we propose FedAdaVR-Quant, which stores client updates in quantised form, significantly reducing the memory requirements (by 50%, 75%, and 87.5%) of FedAdaVR while maintaining equivalent model performance. We analyse the convergence behaviour of FedAdaVR under general nonconvex conditions and prove that our proposed algorithm can eliminate partial client participation error. Extensive experiments conducted on multiple datasets, under both independent and identically distributed (IID) and non-IID settings, demonstrate that FedAdaVR consistently outperforms state-of-the-art baseline methods.
