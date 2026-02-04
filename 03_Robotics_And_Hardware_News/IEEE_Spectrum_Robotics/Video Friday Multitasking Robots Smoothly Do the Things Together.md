@@ -20,11 +20,11 @@ Now that you mention it, the bit at the end where the robot picks up a can while
 
 > *Last year, Helix showed that a single neural network could control a humanoid’s upper body from pixels. Today, Helix 02 extends that control to the entire robot—walking, manipulating, and balancing as one continuous system.*
 
-Why yes, I am a normal human and this is very similar to the default state of my kitchen.
+Why, yes, I am a normal human, and this is very similar to the default state of my kitchen.
 
 [ [Figure](https://www.figure.ai/) ]
 
-> *[Harry Goldstein](https://spectrum.ieee.org/ieee-spectrum-wins-11-awards), our Editor in Chief, went to meet Sprout from Fauna Robotics. He was skeptical at first, but Sprout won him over with its robotic charm.*
+> *[Harry Goldstein](https://spectrum.ieee.org/ieee-spectrum-wins-11-awards), our editor in chief, went to meet Sprout from Fauna Robotics. He was skeptical at first, but Sprout won him over with its robotic charm.*
 
 [ [Fauna Robotics](https://faunarobotics.com/) ]
 
@@ -40,9 +40,9 @@ The educational robotics market is tough, but you’ve got to hand it to [Sphero
 
 [ [Zipline](https://www.zipline.com/) ]
 
-I want to be impressed more by the idea of 3D printing skin and skeleton at the same time, but come on, animals have been doing that for literally hundreds of years without even trying.
+I want to be impressed more by the idea of 3D-printing skin and skeleton at the same time, but come on, animals have been doing that for literally hundreds of years without even trying.
 
-[ [JSK Lab, University of tokyo](https://www.jsk.t.u-tokyo.ac.jp/) ]
+[ [JSK Lab, University of Tokyo](https://www.jsk.t.u-tokyo.ac.jp/) ]
 
 If there is a market for small bipedal robots that can both ski and be dinosaurs, LimX has it covered.
 
