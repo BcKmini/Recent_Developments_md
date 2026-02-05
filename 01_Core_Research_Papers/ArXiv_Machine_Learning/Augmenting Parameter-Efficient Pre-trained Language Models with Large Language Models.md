@@ -1,0 +1,7 @@
+# Augmenting Parameter-Efficient Pre-trained Language Models with Large Language Models
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.02501)
+
+## 요약
+arXiv:2602.02501v1 Announce Type: new
+Abstract: Training AI models in cybersecurity with help of vast datasets offers significant opportunities to mimic real-world behaviors effectively. However, challenges like data drift and scarcity of labelled data lead to frequent updates of models and the risk of overfitting. To address these challenges, we used parameter-efficient fine-tuning techniques for pre-trained language models wherein we combine compacters with various layer freezing strategies. To enhance the capabilities of these pre-trained language models, in this work we introduce two strategies that use large language models. In the first strategy, we utilize large language models as data-labelling tools wherein they generate labels for unlabeled data. In the second strategy, large language modes are utilized as fallback mechanisms for predictions having low confidence scores. We perform comprehensive experimental analysis on the proposed strategies on different downstream tasks specific to cybersecurity domain. We empirically demonstrate that by combining parameter-efficient pre-trained models with large language models, we can improve the reliability and robustness of models, making them more suitable for real-world cybersecurity applications.

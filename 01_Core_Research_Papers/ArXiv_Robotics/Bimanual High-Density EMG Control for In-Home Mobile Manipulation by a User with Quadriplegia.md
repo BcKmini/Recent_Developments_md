@@ -1,0 +1,7 @@
+# Bimanual High-Density EMG Control for In-Home Mobile Manipulation by a User with Quadriplegia
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.02773)
+
+## 요약
+arXiv:2602.02773v1 Announce Type: new
+Abstract: Mobile manipulators in the home can enable people with cervical spinal cord injury (cSCI) to perform daily physical household tasks that they could not otherwise do themselves. However, paralysis in these users often limits access to traditional robot control interfaces such as joysticks or keyboards. In this work, we introduce and deploy the first system that enables a user with quadriplegia to control a mobile manipulator in their own home using bimanual high-density electromyography (HDEMG). We develop a pair of custom, fabric-integrated HDEMG forearm sleeves, worn on both arms, that capture residual neuromotor activity from clinically paralyzed degrees of freedom and support real-time gesture-based robot control. Second, by integrating vision, language, and motion planning modules, we introduce a shared autonomy framework that supports robust and user-driven teleoperation, with particular benefits for navigation-intensive tasks in home environments. Finally, to demonstrate the system in the wild, we present a twelve-day in-home user study evaluating real-time use of the wearable EMG interface for daily robot control. Together, these system components enable effective robot control for performing activities of daily living and other household tasks in a real home environment.

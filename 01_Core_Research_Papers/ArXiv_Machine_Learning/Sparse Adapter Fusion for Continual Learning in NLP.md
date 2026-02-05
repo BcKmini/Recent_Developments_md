@@ -1,0 +1,7 @@
+# Sparse Adapter Fusion for Continual Learning in NLP
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.02502)
+
+## 요약
+arXiv:2602.02502v1 Announce Type: new
+Abstract: Continual learning in natural language processing plays a crucial role in adapting to evolving data and preventing catastrophic forgetting. Despite significant progress, existing methods still face challenges, such as inefficient parameter reuse across tasks, risking catastrophic forgetting when tasks are dissimilar, and the unnecessary introduction of new parameters for each task, which hampers knowledge sharing among similar tasks. To tackle these issues, we propose a Sparse Adapter Fusion Method (SAFM), which dynamically fuses old and new adapters to address these challenges. SAFM operates in two stages: the decision stage and the tuning stage. In the decision stage, SAFM determines whether to incorporate a new adapter, reuse an existing one, or add an empty adapter. The architecture search procedure, designed to prioritize reusing or adding empty adapters, minimizes parameter consumption and maximizes reuse. In the tuning stage, SAFM especially facilitates a layer-wise loss to encourage differentiation between adapters, effectively capturing knowledge within the same task. Experimental results consistently show that SAFM outperforms state-of-the-art (SOTA) methods, achieving comparable performance while utilizing less than 60% of the parameters.
