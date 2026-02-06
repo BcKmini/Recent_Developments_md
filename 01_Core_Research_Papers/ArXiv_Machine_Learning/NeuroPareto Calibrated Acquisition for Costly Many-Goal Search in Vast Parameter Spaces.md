@@ -1,0 +1,7 @@
+# NeuroPareto: Calibrated Acquisition for Costly Many-Goal Search in Vast Parameter Spaces
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.03901)
+
+## 요약
+arXiv:2602.03901v1 Announce Type: new
+Abstract: The pursuit of optimal trade-offs in high-dimensional search spaces under stringent computational constraints poses a fundamental challenge for contemporary multi-objective optimization. We develop NeuroPareto, a cohesive architecture that integrates rank-centric filtering, uncertainty disentanglement, and history-conditioned acquisition strategies to navigate complex objective landscapes. A calibrated Bayesian classifier estimates epistemic uncertainty across non-domination tiers, enabling rapid generation of high-quality candidates with minimal evaluation cost. Deep Gaussian Process surrogates further separate predictive uncertainty into reducible and irreducible components, providing refined predictive means and risk-aware signals for downstream selection. A lightweight acquisition network, trained online from historical hypervolume improvements, guides expensive evaluations toward regions balancing convergence and diversity. With hierarchical screening and amortized surrogate updates, the method maintains accuracy while keeping computational overhead low. Experiments on DTLZ and ZDT suites and a subsurface energy extraction task show that NeuroPareto consistently outperforms classifier-enhanced and surrogate-assisted baselines in Pareto proximity and hypervolume.

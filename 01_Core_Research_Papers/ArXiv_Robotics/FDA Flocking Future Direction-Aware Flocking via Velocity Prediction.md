@@ -1,0 +1,7 @@
+# FDA Flocking: Future Direction-Aware Flocking via Velocity Prediction
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.04012)
+
+## 요약
+arXiv:2602.04012v1 Announce Type: new
+Abstract: Understanding self-organization in natural collectives such as bird flocks inspires swarm robotics, yet most flocking models remain reactive, overlooking anticipatory cues that enhance coordination. Motivated by avian postural and wingbeat signals, as well as multirotor attitude tilts that precede directional changes, this work introduces a principled, bio-inspired anticipatory augmentation of reactive flocking termed Future Direction-Aware (FDA) flocking. In the proposed framework, agents blend reactive alignment with a predictive term based on short-term estimates of neighbors' future velocities, regulated by a tunable blending parameter that interpolates between reactive and anticipatory behaviors. This predictive structure enhances velocity consensus and cohesion-separation balance while mitigating the adverse effects of sensing and communication delays and measurement noise that destabilize reactive baselines. Simulation results demonstrate that FDA achieves faster and higher alignment, enhanced translational displacement of the flock, and improved robustness to delays and noise compared to a purely reactive model. Future work will investigate adaptive blending strategies, weighted prediction schemes, and experimental validation on multirotor drone swarms.
