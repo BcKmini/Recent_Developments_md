@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/multitasking-robot)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/humanoid-robot-holds-small-yellow-bag-near-biohazard-trash-bin-in-a-hallway.png?id=63524908&width=1200&height=800&coordinates=50%2C0%2C51%2C0)  
+![](https://spectrum.ieee.org/media-library/humanoid-robot-holds-small-yellow-bag-near-biohazard-trash-bin-in-a-hallway.png?id=63524908&width=2000&height=1500&coordinates=133%2C0%2C134%2C0)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.

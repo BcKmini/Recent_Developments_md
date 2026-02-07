@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/poetry-for-engineers-ode)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/anthropomorphized-miniature-gadgets-standing-on-the-heads-of-two-hex-bolts.jpg?id=63525887&width=1200&height=800&coordinates=0%2C24%2C0%2C25)  
+![](https://spectrum.ieee.org/media-library/anthropomorphized-miniature-gadgets-standing-on-the-heads-of-two-hex-bolts.jpg?id=63525887&width=2000&height=1500&coordinates=78%2C0%2C79%2C0)  
   
 
 As fairies for the Irish or leeks for Welsh,  

@@ -1,0 +1,7 @@
+# UniTrack: Differentiable Graph Representation Learning for Multi-Object Tracking
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.05037)
+
+## 요약
+arXiv:2602.05037v1 Announce Type: new
+Abstract: We present UniTrack, a plug-and-play graph-theoretic loss function designed to significantly enhance multi-object tracking (MOT) performance by directly optimizing tracking-specific objectives through unified differentiable learning. Unlike prior graph-based MOT methods that redesign tracking architectures, UniTrack provides a universal training objective that integrates detection accuracy, identity preservation, and spatiotemporal consistency into a single end-to-end trainable loss function, enabling seamless integration with existing MOT systems without architectural modifications. Through differentiable graph representation learning, UniTrack enables networks to learn holistic representations of motion continuity and identity relationships across frames. We validate UniTrack across diverse tracking models and multiple challenging benchmarks, demonstrating consistent improvements across all tested architectures and datasets including Trackformer, MOTR, FairMOT, ByteTrack, GTR, and MOTE. Extensive evaluations show up to 53\% reduction in identity switches and 12\% IDF1 improvements across challenging benchmarks, with GTR achieving peak performance gains of 9.7\% MOTA on SportsMOT.
