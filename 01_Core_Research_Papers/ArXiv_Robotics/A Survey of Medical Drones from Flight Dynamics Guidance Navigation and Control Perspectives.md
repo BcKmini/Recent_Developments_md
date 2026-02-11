@@ -1,0 +1,7 @@
+# A Survey of Medical Drones from Flight Dynamics, Guidance, Navigation, and Control Perspectives
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.06969)
+
+## 요약
+arXiv:2602.06969v1 Announce Type: new
+Abstract: The integration of drones into the medical field has revolutionized healthcare delivery by enabling rapid transportation of medical supplies, organs, and even emergency assistance in remote or disaster-stricken areas. While other survey papers focus on the healthcare supply chain, operations, and medical emergency response aspects, this paper provides a comprehensive review of medical drones from the perspectives of flight dynamics and guidance, navigation, and control (GNC) systems. We first discuss the medical aerial delivery mission requirements and suitable uncrewed aerial system (UAS) configurations. We then address payload container design and optimization, and its effect on supplies and overall flight dynamics. We also explore the fundamental principles of GNC in the context of medical drone operations, highlighting key challenges arising from vibration, air temperature, pressure, and humidity, which affect the quality of medical supplies. The paper examines various GNC algorithms that can mitigate these challenges, as well as the algorithms' limitations. With these considerations, this survey aims to provide insights into optimizing GNC frameworks for medical drones, emphasizing research gaps and directions to improve real-world healthcare applications.

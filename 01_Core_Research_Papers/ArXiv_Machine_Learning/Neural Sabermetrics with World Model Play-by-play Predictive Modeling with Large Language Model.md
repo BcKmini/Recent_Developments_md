@@ -1,0 +1,7 @@
+# Neural Sabermetrics with World Model: Play-by-play Predictive Modeling with Large Language Model
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.07030)
+
+## 요약
+arXiv:2602.07030v1 Announce Type: new
+Abstract: Classical sabermetrics has profoundly shaped baseball analytics by summarizing long histories of play into compact statistics. While these metrics are invaluable for valuation and retrospective analysis, they do not define a generative model of how baseball games unfold pitch by pitch, leaving most existing approaches limited to single-step prediction or post-hoc analysis. In this work, we present Neural Sabermetrics with World Model, a Large Language Model (LLM) based play-by-play world model for baseball. We cast baseball games as long auto-regressive sequences of events and continuously pretrain a single LLM on more than ten years of Major League Baseball (MLB) tracking data, comprising over seven million pitch sequences and approximately three billion tokens. The resulting model is capable of predicting multiple aspects of game evolution within a unified framework. We evaluate our model on both in-distribution regular-season data and out-of-distribution postseason games and compare against strong neural baselines from prior work. Despite using a single backbone model, our approach outperforms the performance of existing baselines, (1) correctly predicting approximately 64% of next pitches within a plate appearance and (2) 78% of batter swing decisions, suggesting that LLMs can serve as effective world models for sports.

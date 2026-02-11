@@ -1,0 +1,9 @@
+# Attractor Patch Networks: Reducing Catastrophic Forgetting with Routed Low-Rank Patch Experts
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.06993)
+
+## 요약
+arXiv:2602.06993v1 Announce Type: new
+Abstract: Transformers achieve strong language modeling accuracy, yet their position-wise feed-forward networks (FFNs) are dense, globally shared, and typically updated end to end. These properties create two practical tensions. First, dense FFNs spend the same compute on every token regardless of context, and they allocate capacity uniformly even when language exhibits highly clustered context structure. Second, continual learning, in the sense of updating the model while serving a data stream, often produces interference because a small update touches broadly shared weights.
+We propose Attractor Patch Networks (APN), a plug-compatible replacement for the Transformer FFN. APN is a bank of patch experts. A similarity router selects a small top-k set of patches for each token by matching the token representation to learned prototypes. Each selected patch emits a low-rank residual update conditioned on a compact code. The architecture yields conditional, context-specialized nonlinear transformations while preserving the standard Transformer interface.
+This paper focuses on APN as an architectural primitive. We formalize APN, analyze its expressivity as a piecewise low-rank residual function class, and derive simple interference and stability arguments that make APN naturally compatible with continual learning. In experiments on character-level language modeling, APN achieves competitive perplexity (4.57 vs 4.32 PPL) while enabling dramatically better continual adaptation: when adapting to a shifted domain, APN achieves 2.6 times better retention (11.1 vs 29.4 PPL on the original domain) and 2.8 times better adaptation (6.4 vs 17.8 PPL on the new domain) compared to global fine-tuning of a dense FFN baseline.
