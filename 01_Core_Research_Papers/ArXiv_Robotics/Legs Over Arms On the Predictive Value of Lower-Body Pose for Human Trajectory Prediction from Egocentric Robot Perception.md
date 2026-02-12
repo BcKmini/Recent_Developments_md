@@ -1,0 +1,7 @@
+# Legs Over Arms: On the Predictive Value of Lower-Body Pose for Human Trajectory Prediction from Egocentric Robot Perception
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.09076)
+
+## 요약
+arXiv:2602.09076v1 Announce Type: new
+Abstract: Predicting human trajectory is crucial for social robot navigation in crowded environments. While most existing approaches treat human as point mass, we present a study on multi-agent trajectory prediction that leverages different human skeletal features for improved forecast accuracy. In particular, we systematically evaluate the predictive utility of 2D and 3D skeletal keypoints and derived biomechanical cues as additional inputs. Through a comprehensive study on the JRDB dataset and another new dataset for social navigation with 360-degree panoramic videos, we find that focusing on lower-body 3D keypoints yields a 13% reduction in Average Displacement Error and augmenting 3D keypoint inputs with corresponding biomechanical cues provides a further 1-4% improvement. Notably, the performance gain persists when using 2D keypoint inputs extracted from equirectangular panoramic images, indicating that monocular surround vision can capture informative cues for motion forecasting. Our finding that robots can forecast human movement efficiently by watching their legs provides actionable insights for designing sensing capabilities for social robot navigation.
