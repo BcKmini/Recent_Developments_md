@@ -1,0 +1,7 @@
+# Versor: A Geometric Sequence Architecture
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.10195)
+
+## 요약
+arXiv:2602.10195v1 Announce Type: new
+Abstract: A novel sequence architecture design is introduced, Versor, which uses Conformal Geometric Algebra (CGA) in place of the traditional fundamental non-linear operations to achieve structural generalization and significant performance improvements on a variety of tasks, while offering improved interpretability and efficiency. By embedding states in the $Cl\_{4,1}$ manifold and evolving them via geometric transformations (rotors), Versor natively represents $SE(3)$-equivariant relationships without requiring explicit structural encoding. Versor is validated on chaotic N-body dynamics, topological reasoning, and standard multimodal benchmarks (CIFAR-10, WikiText-103), consistently outperforming Transformers, Graph Networks, and geometric baselines (GATr, EGNN). Key results include: orders of magnitude fewer parameters ($200\times$ vs. Transformers); interpretable attention decomposing into proximity and orientational components; zero-shot scale generalization (99.3% MCC on topology vs. 50.4% for ViT); and $O(L)$ linear complexity via the novel Recursive Rotor Accumulator. In out-of-distribution tests, Versor maintains stable predictions while Transformers fail catastrophically. Custom Clifford kernels achieve up to $78\times$ speedup, providing a scalable foundation for geometrically-aware scientific modeling.
