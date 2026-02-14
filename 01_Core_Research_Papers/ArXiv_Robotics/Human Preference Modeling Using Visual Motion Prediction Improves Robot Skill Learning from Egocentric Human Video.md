@@ -1,0 +1,7 @@
+# Human Preference Modeling Using Visual Motion Prediction Improves Robot Skill Learning from Egocentric Human Video
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.11393)
+
+## 요약
+arXiv:2602.11393v1 Announce Type: new
+Abstract: We present an approach to robot learning from egocentric human videos by modeling human preferences in a reward function and optimizing robot behavior to maximize this reward. Prior work on reward learning from human videos attempts to measure the long-term value of a visual state as the temporal distance between it and the terminal state in a demonstration video. These approaches make assumptions that limit performance when learning from video. They must also transfer the learned value function across the embodiment and environment gap. Our method models human preferences by learning to predict the motion of tracked points between subsequent images and defines a reward function as the agreement between predicted and observed object motion in a robot's behavior at each step. We then use a modified Soft Actor Critic (SAC) algorithm initialized with 10 on-robot demonstrations to estimate a value function from this reward and optimize a policy that maximizes this value function, all on the robot. Our approach is capable of learning on a real robot, and we show that policies learned with our reward model match or outperform prior work across multiple tasks in both simulation and on the real robot.

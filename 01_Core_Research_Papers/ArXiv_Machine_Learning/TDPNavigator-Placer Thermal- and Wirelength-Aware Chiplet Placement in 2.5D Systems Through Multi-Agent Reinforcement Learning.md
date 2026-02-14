@@ -1,0 +1,7 @@
+# TDPNavigator-Placer: Thermal- and Wirelength-Aware Chiplet Placement in 2.5D Systems Through Multi-Agent Reinforcement Learning
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.11187)
+
+## 요약
+arXiv:2602.11187v1 Announce Type: new
+Abstract: The rapid growth of electronics has accelerated the adoption of 2.5D integrated circuits, where effective automated chiplet placement is essential as systems scale to larger and more heterogeneous chiplet assemblies. Existing placement methods typically focus on minimizing wirelength or transforming multi-objective optimization into a single objective through weighted sum, which limits their ability to handle competing design requirements. Wirelength reduction and thermal management are inherently conflicting objectives, making prior approaches inadequate for practical deployment. To address this challenge, we propose TDPNavigator-Placer, a novel multi-agent reinforcement learning framework that dynamically optimizes placement based on chiplet's thermal design power (TDP). This approach explicitly assigns these inherently conflicting objectives to specialized agents, each operating under distinct reward mechanisms and environmental constraints within a unified placement paradigm. Experimental results demonstrate that TDPNavigator-Placer delivers a significantly improved Pareto front over state-of-the-art methods, enabling more balanced trade-offs between wirelength and thermal performance.

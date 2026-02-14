@@ -1,0 +1,7 @@
+# Spectra: Rethinking Optimizers for LLMs Under Spectral Anisotropy
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.11185)
+
+## 요약
+arXiv:2602.11185v1 Announce Type: new
+Abstract: Gradient signals in LLM training are highly anisotropic: recurrent linguistic structure concentrates energy into a small set of dominant spectral directions, while context specific information resides in a long tail. We show that this spike tail separation persists throughout training, with the spike occupying only about 1.5% of directions yet dominating optimizer statistics. This dominance suppresses tail learning by contracting tail updates through second moment normalization and tightening the globally stable learning rate bound. Motivated by this analysis, we propose Spectra, a spike aware optimizer that suppresses the dominant low rank spike subspace without amplifying the noise sensitive spectral tail. Spectra tracks the spike subspace via cached, warm started power iteration and applies low rank spectral shaping with negligible overhead and substantially reduced optimizer state memory. On LLaMA3 8B trained on 50B tokens, Spectra reaches the same target loss 30% faster than AdamW, reduces per step end to end overhead by 0.7%, cuts optimizer state memory by 49.25%, and improves average downstream accuracy by 1.62%. Compared to Muon, Spectra is 5.1x faster in optimizer processing time, achieves a lower final loss, and improves average accuracy by 0.66%.
