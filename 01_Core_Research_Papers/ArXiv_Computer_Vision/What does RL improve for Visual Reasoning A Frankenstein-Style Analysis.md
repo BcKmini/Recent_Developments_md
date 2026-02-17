@@ -1,0 +1,7 @@
+# What does RL improve for Visual Reasoning? A Frankenstein-Style Analysis
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.12395)
+
+## 요약
+arXiv:2602.12395v1 Announce Type: new
+Abstract: Reinforcement learning (RL) with verifiable rewards has become a standard post-training stage for boosting visual reasoning in vision-language models, yet it remains unclear what capabilities RL actually improves compared with supervised fine-tuning as cold-start initialization (IN). End-to-end benchmark gains conflate multiple factors, making it difficult to attribute improvements to specific skills. To bridge the gap, we propose a Frankenstein-style analysis framework including: (i) functional localization via causal probing; (ii) update characterization via parameter comparison; and (iii) transferability test via model merging. Instead, RL induces a consistent inference-time shift primarily in mid-to-late layers, and these mid-to-late refinements are both transferable (via merging) and necessary (via freezing) for RL gains. Overall, our results suggest that RL's reliable contribution in visual reasoning is not a uniform enhancement of visual perception, but a systematic refinement of mid-to-late transformer computation that improves vision-to-reasoning alignment and reasoning performance, highlighting the limitations of benchmark-only evaluation for understanding multimodal reasoning improvements.
