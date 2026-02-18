@@ -1,0 +1,7 @@
+# Evaluating the Impact of Post-Training Quantization on Reliable VQA with Multimodal LLMs
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.13289)
+
+## 요약
+arXiv:2602.13289v1 Announce Type: new
+Abstract: Multimodal Large Language Models (MLLM) are increasingly deployed in domains where both reliability and efficiency are critical. However, current models remain overconfident, producing highly certain but incorrect answers. At the same time, their large size limits deployment on edge devices, necessitating compression. We study the intersection of these two challenges by analyzing how Post-Training Quantization (PTQ) compression affects both accuracy and reliability in Visual Question Answering (VQA). We evaluate two MLLMs, Qwen2-VL-7B and Idefics3-8B, quantized with data-free (HQQ) and data-aware (MBQ) methods across multiple bit widths. To counteract the reduction in reliability caused by quantization, we adapt the Selector confidence estimator for quantized multimodal settings and test its robustness across various quantization levels and out-of-distribution (OOD) scenarios. We find that PTQ degrades both accuracy and reliability. Data-aware methods soften the effect thereof. The Selector substantially mitigates the reliability impact. The combination of int4 MBQ and the Selector achieves the best efficiency-reliability trade-off, closing in on uncompressed performance at approx. 75% less memory demand. Overall, we present the first systematic study linking quantization and reliability in multimodal settings.

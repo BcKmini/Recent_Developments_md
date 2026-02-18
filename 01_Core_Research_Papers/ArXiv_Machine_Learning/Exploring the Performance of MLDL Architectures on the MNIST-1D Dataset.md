@@ -1,0 +1,9 @@
+# Exploring the Performance of ML/DL Architectures on the MNIST-1D Dataset
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.13348)
+
+## 요약
+arXiv:2602.13348v1 Announce Type: new
+Abstract: Small datasets like MNIST have historically been instrumental in advancing machine learning research by providing a controlled environment for rapid experimentation and model evaluation. However, their simplicity often limits their utility for distinguishing between advanced neural network architectures. To address these challenges, Greydanus et al. introduced the MNIST-1D dataset, a one-dimensional adaptation of MNIST designed to explore inductive biases in sequential data. This dataset maintains the advantages of small-scale datasets while introducing variability and complexity that make it ideal for studying advanced architectures.
+In this paper, we extend the exploration of MNIST-1D by evaluating the performance of Residual Networks (ResNet), Temporal Convolutional Networks (TCN), and Dilated Convolutional Neural Networks (DCNN). These models, known for their ability to capture sequential patterns and hierarchical features, were implemented and benchmarked alongside previously tested architectures such as logistic regression, MLPs, CNNs, and GRUs. Our experimental results demonstrate that advanced architectures like TCN and DCNN consistently outperform simpler models, achieving near-human performance on MNIST-1D. ResNet also shows significant improvements, highlighting the importance of leveraging inductive biases and hierarchical feature extraction in small structured datasets.
+Through this study, we validate the utility of MNIST-1D as a robust benchmark for evaluating machine learning architectures under computational constraints. Our findings emphasize the role of architectural innovations in improving model performance and offer insights into optimizing deep learning models for resource-limited environments.
