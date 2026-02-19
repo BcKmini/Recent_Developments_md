@@ -1,0 +1,7 @@
+# Augmenting Human Balance with Generic Supernumerary Robotic Limbs
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.15092)
+
+## 요약
+arXiv:2602.15092v1 Announce Type: new
+Abstract: Supernumerary robotic limbs (SLs) have the potential to transform a wide range of human activities, yet their usability remains limited by key technical challenges, particularly in ensuring safety and achieving versatile control. Here, we address the critical problem of maintaining balance in the human-SLs system, a prerequisite for safe and comfortable augmentation tasks. Unlike previous approaches that developed SLs specifically for stability support, we propose a general framework for preserving balance with SLs designed for generic use. Our hierarchical three-layer architecture consists of: (i) a prediction layer that estimates human trunk and center of mass (CoM) dynamics, (ii) a planning layer that generates optimal CoM trajectories to counteract trunk movements and computes the corresponding SL control inputs, and (iii) a control layer that executes these inputs on the SL hardware. We evaluated the framework with ten participants performing forward and lateral bending tasks. The results show a clear reduction in stance instability, demonstrating the framework's effectiveness in enhancing balance. This work paves the path towards safe and versatile human-SLs interactions. [This paper has been submitted for publication to IEEE.]
