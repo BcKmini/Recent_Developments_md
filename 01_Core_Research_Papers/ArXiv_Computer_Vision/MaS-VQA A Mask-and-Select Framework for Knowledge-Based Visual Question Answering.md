@@ -1,0 +1,7 @@
+# MaS-VQA: A Mask-and-Select Framework for Knowledge-Based Visual Question Answering
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.15915)
+
+## 요약
+arXiv:2602.15915v1 Announce Type: new
+Abstract: Knowledge-based Visual Question Answering (KB-VQA) requires models to answer questions by integrating visual information with external knowledge. However, retrieved knowledge is often noisy, partially irrelevant, or misaligned with the visual content, while internal model knowledge is difficult to control and interpret. Naive aggregation of these sources limits reasoning effectiveness and reduces answer accuracy. To address this, we propose MaS-VQA, a selection-driven framework that tightly couples explicit knowledge filtering with implicit knowledge reasoning. MaS-VQA first retrieves candidate passages and applies a Mask-and-Select mechanism to jointly prune irrelevant image regions and weakly relevant knowledge fragments, producing compact, high-signal multimodal knowledge . This filtered knowledge then guides the activation of internal knowledge in a constrained semantic space, enabling complementary co-modeling of explicit and implicit knowledge for robust answer prediction. Experiments on Encyclopedic-VQA and InfoSeek demonstrate consistent performance gains across multiple MLLM backbones, and ablations verify that the selection mechanism effectively reduces noise and enhances knowledge utilization.

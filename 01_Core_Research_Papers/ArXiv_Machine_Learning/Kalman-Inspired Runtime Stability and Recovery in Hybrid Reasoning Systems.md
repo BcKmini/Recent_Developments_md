@@ -1,0 +1,7 @@
+# Kalman-Inspired Runtime Stability and Recovery in Hybrid Reasoning Systems
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.15855)
+
+## 요약
+arXiv:2602.15855v1 Announce Type: new
+Abstract: Hybrid reasoning systems that combine learned components with model-based inference are increasingly deployed in tool-augmented decision loops, yet their runtime behavior under partial observability and sustained evidence mismatch remains poorly understood. In practice, failures often arise as gradual divergence of internal reasoning dynamics rather than as isolated prediction errors. This work studies runtime stability in hybrid reasoning systems from a Kalman-inspired perspective. We model reasoning as a stochastic inference process driven by an internal innovation signal and introduce cognitive drift as a measurable runtime phenomenon. Stability is defined in terms of detectability, bounded divergence, and recoverability rather than task-level correctness. We propose a runtime stability framework that monitors innovation statistics, detects emerging instability, and triggers recovery-aware control mechanisms. Experiments on multi-step, tool-augmented reasoning tasks demonstrate reliable instability detection prior to task failure and show that recovery, when feasible, re-establishes bounded internal behavior within finite time. These results emphasize runtime stability as a system-level requirement for reliable reasoning under uncertainty.

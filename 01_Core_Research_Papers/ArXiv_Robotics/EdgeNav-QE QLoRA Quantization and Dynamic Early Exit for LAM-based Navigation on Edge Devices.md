@@ -1,0 +1,7 @@
+# EdgeNav-QE: QLoRA Quantization and Dynamic Early Exit for LAM-based Navigation on Edge Devices
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.15836)
+
+## 요약
+arXiv:2602.15836v1 Announce Type: new
+Abstract: Large Action Models (LAMs) have shown immense potential in autonomous navigation by bridging high-level reasoning with low-level control. However, deploying these multi-billion parameter models on edge devices remains a significant challenge due to memory constraints and latency requirements. In this paper, we propose EdgeNav-QE, a novel framework that integrates Quantized Low-Rank Adaptation (QLoRA) with a dynamic early-exit (DEE) mechanism to optimize LAMs for real-time edge navigation. By quantizing the backbone to 4-bit precision and strategically placing early-exit branches, we enable the model to terminate inference early for simple navigation tasks while retaining full depth for complex decision-making. Experimental results on the Habitat-Sim environment with Matterport3D dataset using OpenVLA-7B backbone, demonstrate that EdgeNav-QE reduces inference latency by 82.7% and memory footprint by 66.7% compared to full-precision baselines, while maintaining 81.8% navigation success rate. Furthermore, it outperforms state-of-the-art static early-exit method by 17.9% in latency, demonstrating the superiority of content-aware adaptive computation for safety-critical applications.

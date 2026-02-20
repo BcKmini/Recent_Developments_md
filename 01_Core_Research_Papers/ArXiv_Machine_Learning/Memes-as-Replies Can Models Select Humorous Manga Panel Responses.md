@@ -1,0 +1,7 @@
+# Memes-as-Replies: Can Models Select Humorous Manga Panel Responses?
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.15842)
+
+## 요약
+arXiv:2602.15842v1 Announce Type: new
+Abstract: Memes are a popular element of modern web communication, used not only as static artifacts but also as interactive replies within conversations. While computational research has focused on analyzing the intrinsic properties of memes, the dynamic and contextual use of memes to create humor remains an understudied area of web science. To address this gap, we introduce the Meme Reply Selection task and present MaMe-Re (Manga Meme Reply Benchmark), a benchmark of 100,000 human-annotated pairs (500,000 total annotations from 2,325 unique annotators) consisting of openly licensed Japanese manga panels and social media posts. Our analysis reveals three key insights: (1) large language models (LLMs) show preliminary evidence of capturing complex social cues such as exaggeration, moving beyond surface-level semantic matching; (2) the inclusion of visual information does not improve performance, revealing a gap between understanding visual content and effectively using it for contextual humor; (3) while LLMs can match human judgments in controlled settings, they struggle to distinguish subtle differences in wit among semantically similar candidates. These findings suggest that selecting contextually humorous replies remains an open challenge for current models.

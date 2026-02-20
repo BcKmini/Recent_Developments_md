@@ -1,0 +1,7 @@
+# A Comprehensive Survey on Deep Learning-Based LiDAR Super-Resolution for Autonomous Driving
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.15904)
+
+## 요약
+arXiv:2602.15904v1 Announce Type: new
+Abstract: LiDAR sensors are often considered essential for autonomous driving, but high-resolution sensors remain expensive while affordable low-resolution sensors produce sparse point clouds that miss critical details. LiDAR super-resolution addresses this challenge by using deep learning to enhance sparse point clouds, bridging the gap between different sensor types and enabling cross-sensor compatibility in real-world deployments. This paper presents the first comprehensive survey of LiDAR super-resolution methods for autonomous driving. Despite the importance of practical deployment, no systematic review has been conducted until now. We organize existing approaches into four categories: CNN-based architectures, model-based deep unrolling, implicit representation methods, and Transformer and Mamba-based approaches. We establish fundamental concepts including data representations, problem formulation, benchmark datasets and evaluation metrics. Current trends include the adoption of range image representation for efficient processing, extreme model compression and the development of resolution-flexible architectures. Recent research prioritizes real-time inference and cross-sensor generalization for practical deployment. We conclude by identifying open challenges and future research directions for advancing LiDAR super-resolution technology.
