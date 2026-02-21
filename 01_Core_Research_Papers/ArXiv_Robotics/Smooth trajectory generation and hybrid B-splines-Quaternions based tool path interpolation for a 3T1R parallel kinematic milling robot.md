@@ -1,0 +1,7 @@
+# Smooth trajectory generation and hybrid B-splines-Quaternions based tool path interpolation for a 3T1R parallel kinematic milling robot
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.16758)
+
+## 요약
+arXiv:2602.16758v1 Announce Type: new
+Abstract: This paper presents a smooth trajectory generation method for a four-degree-of-freedom parallel kinematic milling robot. The proposed approach integrates B-spline and Quaternion interpolation techniques to manage decoupled position and orientation data points. The synchronization of orientation and arc-length-parameterized position data is achieved through the fitting of smooth piece-wise Bezier curves, which describe the non-linear relationship between path length and tool orientation, solved via sequential quadratic programming. By leveraging the convex hull properties of Bezier curves, the method ensures spatial and temporal separation constraints for multi-agent trajectory generation. Unit quaternions are employed for orientation interpolation, providing a robust and efficient representation that avoids gimbal lock and facilitates smooth, continuous rotation. Modifier polynomials are used for position interpolation. Temporal trajectories are optimized using minimum jerk, time-optimal piece-wise Bezier curves in two stages: task space followed by joint space, implemented on a low-cost microcontroller. Experimental results demonstrate that the proposed method offers enhanced accuracy, reduced velocity fluctuations, and computational efficiency compared to conventional interpolation methods.

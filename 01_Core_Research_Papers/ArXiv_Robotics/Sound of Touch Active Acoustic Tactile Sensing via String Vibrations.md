@@ -1,0 +1,7 @@
+# Sound of Touch: Active Acoustic Tactile Sensing via String Vibrations
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.16846)
+
+## 요약
+arXiv:2602.16846v1 Announce Type: new
+Abstract: Distributed tactile sensing remains difficult to scale over large areas: dense sensor arrays increase wiring, cost, and fragility, while many alternatives provide limited coverage or miss fast interaction dynamics. We present Sound of Touch, an active acoustic tactile-sensing methodology that uses vibrating tensioned strings as sensing elements. The string is continuously excited electromagnetically, and a small number of pickups (contact microphones) observe spectral changes induced by contact. From short-duration audio signals, our system estimates contact location and normal force, and detects slip. To guide design and interpret the sensing mechanism, we derive a physics-based string-vibration simulator that predicts how contact position and force shift vibration modes. Experiments demonstrate millimeter-scale localization, reliable force estimation, and real-time slip detection. Our contributions are: (i) a lightweight, scalable string-based tactile sensing hardware concept for instrumenting extended robot surfaces; (ii) a physics-grounded simulation and analysis tool for contact-induced spectral shifts; and (iii) a real-time inference pipeline that maps vibration measurements to contact state.

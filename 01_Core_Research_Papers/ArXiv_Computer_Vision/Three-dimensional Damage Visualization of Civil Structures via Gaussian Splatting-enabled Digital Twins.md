@@ -1,0 +1,7 @@
+# Three-dimensional Damage Visualization of Civil Structures via Gaussian Splatting-enabled Digital Twins
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.16713)
+
+## 요약
+arXiv:2602.16713v1 Announce Type: new
+Abstract: Recent advancements in civil infrastructure inspections underscore the need for precise three-dimensional (3D) damage visualization on digital twins, transcending traditional 2D image-based damage identifications. Compared to conventional photogrammetric 3D reconstruction techniques, modern approaches such as Neural Radiance Field (NeRF) and Gaussian Splatting (GS) excel in scene representation, rendering quality, and handling featureless regions. Among them, GS stands out for its efficiency, leveraging discrete anisotropic 3D Gaussians to represent radiance fields, unlike NeRF's continuous implicit model. This study introduces a GS-enabled digital twin method tailored for effective 3D damage visualization. The method's key contributions include: 1) utilizing GS-based 3D reconstruction to visualize 2D damage segmentation results while reducing segmentation errors; 2) developing a multi-scale reconstruction strategy to balance efficiency and damage detail; 3) enabling digital twin updates as damage evolves over time. Demonstrated on an open-source synthetic dataset for post-earthquake inspections, the proposed approach offers a promising solution for comprehensive 3D damage visualization in civil infrastructure digital twins.
