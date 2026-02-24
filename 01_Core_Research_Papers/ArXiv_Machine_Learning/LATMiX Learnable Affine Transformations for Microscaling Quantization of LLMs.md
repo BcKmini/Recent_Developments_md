@@ -1,0 +1,7 @@
+# LATMiX: Learnable Affine Transformations for Microscaling Quantization of LLMs
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.17681)
+
+## 요약
+arXiv:2602.17681v1 Announce Type: new
+Abstract: Post-training quantization (PTQ) is a widely used approach for reducing the memory and compute costs of large language models (LLMs). Recent studies have shown that applying invertible transformations to activations can significantly improve quantization robustness by reducing activation outliers; however, existing approaches are largely restricted to rotation or Hadamard-based transformations. Moreover, most studies focused primarily on traditional quantization schemes, whereas modern hardware increasingly supports the microscaling (MX) data format. Attempts to combine both showed severe performance degradation, leading prior work to introduce assumptions on the transformations. In this work, we take a complementary perspective. First, we provide a theoretical analysis of transformations under MX quantization by deriving a bound on the quantization error. Our analysis emphasizes the importance of accounting for both the activation distribution and the underlying quantization structure. Building on this analysis, we propose LATMiX, a method that generalizes outlier reduction to learnable invertible affine transformations optimized using standard deep learning tools. Experiments show consistent improvements in average accuracy for MX low-bit quantization over strong baselines on a wide range of zero-shot benchmarks, across multiple model sizes.
