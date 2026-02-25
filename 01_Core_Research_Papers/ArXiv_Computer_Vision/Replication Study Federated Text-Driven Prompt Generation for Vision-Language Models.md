@@ -1,0 +1,7 @@
+# Replication Study: Federated Text-Driven Prompt Generation for Vision-Language Models
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.18439)
+
+## 요약
+arXiv:2602.18439v1 Announce Type: new
+Abstract: Vision-language models like CLIP have demonstrated remarkable zero-shot capabilities, yet their adaptation to federated learning scenarios presents significant challenges, particularly regarding generalization to unseen classes. The original FedTPG paper \cite{Qiu2024} addresses this limitation by introducing a text driven prompt generation network that dynamically creates prompts conditioned on class names, enabling better cross-class generalization in federated settings. In this work, we present a faithful replication study of FedTPG, evaluating the pre-trained model on six diverse vision datasets: Caltech101, Oxford Flowers, FGVC Aircraft, Oxford Pets, Food-101, and DTD. Our evaluation achieves results within 0.2\% of the original paper's reported accuracies, with an average accuracy of 74.58\% on seen (base) classes and 76.00\% on unseen (new) classes, demonstrating a +1.43 percentage point improvement in generalization. These results validate the original paper's core claims: (1) text-driven prompt generation enables superior generalization to unseen classes compared to static prompt learning methods, and (2) federated training of prompt generators maintains high performance across diverse visual domains without sharing private data. Our successful replication confirms the robustness and reproducibility of the FedTPG approach.

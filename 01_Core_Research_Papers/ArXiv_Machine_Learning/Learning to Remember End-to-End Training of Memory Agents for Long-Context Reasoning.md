@@ -1,0 +1,7 @@
+# Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.18493)
+
+## 요약
+arXiv:2602.18493v1 Announce Type: new
+Abstract: Long-context LLMs and Retrieval-Augmented Generation (RAG) systems process information passively, deferring state tracking, contradiction resolution, and evidence aggregation to query time, which becomes brittle under ultra long streams with frequent updates. We propose the Unified Memory Agent (UMA), an end-to-end reinforcement learning framework that unifies memory operations and question answering within a single policy. UMA maintains a dual memory representation: a compact core summary for global context and a structured Memory Bank that supports explicit CRUD (create, update, delete, reorganize) over key value entries, enabling proactive consolidation during streaming. To evaluate long-horizon memory behavior, we introduce Ledger-QA, a diagnostic benchmark for continuous state tracking where answers are latent values derived from accumulated updates rather than lo cal span retrieval. Across 13 datasets spanning Ledger-QA, Test-Time Learning, and Accurate Retrieval, UMA substantially outperforms long-context and RAG baselines on dynamic reasoning and learning tasks while remaining competitive on standard retrieval benchmarks, underscoring the importance of learned, end-to-end memory management.

@@ -1,0 +1,7 @@
+# Physiologically Informed Deep Learning: A Multi-Scale Framework for Next-Generation PBPK Modeling
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.18472)
+
+## 요약
+arXiv:2602.18472v1 Announce Type: new
+Abstract: Physiologically Based Pharmacokinetic (PBPK) modeling is a cornerstone of model-informed drug development (MIDD), providing a mechanistic framework to predict drug absorption, distribution, metabolism, and excretion (ADME). Despite its utility, adoption is hindered by high computational costs for large-scale simulations, difficulty in parameter identification for complex biological systems, and uncertainty in interspecies extrapolation. In this work, we propose a unified Scientific Machine Learning (SciML) framework that bridges mechanistic rigor and data-driven flexibility. We introduce three contributions: (1) Foundation PBPK Transformers, which treat pharmacokinetic forecasting as a sequence modeling task; (2) Physiologically Constrained Diffusion Models (PCDM), a generative approach that uses a physics-informed loss to synthesize biologically compliant virtual patient populations; and (3) Neural Allometry, a hybrid architecture combining Graph Neural Networks (GNNs) with Neural ODEs to learn continuous cross-species scaling laws. Experiments on synthetic datasets show that the framework reduces physiological violation rates from 2.00% to 0.50% under constraints while offering a path to faster simulation.

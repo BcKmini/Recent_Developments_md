@@ -1,0 +1,7 @@
+# A Computer Vision Framework for Multi-Class Detection and Tracking in Soccer Broadcast Footage
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.18504)
+
+## 요약
+arXiv:2602.18504v1 Announce Type: new
+Abstract: Clubs with access to expensive multi-camera setups or GPS tracking systems gain a competitive advantage through detailed data, whereas lower-budget teams are often unable to collect similar information. This paper examines whether such data can instead be extracted directly from standard broadcast footage using a single-camera computer vision pipeline. This project develops an end-to-end system that combines a YOLO object detector with the ByteTrack tracking algorithm to identify and track players, referees, goalkeepers, and the ball throughout a match. Experimental results show that the pipeline achieves high performance in detecting and tracking players and officials, with strong precision, recall, and mAP50 scores, while ball detection remains the primary challenge. Despite this limitation, our findings demonstrate that AI can extract meaningful player-level spatial information from a single broadcast camera. By reducing reliance on specialized hardware, the proposed approach enables colleges, academies, and amateur clubs to adopt scalable, data-driven analysis methods previously accessible only to professional teams, highlighting the potential for affordable computer vision-based soccer analytics.

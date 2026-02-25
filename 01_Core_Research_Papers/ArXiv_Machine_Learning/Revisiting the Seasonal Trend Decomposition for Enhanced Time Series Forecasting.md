@@ -1,0 +1,7 @@
+# Revisiting the Seasonal Trend Decomposition for Enhanced Time Series Forecasting
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.18465)
+
+## 요약
+arXiv:2602.18465v1 Announce Type: new
+Abstract: Time series forecasting presents significant challenges in real-world applications across various domains. Building upon the decomposition of the time series, we enhance the architecture of machine learning models for better multivariate time series forecasting. To achieve this, we focus on the trend and seasonal components individually and investigate solutions to predict them with less errors. Recognizing that reversible instance normalization is effective only for the trend component, we take a different approach with the seasonal component by directly applying backbone models without any normalization or scaling procedures. Through these strategies, we successfully reduce error values of the existing state-of-the-art models and finally introduce dual-MLP models as more computationally efficient solutions. Furthermore, our approach consistently yields positive results with around 10% MSE average reduction across four state-of-the-art baselines on the benchmark datasets. We also evaluate our approach on a hydrological dataset extracted from the United States Geological Survey (USGS) river stations, where our models achieve significant improvements while maintaining linear time complexity, demonstrating real-world effectiveness. The source code is available at https://github.com/Sanjeev97/Time-Series-Decomposition
