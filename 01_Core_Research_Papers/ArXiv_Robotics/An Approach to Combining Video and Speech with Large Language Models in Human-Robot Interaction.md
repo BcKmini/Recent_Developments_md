@@ -1,0 +1,7 @@
+# An Approach to Combining Video and Speech with Large Language Models in Human-Robot Interaction
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.20219)
+
+## 요약
+arXiv:2602.20219v1 Announce Type: new
+Abstract: Interpreting human intent accurately is a central challenge in human-robot interaction (HRI) and a key requirement for achieving more natural and intuitive collaboration between humans and machines. This work presents a novel multimodal HRI framework that combines advanced vision-language models, speech processing, and fuzzy logic to enable precise and adaptive control of a Dobot Magician robotic arm. The proposed system integrates Florence-2 for object detection, Llama 3.1 for natural language understanding, and Whisper for speech recognition, providing users with a seamless and intuitive interface for object manipulation through spoken commands. By jointly addressing scene perception and action planning, the approach enhances the reliability of command interpretation and execution. Experimental evaluations conducted on consumer-grade hardware demonstrate a command execution accuracy of 75\%, highlighting both the robustness and adaptability of the system. Beyond its current performance, the proposed architecture serves as a flexible and extensible foundation for future HRI research, offering a practical pathway toward more sophisticated and natural human-robot collaboration through tightly coupled speech and vision-language processing.
