@@ -1,0 +1,7 @@
+# StoryTailor:A Zero-Shot Pipeline for Action-Rich Multi-Subject Visual Narratives
+
+**출처:** [ArXiv_Computer_Vision](https://arxiv.org/abs/2602.21273)
+
+## 요약
+arXiv:2602.21273v1 Announce Type: new
+Abstract: Generating multi-frame, action-rich visual narratives without fine-tuning faces a threefold tension: action text faithfulness, subject identity fidelity, and cross-frame background continuity. We propose StoryTailor, a zero-shot pipeline that runs on a single RTX 4090 (24 GB) and produces temporally coherent, identity-preserving image sequences from a long narrative prompt, per-subject references, and grounding boxes. Three synergistic modules drive the system: Gaussian-Centered Attention (GCA) to dynamically focus on each subject core and ease grounding-box overlaps; Action-Boost Singular Value Reweighting (AB-SVR) to amplify action-related directions in the text embedding space; and Selective Forgetting Cache (SFC) that retains transferable background cues, forgets nonessential history, and selectively surfaces retained cues to build cross-scene semantic ties. Compared with baseline methods, experiments show that CLIP-T improves by up to 10-15%, with DreamSim lower than strong baselines, while CLIP-I stays in a visually acceptable, competitive range. With matched resolution and steps on a 24 GB GPU, inference is faster than FluxKontext. Qualitatively, StoryTailor delivers expressive interactions and evolving yet stable scenes.
