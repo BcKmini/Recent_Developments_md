@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/robot-martial-arts)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/five-humanoid-robots-in-red-vests-perform-synchronized-movements-on-a-shiny-stage.png?id=64966934&width=1200&height=400&coordinates=0%2C180%2C0%2C181)  
+![](https://spectrum.ieee.org/media-library/five-humanoid-robots-in-red-vests-perform-synchronized-movements-on-a-shiny-stage.png?id=64966934&width=1245&height=700&coordinates=87%2C0%2C87%2C0)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.

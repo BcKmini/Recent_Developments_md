@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/video-friday-robot-collective)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/robot-collective-crawls-under-a-bridge-of-rocks-with-glowing-lights-video-speed-increased-10x.gif?id=64423332&width=1200&height=400&coordinates=0%2C143%2C0%2C143)  
+![](https://spectrum.ieee.org/media-library/robot-collective-crawls-under-a-bridge-of-rocks-with-glowing-lights-video-speed-increased-10x.gif?id=64423332&width=1245&height=700&coordinates=0%2C45%2C0%2C45)  
   
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please [send us your events](mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday) for inclusion.

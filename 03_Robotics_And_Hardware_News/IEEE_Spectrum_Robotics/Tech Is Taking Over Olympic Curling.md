@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/olympics-curling-robot-ai)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/curling-players-sweeping-a-red-stone-on-ice-motion-blur-emphasizes-speed-and-action.jpg?id=64953312&width=1200&height=400&coordinates=0%2C292%2C0%2C292)  
+![](https://spectrum.ieee.org/media-library/curling-players-sweeping-a-red-stone-on-ice-motion-blur-emphasizes-speed-and-action.jpg?id=64953312&width=1245&height=700&coordinates=0%2C62%2C0%2C63)  
   
 
 At this year’s [Winter Olympics in Italy](https://spectrum.ieee.org/winter-olympics-2026-tech), the controversy began with a fingertip.

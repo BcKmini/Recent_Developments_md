@@ -3,7 +3,7 @@
 **출처:** [IEEE_Spectrum_Robotics](https://spectrum.ieee.org/perseverance-mars-rover-autonomous-driving)
 
 ## 요약
-![](https://spectrum.ieee.org/media-library/a-self-portrait-captured-by-nasa-s-perseverance-rover-while-traversing-mars-rocky-surface.jpg?id=65007226&width=1200&height=400&coordinates=0%2C729%2C0%2C730)  
+![](https://spectrum.ieee.org/media-library/a-self-portrait-captured-by-nasa-s-perseverance-rover-while-traversing-mars-rocky-surface.jpg?id=65007226&width=1245&height=700&coordinates=0%2C156%2C0%2C157)  
   
 
 *This article is part of our exclusive [IEEE Journal Watch series](https://spectrum.ieee.org/collections/journal-watch/) in partnership with [IEEE Xplore](https://spectrum.ieee.org/tag/ieee-xplore).*
@@ -27,7 +27,7 @@ RELATED: [NASA Let AI Drive the Perseverance Rover](https://spectrum.ieee.org/pe
 
 But in the majority of today’s navigation, *Perseverance* must rely on images the rover itself takes, analyze these to assess thousands of different paths, and choose the right route that won’t end in its own demise. The kicker? It must do so with the equivalent computing capacity of an [iMac G3](https://en.wikipedia.org/wiki/IMac_G3), an Apple computer sold in the late 1990s.
 
-This is because older CPUs can undergo [radiation hardening](https://spectrum.ieee.org/europa-clipper), a process that makes them resilient to the extreme levels of solar radiation and cosmic rays experienced on Mars. Newer CPUs with more computing power, on the other hand, cannot work under such extreme conditions. Therefore, researchers must work with what they have—a computer core from the 1990s.
+The rover’s processor must undergo [radiation hardening](https://spectrum.ieee.org/europa-clipper), a process that makes them resilient to the extreme levels of solar radiation and cosmic rays experienced on Mars. Although other radiation-hardened CPUs with more computing power were available at the time of *Perseverance*‘s development, the one used is proven to be reliable in the harsh conditions of outer space. By reusing hardware from previous missions—the same CPU was used in *Curiosity*—NASA can reduce costs while minimizing risk.
 
 Given its limited computing resources, the ENav algorithm was strategically designed to do the heaviest computing only when driving on challenging terrains. It works by analyzing images of its surroundings and assessing about 1,700 possible paths forward, typically within 6 meters from the rover’s current position. Assessing factors such as travel time and terrain roughness, it ranks possible paths. Finally, it runs a computationally heavy collision-checking algorithm, called ACE (approximate clearance estimation) on only on a handful of top-ranked potential paths.
 
@@ -49,3 +49,5 @@ In contrast, *Perseverance* is able to think and drive at the same time. “Some
 Ono says that fine-tuning the ENav algorithm took a lot of work, but he is happy with its performance. He also emphasizes that efforts to continue advancing autonomous navigation are critical if humans want to continue exploring even deeper into space, where Earthly communication with rovers and other spacecraft will become increasingly difficult.
 
 “The automation of the space systems is unstoppable direction that we have to go if we want to explore deeper in space,” Ono says. “This is the direction that we must go to push the boundaries and frontiers of space exploration.”
+
+*This article was updated on 27 February to clarify NASA’s reasoning for selecting the CPU used in the* Perseverance *rover.*

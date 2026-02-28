@@ -1,0 +1,7 @@
+# SODA-CitrON: Static Object Data Association by Clustering Multi-Modal Sensor Detections Online
+
+**출처:** [ArXiv_Robotics](https://arxiv.org/abs/2602.22243)
+
+## 요약
+arXiv:2602.22243v1 Announce Type: new
+Abstract: The online fusion and tracking of static objects from heterogeneous sensor detections is a fundamental problem in robotics, autonomous systems, and environmental mapping. Although classical data association approaches such as JPDA are well suited for dynamic targets, they are less effective for static objects observed intermittently and with heterogeneous uncertainties, where motion models provide minimal discriminative with respect to clutter. In this paper, we propose a novel method for static object data association by clustering multi-modal sensor detections online (SODA-CitrON), while simultaneously estimating positions and maintaining persistent tracks for an unknown number of objects. The proposed unsupervised machine learning approach operates in a fully online manner and handles temporally uncorrelated and multi-sensor measurements. Additionally, it has a worst-case loglinear complexity in the number of sensor detections while providing full output explainability. We evaluate the proposed approach in different Monte Carlo simulation scenarios and compare it against state-of-the-art methods, including Bayesian filtering, DBSTREAM clustering, and JPDA. The results demonstrate that SODA-CitrON consistently outperforms the compared methods in terms of F1 score, position RMSE, MOTP, and MOTA in the static object mapping scenarios studied.

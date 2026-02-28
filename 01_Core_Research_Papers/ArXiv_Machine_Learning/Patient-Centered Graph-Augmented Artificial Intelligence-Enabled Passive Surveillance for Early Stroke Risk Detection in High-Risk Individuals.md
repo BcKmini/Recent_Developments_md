@@ -1,0 +1,7 @@
+# Patient-Centered, Graph-Augmented Artificial Intelligence-Enabled Passive Surveillance for Early Stroke Risk Detection in High-Risk Individuals
+
+**출처:** [ArXiv_Machine_Learning](https://arxiv.org/abs/2602.22228)
+
+## 요약
+arXiv:2602.22228v1 Announce Type: new
+Abstract: Stroke affected millions annually, yet poor symptom recognition often delayed care-seeking. To address risk recognition gap, we developed a passive surveillance system for early stroke risk detection using patient-reported symptoms among individuals with diabetes. Constructing a symptom taxonomy grounded in patients own language and a dual machine learning pipeline (heterogeneous GNN and EN/LASSO), we identified symptom patterns associated with subsequent stroke. We translated findings into a hybrid risk screening system integrating symptom relevance and temporal proximity, evaluated across 3-90 day windows through EHR-based simulations. Under conservative thresholds, intentionally designed to minimize false alerts, the screening system achieved high specificity (1.00) and prevalence-adjusted positive predictive value (1.00), with good sensitivity (0.72), an expected trade-off prioritizing precision, that was highest in 90-day window. Patient-reported language alone supported high-precision, low-burden early stroke risk detection, that could offer a valuable time window for clinical evaluation and intervention for high-risk individuals.
